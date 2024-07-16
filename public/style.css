@@ -109,15 +109,15 @@ h2 {
 
 /* Image styles */
 img {
-    height: 250px;
+    height: 280px;
     width: 280px;
     margin: 5px;
     /* box-shadow: 0 0 5px #302e2e; */
     border-radius: 6px;
 }
 img.logo{
-    height: 200px;
-    width: 200px;
+    height: 280px;
+    width: 280px;
    
     
 }
