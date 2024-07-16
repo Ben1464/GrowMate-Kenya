@@ -10,17 +10,7 @@ const solutions = [
         pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
        
     },
-    { 
-        problem: "Pottasium", 
-        infestationimage: "./images/ripeberries.jpg",
-        description: "Kingcode Elite® 50EC is a highly systemic and contact insecticide and is active against all sucking and chewing pests like thrips,white flies,aphids,mealybugs,leafminers,berrybores and berry moths with broad spectrum long residual activity.",
-        solution: "Use Kingcode 10mls/20ltrs plus Integra 3mls/20ltrs of water.After spotting cases of infrstation.",
-        sprayingintervals: "Repeat spray after 21 days. If the infestation is adverse repeat after 14 days.",
-        image: "./images/1719653478357.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
-       
-    },
+    
 ]
 function searchSolutions() {
     const searchInput = document.getElementById("searchInput").value.toLowerCase();
