@@ -109,19 +109,17 @@ h2 {
 
 /* Image styles */
 img {
-    /* height: 250px;
+    height: 250px;
     width: 280px;
     margin: 5px;
-    box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #302e2e;
     border-radius: 6px;
 }
 img.logo{
-    height: 100px;
-    width: 100px; */
     height: 200px;
     width: 200px;
-    border-radius: 3px;
-    box-shadow: 0 0 5px #222121;
+   
+    
 }
 /* Word color styles */
 .word1 {
