@@ -164,7 +164,7 @@ img.logo{
 /* Search input styles */
 #searchInput {
     padding: 10px;
-    border: 2px solid#3ad80a; /* Green border */
+    border: 2px solid#5da049; /* Green border */
     border-radius: 12px;
     width: 150px;
     font-size: 16px;
@@ -177,7 +177,7 @@ img.logo{
 button {
     padding: 10px 20px;
     border: none;
-    background-color: rgb(31, 255, 31); /* Green background */
+    background-color: #5da049; /* Green background */
     color: black; /* White text color */
     border-radius: 12px;
     cursor: pointer;
@@ -185,7 +185,7 @@ button {
     transition: background-color 0.3s ease-in-out;
 }
 button:hover {
-    background-color: #2fa204; /* Darker shade of green on hover */
+    background-color: #3bd105; /* Darker shade of green on hover */
 }
 /* Focus styles */
 #searchInput:focus {
@@ -208,7 +208,7 @@ th, td {
     border-bottom: 1px solid #333; /* Dark gray border between rows */
 }
 th {
-    background-color: #85f32b; /* Light green background for table header */
+    background-color: #4e7c28; /* Light green background for table header */
     color: #333; /* Dark gray text color */
     border-bottom: 1px solid #333; /* Dark gray border between header row and data rows */
     border-right: 1px solid #333; 
@@ -230,7 +230,7 @@ tr:hover {
 @keyframes blink-button {
     0% { background-color: rgb(14, 243, 14); } /* Start with green background */
     50% { background-color: greenyellow; } /* Transition to darker green */
-    100% { background-color: rgb(31, 255, 31); } /* Back to original green */
+    100% { background-color: rgb(18, 51, 18); } /* Back to original green */
 }
 
 /* Apply animation to the search button */
@@ -291,7 +291,7 @@ th, td {
 }
 
 th {
-    background-color: #3ad80a; /* Green background for table header */
+    background-color: #427932; /* Green background for table header */
     color: #fff; /* White text color */
     border-bottom: 1px solid #fff; /* White border between header row and data rows */
 }
