@@ -1,6 +1,6 @@
 {
     "name": "GrowMate Kenya",
-    "short_name": "GrowMate",
+    "short_name": "GrowMate Kenya",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#ffffff",
