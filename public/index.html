@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GrowMate Kenya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4CAF50">
+    <link rel="icon" href="./images/logo.jpeg" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="./images/logo.jpeg" alt="Greenlife Bot">
+        <header>
+            <h2> <span class="word4">Welcome to </span> GrowMate Kenya</span> <span class="word3">Bot-site.</span>  </h2>
+        </header>
+        
+        <div class="main-container">
+            <div class="main-content">
+                <p class="main"><article>GrowMate Kenya is a locally registered company specialising in crop nutrition and protection. We pride ourselves on our commitment to helping farmers achieve higher yields and better-quality crop.</article></p>
+            </div>
+        </div>
+
+        <main>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search for solutions..." class="blinking-border">
+                <button onclick="searchSolutions()" class="blinking-button"><b>Search</b></button>
+            </div>
+            <div id="solutionResults"></div>
+        </main>
+
+        <div class="contacts">
+            <p>For further technical guidance <b>CONNECT</b> with our agronomist around you.<button class="connect blinking-button"><b>Connect!</b></button></p>
+            <div id="contactList"></div> <!-- Updated to include the contact list -->
+        </div>
+
+        <div class="footer">
+            <footer>
+                <p class="slogan"><b>Solutions For the Earth From the Earth</b></p>
+                <a href="https://benson14.vercel.app/" class="blinking-link">{RavenDev}</a><br>
+                &copy;2024 
+            </footer>
+        </div> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
