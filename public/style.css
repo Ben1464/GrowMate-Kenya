@@ -112,7 +112,7 @@ img {
     height: 250px;
     width: 280px;
     margin: 5px;
-    box-shadow: 0 0 5px #302e2e;
+    /* box-shadow: 0 0 5px #302e2e; */
     border-radius: 6px;
 }
 img.logo{
