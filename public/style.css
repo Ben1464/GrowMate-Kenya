@@ -177,7 +177,7 @@ img.logo{
 button {
     padding: 10px 20px;
     border: none;
-    background-color: #5da049; /* Green background */
+    background-color: #8ad872; /* Green background */
     color: black; /* White text color */
     border-radius: 12px;
     cursor: pointer;
@@ -225,13 +225,13 @@ td {
 tr:hover {
     background-color: #a7e09b; /* Lighter green background on hover */
 }
-
+/* 
 /* Define blinking animation for the button */
-@keyframes blink-button {
-    0% { background-color: rgb(14, 243, 14); } /* Start with green background */
-    50% { background-color: greenyellow; } /* Transition to darker green */
-    100% { background-color: rgb(18, 51, 18); } /* Back to original green */
-}
+/* @keyframes blink-button {
+    0% { background-color: rgb(113, 230, 113); } 
+    50% { background-color: greenyellow; } 
+    100% { background-color: rgb(94, 116, 94); } 
+}  */
 
 /* Apply animation to the search button */
 button.blinking-button {
