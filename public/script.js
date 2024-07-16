@@ -68,69 +68,52 @@ function searchSolutions() {
     }
 }
 
-function sendFeedback(event) {
-    // Prevent the default form submission behavior
-    event.preventDefault();
+function searchSolutions() {
+    const searchInput = document.getElementById("searchInput").value.toLowerCase();
+    const solutionResults = document.getElementById("solutionResults");
+    solutionResults.innerHTML = "";
 
-    // Get form data
-    const formData = new FormData(event.target);
-
-    // Create an object to hold the form data
-    const feedbackData = {};
-    formData.forEach((value, key) => {
-        feedbackData[key] = value;
+    const filteredSolutions = solutions.filter(solution => {
+        const problemName = solution.problem.toLowerCase();
+        // Check if the full problem name matches the search input exactly
+        return problemName == searchInput;
     });
 
-    // Make a POST request to the server
-    fetch('https://coffee-digital-backend.onrender.com/send-email', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json' // Set the content type to JSON
-        },
-        body: JSON.stringify(feedbackData) // Convert the form data object to JSON string
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        // Handle successful response (optional)
-        event.target.reset();
-        
-        
-        console.log('Feedback sent successfully!');
-        return response.json();
-        // You can display a success message or perform any other actions here
-    })
-    .then(data => {
-        var tag = document.getElementById('received');
-        tag.innerHTML = data.message || "Sent successfully";
-        
-    })
-    .catch(error => {
-        // Handle error (optional)
-        console.error('Error sending feedback:', error.message);
-        // You can display an error message or perform any other actions here
-    });
+    if (filteredSolutions.length === 0) {
+        solutionResults.innerHTML = "<p>Kindly check your spelling or try rephrasing your search again.</p>";
+    } else {
+        filteredSolutions.forEach(solution => {
+            const solutionDiv = document.createElement("div");
+            solutionDiv.classList.add("solution");
+            solutionDiv.innerHTML = `
+                <h3>${solution.problem}</h3>
+                <img src="${solution.infestationimage}" alt="${solution.problem}">
+                <h3>Description:</h3>
+                <p>${solution.description}</p>
+                <h3>Solution:</h3>
+                <p>${solution.solution}</p>
+                <img src="${solution.image}" alt="${solution.problem}">
+                <h3>Spraying Intervals:</h3>
+                <p>${solution.sprayingintervals}</p>
+                <h3>Available Pack Size:</h3>
+                <table>
+                    <tr>
+                        <th>Pack Size</th>
+                        <th>Price Range</th>
+                    </tr>
+                    ${solution.availablepacksize.split(',').map((size, index) => `
+                        <tr>
+                            <td>${size}</td>
+                            <td>${solution.pricerange.split(',')[index]}</td>
+                        </tr>
+                    `).join('')}
+                </table>`;
+            
+            solutionResults.appendChild(solutionDiv);
+        });
+    }
 }
 
-// Attach sendFeedback function to the form submission event
-const feedbackForm = document.getElementById('feedbackForm');
-feedbackForm.addEventListener('submit', sendFeedback);
-
-// Function to update the footer date dynamically
-function updateFooterDate() {
-    // Get the current year
-    var currentYear = new Date().getFullYear();
-    
-    // Update the content of the footer with the current year
-    document.getElementById("footer-date").innerHTML = "&copy; " + currentYear + " Coffee Digital: All Right Reserved";
-}
-
-// Call the function to update the footer date once the page is loaded
-window.onload = updateFooterDate;
-
-
-// Function to parse URL parameters
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
@@ -148,6 +131,106 @@ function handleAutomaticSearch() {
 
 // Call the function to handle automatic search when the page loads
 window.onload = function() {
-    updateFooterDate(); // Update footer date as before
     handleAutomaticSearch(); // Perform automatic search based on URL parameter
 };
+
+
+// Function to handle the click event on the Connect button
+// Function to handle the click event on the Connect button
+// Function to handle the click event on the Connect button
+function showContactList() {
+    const contactList = document.getElementById("contactList");
+
+    // Clear any existing content
+    contactList.innerHTML = "";
+
+    // Create and append the table
+    const table = document.createElement("table");
+    table.innerHTML = `
+        <tr>
+            <th>Regions</th>
+            <th>Name</th>
+            <th>Contact</th>
+        </tr>
+        <tr>
+        <td>Mt.Kenya Regional-Manager</td>
+        <td>Peter Chege</td>
+        <td><a href="tel:+254759790387"><i class="fas fa-phone"></i> +254759790387</a></td>
+    </tr>
+
+        <tr>
+            <td>Kiambu</td>
+            <td>Samuel Gitahi</td>
+            <td> <a href="tel:+254742512369"><i class="fas fa-phone"></i> +254742512369</a></td>
+        </tr>
+        <tr>
+            <td>Murang'a</td>
+            <td>Eric Mutwiri</td>
+            <td> <a href="tel:+254742511873"><i class="fas fa-phone"></i> +254742511623</a></td>
+        </tr>
+        <tr>
+            <td>Kirinyaga</td>
+            <td>Kelvin Ngure</td>
+            <td><a href="tel:+254742512107"><i class="fas fa-phone"></i> +254742512107</a></td>
+        </tr>
+        <tr>
+            <td>Embu</td>
+            <td>Peter Muteti</td>
+            <td> <a href="tel:+254743566824"><i class="fas fa-phone"></i> +254743566824</a></td>
+        </tr>
+        <tr>
+            <td>Meru-Tharaka</td>
+            <td>Amos Mureti</td>
+            <td> <a href="tel:+254743086987"><i class="fas fa-phone"></i> +254743086987</a></td>
+        </tr>
+        <tr>
+            <td>Maua-Isiolo</td>
+            <td>Reobery Mutuku</td>
+            <td><a href="tel:+254742511623"><i class="fas fa-phone"></i> +254742511623</a></td>
+        </tr>
+        <tr>
+            <td>Nanyuki-Narumoru</td>
+            <td>Joseph Mucau</td>
+            <td> <a href="tel:+254742512384"><i class="fas fa-phone"></i> +254742512384</a></td>
+        </tr>
+        <tr>
+            <td>Coffee Embu-Kirinyaga</td>
+            <td>Charles Kithinji</td>
+            <td> <a href="tel:+254742512645"><i class="fas fa-phone"></i> +254742512645</a></td>
+        </tr>
+        <tr>
+            <td>Coffee Nyeri-Murang'a-Kiambu-Meru</td>
+            <td>Benson Mwangi</td>
+            <td><a href="tel:+254743086533"><i class="fas fa-phone"></i> +254743086533</a></td>
+        </tr>
+        
+
+
+    `;
+    contactList.appendChild(table);
+}
+
+// Add event listener to the Connect button
+document.querySelector('.connect').addEventListener('click', showContactList);
+
+document.addEventListener('DOMContentLoaded', function() {
+    const header = document.querySelector('header h2');
+    const text = header.textContent;
+    header.textContent = ''; // Clear the initial text
+    header.classList.add('typewriter');
+
+    let i = 0;
+    const speed = 100; // Adjust typing speed here
+
+    function typeWriter() {
+        if (i < text.length) {
+            header.textContent += text.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        } else {
+            header.classList.remove('typewriter');
+        }
+    }
+
+    typeWriter();
+});
