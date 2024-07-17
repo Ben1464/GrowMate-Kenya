@@ -10,7 +10,28 @@ const solutions = [
         pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
        
     },
-    
+    { 
+        problem: "Fruit and flowering foliar", 
+        infestationimage: "./images/ripeberries.jpg",
+        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/Okinawo.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "Pottasium", 
+        infestationimage: "./images/ripeberries.jpg",
+        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/Okinawo.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
 ]
 function searchSolutions() {
     const searchInput = document.getElementById("searchInput").value.toLowerCase();
