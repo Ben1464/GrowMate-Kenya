@@ -21,6 +21,7 @@ const solutions = [
         pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
        
     },
+    
     { 
         problem: "Pottasium", 
         infestationimage: "./images/ripeberries.jpg",
@@ -165,53 +166,53 @@ function showContactList() {
         </tr>
         <tr>
         <td>Mt.Kenya Regional-Manager</td>
-        <td>Peter Chege</td>
+        <td>Nmae 1</td>
         <td><a href="tel:+254759790387"><i class="fas fa-phone"></i> +254759790387</a></td>
     </tr>
 
         <tr>
             <td>Kiambu</td>
-            <td>Samuel Gitahi</td>
+            <td>Name 2</td>
             <td> <a href="tel:+254742512369"><i class="fas fa-phone"></i> +254742512369</a></td>
         </tr>
         <tr>
             <td>Murang'a</td>
-            <td>Eric Mutwiri</td>
+            <td>Name 3</td>
             <td> <a href="tel:+254742511873"><i class="fas fa-phone"></i> +254742511623</a></td>
         </tr>
         <tr>
             <td>Kirinyaga</td>
-            <td>Kelvin Ngure</td>
+            <td>Name 4</td>
             <td><a href="tel:+254742512107"><i class="fas fa-phone"></i> +254742512107</a></td>
         </tr>
         <tr>
             <td>Embu</td>
-            <td>Peter Muteti</td>
+            <td>Name 5</td>
             <td> <a href="tel:+254743566824"><i class="fas fa-phone"></i> +254743566824</a></td>
         </tr>
         <tr>
             <td>Meru-Tharaka</td>
-            <td>Amos Mureti</td>
+            <td>Name 6</td>
             <td> <a href="tel:+254743086987"><i class="fas fa-phone"></i> +254743086987</a></td>
         </tr>
         <tr>
             <td>Maua-Isiolo</td>
-            <td>Reobery Mutuku</td>
+            <td>Name 7</td>
             <td><a href="tel:+254742511623"><i class="fas fa-phone"></i> +254742511623</a></td>
         </tr>
         <tr>
             <td>Nanyuki-Narumoru</td>
-            <td>Joseph Mucau</td>
+            <td>Name 8</td>
             <td> <a href="tel:+254742512384"><i class="fas fa-phone"></i> +254742512384</a></td>
         </tr>
         <tr>
             <td>Coffee Embu-Kirinyaga</td>
-            <td>Charles Kithinji</td>
+            <td>Name 9</td>
             <td> <a href="tel:+254742512645"><i class="fas fa-phone"></i> +254742512645</a></td>
         </tr>
         <tr>
             <td>Coffee Nyeri-Murang'a-Kiambu-Meru</td>
-            <td>Benson Mwangi</td>
+            <td>Name 10</td>
             <td><a href="tel:+254743086533"><i class="fas fa-phone"></i> +254743086533</a></td>
         </tr>
         
