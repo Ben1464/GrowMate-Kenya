@@ -1,7 +1,29 @@
 const solutions = [
+    { 
+        problem: "Tuta Absoluta", 
+        infestationimage: "./images/Tuta absoluta.webp",
+        description: "Larvae of Tuta absoluta attack leaves, buds, stems, flowers, calyces, and tomato fruit. Then severely attacked tomato fruits lose their commercial value. ",
+        solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Spinotech.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
     
     { 
         problem: "Fruit and flowering foliar", 
+        infestationimage: "./images/ripeberries.jpg",
+        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Okinawo.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "OKINAWO® NPK GOLD", 
         infestationimage: "./images/ripeberries.jpg",
         description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
@@ -24,7 +46,7 @@ const solutions = [
        
     },
     { 
-        problem: "Drought Stress", 
+        problem: "SEAGOLD®", 
         infestationimage: "./images/stress free tomatoes.webp",
         description: "SEAGOLD® is a pure, natural fermented seaweed liquid biofertilizer enriched with chelating NPK. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits, and cereals.",
         solution: "Spray 10mls/20ltrs.",
