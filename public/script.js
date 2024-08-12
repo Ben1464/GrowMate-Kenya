@@ -103,7 +103,7 @@ const solutions = [
     { 
         problem: "OKINAWO NPK GOLD", 
         infestationimage: "./images/ripeberries.jpg",
-        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
@@ -114,7 +114,7 @@ const solutions = [
     { 
         problem: "OKINAWO NPK GOLD ", 
         infestationimage: "./images/ripeberries.jpg",
-        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
@@ -125,7 +125,7 @@ const solutions = [
     { 
         problem: "OKINAWO", 
         infestationimage: "./images/ripeberries.jpg",
-        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
@@ -136,7 +136,7 @@ const solutions = [
     { 
         problem: "OKINAWO ", 
         infestationimage: "./images/ripeberries.jpg",
-        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
@@ -147,7 +147,7 @@ const solutions = [
     { 
         problem: "OKINAWO GOLD", 
         infestationimage: "./images/ripeberries.jpg",
-        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
@@ -158,7 +158,7 @@ const solutions = [
     { 
         problem: "OKINAWO GOLD ", 
         infestationimage: "./images/ripeberries.jpg",
-        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
