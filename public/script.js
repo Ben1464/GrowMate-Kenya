@@ -1,7 +1,7 @@
 const solutions = [
     { 
         problem: "Tuta Absoluta", 
-        infestationimage: "./images/Tuta absoluta.webp",
+        infestationimage: "./images/Tuta 2.jpg",
         description: "Larvae of Tuta absoluta attack leaves, buds, stems, flowers, calyces, and tomato fruit. Then severely attacked tomato fruits lose their commercial value. ",
         solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
@@ -80,7 +80,7 @@ const solutions = [
     
     { 
         problem: "Tuta Absoluta ", 
-        infestationimage: "./images/Tuta absoluta.webp",
+        infestationimage: "./images/Tuta 2.jpg",
         description: "Larvae of Tuta absoluta attack leaves, buds, stems, flowers, calyces, and tomato fruit. Then severely attacked tomato fruits lose their commercial value. ",
         solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
