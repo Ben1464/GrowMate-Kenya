@@ -1,21 +1,11 @@
 const solutions = [
-    { 
-        problem: "CBD", 
-        infestationimage: "./images/CBD.jpg",
-        description: "Thrips infestations pose a serious threat to coffee production, impacting on the tree health and berries quality. Vigilance and prompt action are essential for mitigating these pest's impact. By employing early detection methods and implementing appropriate management strategies, coffee farmers can protect their crops and ensure a sustainable yield in the face of thrips infestations.",
-        solution: "To eradicate them use Kingcode 10mls + Integra 3mls/20ltrs of water.",
-        sprayingintervals: "Repeat spray after 21 days. If the infestation is adverse repeat after 14 days.",
-        image: "./images/Azolaxyl.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
-       
-    },
+    
     { 
         problem: "Fruit and flowering foliar", 
         infestationimage: "./images/ripeberries.jpg",
         description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
-        sprayingintervals: "Repeat spray after every 14-21 days.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
@@ -27,7 +17,7 @@ const solutions = [
         infestationimage: "./images/ripeberries.jpg",
         description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
-        sprayingintervals: "Repeat spray after every 14-21 days.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
