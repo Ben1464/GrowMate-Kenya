@@ -7,7 +7,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Spinotech.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -18,7 +18,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Spinotech.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -29,7 +29,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Spinotech.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -40,7 +40,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Capsicum thrips.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -51,7 +51,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Capsicum thrips.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -62,7 +62,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Spinotech.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -73,7 +73,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Spinotech.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     
@@ -86,7 +86,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Spinotech.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -97,7 +97,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -108,7 +108,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -119,7 +119,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -130,7 +130,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -141,7 +141,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -152,7 +152,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -163,7 +163,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -174,7 +174,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -185,7 +185,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/stress free tomatoes.webp",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     { 
@@ -196,7 +196,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/stress free tomatoes.webp",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
 ]
@@ -277,7 +277,7 @@ function searchSolutions() {
                 <table>
                     <tr>
                         <th>Pack Size</th>
-                        <th>Price Range</th>
+                        <th>Price Range (Ksh) </th>
                     </tr>
                     ${solution.availablepacksize.split(',').map((size, index) => `
                         <tr>
