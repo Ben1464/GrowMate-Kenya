@@ -10,7 +10,63 @@ const solutions = [
         pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
        
     },
+    { 
+        problem: "Ballworms", 
+        infestationimage: "./images/ballworms.webp",
+        description: " Young bollworm caterpillars enter tomatoes and start feeding. You will see a small, darkened hole at the base of the tomato fruit near the fruit stem. If you find such a darkened hole, open the fruit to search for the bollworm. Fruits with caterpillars inside decay or ripen fast.",
+        solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Spinotech.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "Ballworms ", 
+        infestationimage: "./images/ballworms.webp",
+        description: " Young bollworm caterpillars enter tomatoes and start feeding. You will see a small, darkened hole at the base of the tomato fruit near the fruit stem. If you find such a darkened hole, open the fruit to search for the bollworm. Fruits with caterpillars inside decay or ripen fast.",
+        solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Spinotech.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "Ballworm ", 
+        infestationimage: "./images/ballworms.webp",
+        description: " Young bollworm caterpillars enter tomatoes and start feeding. You will see a small, darkened hole at the base of the tomato fruit near the fruit stem. If you find such a darkened hole, open the fruit to search for the bollworm. Fruits with caterpillars inside decay or ripen fast.",
+        solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Spinotech.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "Ballworm", 
+        infestationimage: "./images/ballworms.webp",
+        description: " Young bollworm caterpillars enter tomatoes and start feeding. You will see a small, darkened hole at the base of the tomato fruit near the fruit stem. If you find such a darkened hole, open the fruit to search for the bollworm. Fruits with caterpillars inside decay or ripen fast.",
+        solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Spinotech.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
     
+    
+    { 
+        problem: "Tuta Absoluta ", 
+        infestationimage: "./images/Tuta absoluta.webp",
+        description: "Larvae of Tuta absoluta attack leaves, buds, stems, flowers, calyces, and tomato fruit. Then severely attacked tomato fruits lose their commercial value. ",
+        solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Spinotech.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
     { 
         problem: "Fruit and flowering foliar", 
         infestationimage: "./images/ripeberries.jpg",
