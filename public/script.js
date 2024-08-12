@@ -33,6 +33,28 @@ const solutions = [
        
     },
     { 
+        problem: "Spinotech", 
+        infestationimage: "./images/Spinotech.jpg",
+        description: "SPINOTECH 480 SC Contains <strong>Spinosad 480 g/l</strong>, Spinosad is a naturally occurring substance found in Spinotech 480 SC that specifically affects GABA-gated ion channels and neuroreceptors in the nervous system of insects.Target: Thrips, Gypsy moth, Leaf beetles, Tent caterpillars, Colorado potato beetle, Leaf miner",
+        solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Capsicum thrips.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "Spinotech ", 
+        infestationimage: "./images/Spinotech.jpg",
+        description: "SPINOTECH 480 SC Contains <strong>Spinosad 480 g/l</strong>, Spinosad is a naturally occurring substance found in Spinotech 480 SC that specifically affects GABA-gated ion channels and neuroreceptors in the nervous system of insects.Target: Thrips, Gypsy moth, Leaf beetles, Tent caterpillars, Colorado potato beetle, Leaf miner",
+        solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Capsicum thrips.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
         problem: "Ballworm ", 
         infestationimage: "./images/ballworms.webp",
         description: " Young bollworm caterpillars enter tomatoes and start feeding. You will see a small, darkened hole at the base of the tomato fruit near the fruit stem. If you find such a darkened hole, open the fruit to search for the bollworm. Fruits with caterpillars inside decay or ripen fast.",
@@ -79,7 +101,7 @@ const solutions = [
        
     },
     { 
-        problem: "OKINAWO® NPK GOLD", 
+        problem: "OKINAWO NPK GOLD", 
         infestationimage: "./images/ripeberries.jpg",
         description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
@@ -89,7 +111,61 @@ const solutions = [
         pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
        
     },
-    
+    { 
+        problem: "OKINAWO NPK GOLD ", 
+        infestationimage: "./images/ripeberries.jpg",
+        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Okinawo.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "OKINAWO", 
+        infestationimage: "./images/ripeberries.jpg",
+        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Okinawo.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "OKINAWO ", 
+        infestationimage: "./images/ripeberries.jpg",
+        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Okinawo.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "OKINAWO GOLD", 
+        infestationimage: "./images/ripeberries.jpg",
+        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Okinawo.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "OKINAWO GOLD ", 
+        infestationimage: "./images/ripeberries.jpg",
+        description: "OKINAWO® NPK GOLD is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
+        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Okinawo.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
     { 
         problem: "Pottasium", 
         infestationimage: "./images/ripeberries.jpg",
@@ -102,12 +178,23 @@ const solutions = [
        
     },
     { 
-        problem: "SEAGOLD®", 
-        infestationimage: "./images/stress free tomatoes.webp",
+        problem: "SEAGOLD", 
+        infestationimage: "./images/Seagold.jpg",
         description: "SEAGOLD® is a pure, natural fermented seaweed liquid biofertilizer enriched with chelating NPK. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits, and cereals.",
         solution: "Spray 10mls/20ltrs.",
         sprayingintervals: "Repeat spray after every 14-21 days.",
-        image: "./images/Seagold.jpg",
+        image: "./images/stress free tomatoes.webp",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
+    { 
+        problem: "SEAGOLD ", 
+        infestationimage: "./images/Seagold.jpg",
+        description: "SEAGOLD® is a pure, natural fermented seaweed liquid biofertilizer enriched with chelating NPK. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits, and cereals.",
+        solution: "Spray 10mls/20ltrs.",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/stress free tomatoes.webp",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
        
