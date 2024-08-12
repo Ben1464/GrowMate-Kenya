@@ -33,6 +33,17 @@ const solutions = [
         pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
        
     },
+    { 
+        problem: "Drought Stress", 
+        infestationimage: "./images/stress free tomatoes.webp",
+        description: "SEAGOLD® is a pure, natural fermented seaweed liquid biofertilizer enriched with chelating NPK. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits, and cereals.",
+        solution: "Spray 10mls/20ltrs.",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/Seagold.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"Ksh (200-250),Ksh (300-350),Ksh (650-750),Ksh (2900-3000)"
+       
+    },
 ]
 function searchSolutions() {
     const searchInput = document.getElementById("searchInput").value.toLowerCase();
