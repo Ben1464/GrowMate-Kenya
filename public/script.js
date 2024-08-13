@@ -1,5 +1,16 @@
 const solutions = [
     { 
+        problem: "Azolaxyl", 
+        infestationimage: "./images/Azolaxyl.jpg",
+        description: "Contains Azoxystrobin 282 g/l + Metalaxyl-M 108 g/lAn excellent broad-spectrum systemic fungicide with translaminar, curative, and protectant action against a wide range of diseases for use on a wide range of plants. It combines two highly effective molecules synergistically for enhanced crop protection.Target: Puccinia spp./Rusts, Powdery mildew, Black rot, Scab, Blight, Anthracnose, Leaf spot, Downy mildew, Botrytis",
+        solution: "Use Azolaxyl 10mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Tomatoes AZolax.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
         problem: "Tuta Absoluta", 
         infestationimage: "./images/Tuta 2.jpg",
         description: "Larvae of Tuta absoluta attack leaves, buds, stems, flowers, calyces, and tomato fruit. Then severely attacked tomato fruits lose their commercial value. ",
