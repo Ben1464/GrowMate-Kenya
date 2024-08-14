@@ -343,7 +343,7 @@ function showContactList() {
         </tr>
         <tr>
         <td>Mt.Kenya Regional-Manager</td>
-        <td>Nmae 1</td>
+        <td>Name 1</td>
         <td><a href="tel:+254759790387"><i class="fas fa-phone"></i> +254759790387</a></td>
     </tr>
 
