@@ -330,3 +330,23 @@ tr:hover {
 .hidden {
     display: none;
 }
+
+.contact-item ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-item ul li {
+    margin: 0 20px; /* Increased margin for better spacing */
+}
+
+.contact-item ul li a {
+    color: #3cc743;
+    font-size: 24px;
+}
+
+.contact-item ul li a:hover {
+    color: #ccc;
+}
