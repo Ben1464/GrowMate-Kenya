@@ -348,49 +348,27 @@ function showContactList() {
     </tr>
 
         <tr>
-            <td>Kiambu</td>
+            <td>Kiambu-Murang'a</td>
             <td>Name 2</td>
             <td> <a href="tel:+254742512369"><i class="fas fa-phone"></i> +254742512369</a></td>
         </tr>
+        
         <tr>
-            <td>Murang'a</td>
-            <td>Name 3</td>
-            <td> <a href="tel:+254742511873"><i class="fas fa-phone"></i> +254742511623</a></td>
-        </tr>
-        <tr>
-            <td>Kirinyaga</td>
+            <td>Kirinyaga-Embu</td>
             <td>Name 4</td>
             <td><a href="tel:+254742512107"><i class="fas fa-phone"></i> +254742512107</a></td>
         </tr>
+        
         <tr>
-            <td>Embu</td>
-            <td>Name 5</td>
-            <td> <a href="tel:+254743566824"><i class="fas fa-phone"></i> +254743566824</a></td>
-        </tr>
-        <tr>
-            <td>Meru-Tharaka</td>
+            <td>Meru-Isiolo</td>
             <td>Name 6</td>
             <td> <a href="tel:+254743086987"><i class="fas fa-phone"></i> +254743086987</a></td>
         </tr>
+        
         <tr>
-            <td>Maua-Isiolo</td>
-            <td>Name 7</td>
-            <td><a href="tel:+254742511623"><i class="fas fa-phone"></i> +254742511623</a></td>
-        </tr>
-        <tr>
-            <td>Nanyuki-Narumoru</td>
+            <td>Nanyuki-Nyeri</td>
             <td>Name 8</td>
             <td> <a href="tel:+254742512384"><i class="fas fa-phone"></i> +254742512384</a></td>
-        </tr>
-        <tr>
-            <td>Coffee Embu-Kirinyaga</td>
-            <td>Name 9</td>
-            <td> <a href="tel:+254742512645"><i class="fas fa-phone"></i> +254742512645</a></td>
-        </tr>
-        <tr>
-            <td>Coffee Nyeri-Murang'a-Kiambu-Meru</td>
-            <td>Name 10</td>
-            <td><a href="tel:+254743086533"><i class="fas fa-phone"></i> +254743086533</a></td>
         </tr>
         
 
