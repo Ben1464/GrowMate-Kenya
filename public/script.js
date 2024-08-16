@@ -13,7 +13,7 @@ const solutions = [
     { 
         problem: "Anthracnose", 
         infestationimage: "./images/avocado anthraconos.jpg",
-        description: "New shoots can develop brown or purplish lesions, and shoots may dieback. Infected flower heads can turn dark and die without producing fruit, or young fruit may form and then drop.",
+        description: "New shoots develops brown or purplish lesions, and shoots may dieback. Infected flower heads turns dark and die without producing fruit,young fruit form and then drop.",
         solution: "Use Azolaxy 5mls/20ltrs + Polysil 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 21 days. If the infestation is adverse repeat after 14 days.",
         image: "./images/Azolaxyl.jpg",
