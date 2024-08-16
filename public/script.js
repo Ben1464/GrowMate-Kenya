@@ -2,10 +2,32 @@ const solutions = [
     { 
         problem: "Azolaxyl", 
         infestationimage: "./images/Azolaxyl.jpg",
-        description: "Contains Azoxystrobin 282 g/l + Metalaxyl-M 108 g/lAn excellent broad-spectrum systemic fungicide with translaminar, curative, and protectant action against a wide range of diseases for use on a wide range of plants. It combines two highly effective molecules synergistically for enhanced crop protection.Target: Puccinia spp./Rusts, Powdery mildew, Black rot, Scab, Blight, Anthracnose, Leaf spot, Downy mildew, Botrytis",
+        description: "Contains <strong>Azoxystrobin 282 g/l + Metalaxyl-M 108 g/l </strong>An excellent broad-spectrum systemic fungicide with translaminar, curative, and protectant action against a wide range of diseases for use on a wide range of plants. It combines two highly effective molecules synergistically for enhanced crop protection.Target: Puccinia spp./Rusts, Powdery mildew, Black rot, Scab, Blight, Anthracnose, Leaf spot, Downy mildew, Botrytis",
         solution: "Use Azolaxyl 10mls/20ltrs + Polysil 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Tomatoes AZolax.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
+        problem: "Anthracnose", 
+        infestationimage: "./images/avocado anthraconos.jpg",
+        description: "New shoots can develop brown or purplish lesions, and shoots may dieback. Infected flower heads can turn dark and die without producing fruit, or young fruit may form and then drop.",
+        solution: "Use Azolaxy 5mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 21 days. If the infestation is adverse repeat after 14 days.",
+        image: "./images/Azolaxyl.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
+        problem: "Phytophthora Fruit Rot", 
+        infestationimage: "./images/avacado Phytophthora fruit rot.jpeg",
+        description: "Diseased fruit have a distinct circular black area that usually occurs near the bottom portion or lowest spot on the fruit. Internally, the rot extends into the flesh, darkening it in the same pattern as on the affected surface. Affected fruit are often touching the soil or are hanging on low branches.",
+        solution: "Use Azolaxy 5mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 21 days. If the infestation is adverse repeat after 14 days.",
+        image: "./images/Azolaxyl.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
