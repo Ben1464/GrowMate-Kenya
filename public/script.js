@@ -1,5 +1,49 @@
 const solutions = [
     { 
+        problem: "Potphite", 
+        infestationimage: "./images/Potphite.jpeg",
+        description: "POTPHITE® Contains <strong>Phosphorus (P205): 525 g/l , Potassium (K20): 275 g/l)</strong> is a highly efficient and effective liquid potassium phosphate fertilizer, providing plants with the necessary nutrition to thrive in any crop condition.It promotes good fruit set, reduces fruit drop, increases sugar levels, improves texture and shelf life, and enhances the colour of cut flowers. It ensures rapid rooting of all crops while guaranteeing balanced plant growth.",
+        solution: "Use Potphite 20mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/potphite avacado.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
+        problem: "Zincbomate", 
+        infestationimage: "./images/Zincbomate.jpeg",
+        description: "ZINCBOMATE® Contains <strong>Water soluble Zinc (Zn) 16% , Boron (B) 2%, Seaweed extract 5% </strong> is a revolutionary foliar fertilizer, enriched with seaweed extract, designed to enhance plant growth and development by rapidly providing essential boron and zinc nutrients.Rapid supplementation of ZINCBOMATE® improves pollen production, enhances flower and leaf vigor, promotes fruit development, and aids bud differentiation in all agricultural crops and ornamentals.It is rich in boron and zinc, essential nutrients for key stages such as flowering",
+        solution: "Use Zincbomate 20mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Zincbomate coffee.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
+        problem: "Calcibora", 
+        infestationimage: "./images/Calcibora.jpeg",
+        description: "CALCIBORA® Contains <strong>Sea weed extract 30%, Organic matter 2%, Calcium Oxide (CaO) 20%, Boron Trioxide (B2O3) 1%, Potassium (K₂O) 8% </strong> is a highly soluble liquid foliar fertilizer formulation with high Calcium, Potassium, Organic matter, Seaweed extract, and Boron content.It is used for crop-specific foliar nutrition to prevent and eliminate general calcium, potassium, and boron deficiencies as well as maintain quality by eradicating biotic and abiotic stress on ornamentals, fruit, legumes, and vegetables.",
+        solution: "Use Calcibora 20mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Water melon calcibora.webp",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
+        problem: "Boroking", 
+        infestationimage: "./images/Boroking.jpeg",
+        description: "BOROKING® <strong>Contains Boron (BO3) 20% Organic matter 20%, Seaweed extract 20% Nitrogen (N) 4% </strong> is a versatile foliar fertilizer, crucial for enhancing plant growth and development across various stages, from flowering to fruit set. Its comprehensive formulation ensures optimal nutrient uptake and utilization, promoting essential functions such as cell division, membrane integrity, and hormone movement.Its formulation includes necessary additives for perfect adherence to the leaves of crops. It can be sprayed at all stages of plant growth, particularly at flower bud formation for ornamentals, flowering, and fruit set for crops such as coffee, flowers, mangoes, and other fruits and flowers.",
+        solution: "Use Boroking 20mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/coffee flowering.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
         problem: "Azolaxyl", 
         infestationimage: "./images/Azolaxyl.jpg",
         description: "Contains <strong>Azoxystrobin 282 g/l + Metalaxyl-M 108 g/l </strong>An excellent broad-spectrum systemic fungicide with translaminar, curative, and protectant action against a wide range of diseases for use on a wide range of plants. It combines two highly effective molecules synergistically for enhanced crop protection.Target: Puccinia spp./Rusts, Powdery mildew, Black rot, Scab, Blight, Anthracnose, Leaf spot, Downy mildew, Botrytis",
