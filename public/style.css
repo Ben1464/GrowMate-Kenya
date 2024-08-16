@@ -85,7 +85,7 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .slogan{
-    background: linear-gradient(to right, rgb(36, 160, 73), #4de407);
+    background: linear-gradient(to right, rgb(23, 110, 49), #45c00c);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -343,7 +343,7 @@ tr:hover {
 }
 
 .contact-item ul li a {
-    color: #3cc743;
+    color: #115814;
     font-size: 24px;
 }
 
