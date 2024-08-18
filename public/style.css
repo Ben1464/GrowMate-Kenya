@@ -89,14 +89,17 @@ h2 {
     box-shadow: 0 0 5px #000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.slogan{
-    background: #f5f5f5;
+/* Slogan styles */
+.slogan {
+    background: linear-gradient(to right, #4CAF50, #8ad872); /* Gradient background for text visibility */
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
-    font-weight: bolder; 
+    color: transparent; /* Makes the text itself transparent */
+    font-weight: bolder;
     font-size: 25.1px;
+    text-align: center;
 }
+
 
 /* Define blinking animation */
 @keyframes blink {
