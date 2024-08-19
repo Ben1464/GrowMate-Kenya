@@ -20,7 +20,7 @@ app.post('/upload', upload.single('image'), async (req, res) => {
         const response = await axios.post(
             'https://api.openai.com/v1/images/generations',
             { image: imageData.toString('base64') },
-            { headers: { Authorization: `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` } }
+            { headers: { Authorization: `process.env.OPENAI_API_KEY` } }
         );
 
         // Send the API response back to the client
