@@ -285,53 +285,7 @@ function searchSolutions() {
     const filteredSolutions = solutions.filter(solution => {
         const problemName = solution.problem.toLowerCase();
         // Check if the full problem name matches the search input exactly
-        return problemName == searchInput;
-    });
-
-    if (filteredSolutions.length === 0) {
-        solutionResults.innerHTML = "<p>Kindly check your spelling or try rephrasing your search again.</p>";
-    } else {
-        filteredSolutions.forEach(solution => {
-            const solutionDiv = document.createElement("div");
-            solutionDiv.classList.add("solution");
-            solutionDiv.innerHTML = `
-                <h3>${solution.problem}</h3>
-                <img src="${solution.infestationimage}" alt="${solution.problem}">
-                <h3>Description:</h3>
-                <p>${solution.description}</p>
-                <h3>Solution:</h3>
-                <p>${solution.solution}</p>
-                <img src="${solution.image}" alt="${solution.problem}">
-                <h3>Spraying Intervals:</h3>
-                <p>${solution.sprayingintervals}</p>
-                <h3>Available Pack Size:</h3>
-                <table>
-                    <tr>
-                        <th>Pack Size</th>
-                        <th>Price Range</th>
-                    </tr>
-                    ${solution.availablepacksize.split(',').map((size, index) => `
-                        <tr>
-                            <td>${size}</td>
-                            <td>${solution.pricerange.split(',')[index]}</td>
-                        </tr>
-                    `).join('')}
-                </table>`;
-            
-            solutionResults.appendChild(solutionDiv);
-        });
-    }
-}
-
-function searchSolutions() {
-    const searchInput = document.getElementById("searchInput").value.toLowerCase();
-    const solutionResults = document.getElementById("solutionResults");
-    solutionResults.innerHTML = "";
-
-    const filteredSolutions = solutions.filter(solution => {
-        const problemName = solution.problem.toLowerCase();
-        // Check if the full problem name matches the search input exactly
-        return problemName == searchInput;
+        return problemName === searchInput;
     });
 
     if (filteredSolutions.length === 0) {
@@ -374,32 +328,57 @@ function getQueryParam(param) {
     return urlParams.get(param);
 }
 
-// Function to handle automatic search based on URL parameter
 function handleAutomaticSearch() {
     const searchQuery = getQueryParam('search');
     if (searchQuery) {
-        // Perform search based on the query parameter
         document.getElementById("searchInput").value = searchQuery;
         searchSolutions();
     }
 }
 
-// Call the function to handle automatic search when the page loads
 window.onload = function() {
-    handleAutomaticSearch(); // Perform automatic search based on URL parameter
+    handleAutomaticSearch();
 };
 
+function uploadImage() {
+    const fileInput = document.getElementById("fileInput");
+    const file = fileInput.files[0];
 
-// Function to handle the click event on the Connect button
-// Function to handle the click event on the Connect button
-// Function to handle the click event on the Connect button
+    if (!file) {
+        alert("Please select an image to upload.");
+        return;
+    }
+
+    const formData = new FormData();
+    formData.append("image", file);
+
+    fetch('http://localhost:3000/upload', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        displayDiagnosis(data);
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
+}
+
+function displayDiagnosis(data) {
+    const resultDiv = document.getElementById("solutionResults");
+    resultDiv.innerHTML = `
+        <h3>Diagnosis Result:</h3>
+        <p>${data.description}</p>
+        <h3>Recommendations:</h3>
+        <p>${data.recommendations}</p>`;
+}
+
 function showContactList() {
     const contactList = document.getElementById("contactList");
 
-    // Clear any existing content
     contactList.innerHTML = "";
 
-    // Create and append the table
     const table = document.createElement("table");
     table.innerHTML = `
         <tr>
@@ -408,52 +387,43 @@ function showContactList() {
             <th>Contact</th>
         </tr>
         <tr>
-        <td>Mt.Kenya Regional-Manager</td>
-        <td>Name 1</td>
-        <td><a href="tel:+254759790387"><i class="fas fa-phone"></i> +254759790387</a></td>
-    </tr>
-
+            <td>Mt.Kenya Regional-Manager</td>
+            <td>Name 1</td>
+            <td><a href="tel:+254759790387"><i class="fas fa-phone"></i> +254759790387</a></td>
+        </tr>
         <tr>
             <td>Kiambu-Murang'a</td>
             <td>Name 2</td>
             <td> <a href="tel:+254742512369"><i class="fas fa-phone"></i> +254742512369</a></td>
         </tr>
-        
         <tr>
             <td>Kirinyaga-Embu</td>
             <td>Name 4</td>
             <td><a href="tel:+254742512107"><i class="fas fa-phone"></i> +254742512107</a></td>
         </tr>
-        
         <tr>
             <td>Meru-Isiolo</td>
             <td>Name 6</td>
             <td> <a href="tel:+254743086987"><i class="fas fa-phone"></i> +254743086987</a></td>
         </tr>
-        
         <tr>
             <td>Nanyuki-Nyeri</td>
             <td>Name 8</td>
             <td> <a href="tel:+254742512384"><i class="fas fa-phone"></i> +254742512384</a></td>
-        </tr>
-        
-
-
-    `;
+        </tr>`;
     contactList.appendChild(table);
 }
 
-// Add event listener to the Connect button
 document.querySelector('.connect').addEventListener('click', showContactList);
 
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('header h2');
     const text = header.textContent;
-    header.textContent = ''; // Clear the initial text
+    header.textContent = '';
     header.classList.add('typewriter');
 
     let i = 0;
-    const speed = 100; // Adjust typing speed here
+    const speed = 100;
 
     function typeWriter() {
         if (i < text.length) {
