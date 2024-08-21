@@ -1,5 +1,27 @@
 const solutions = [
     { 
+        problem: "Avacado phosphorus deficiency", 
+        infestationimage: "./images/Phosporus deficiency in avocado.jpeg",
+        description: "Young leaves may be dark green and have purplish veins, especially on the underside of leaves. Older leaves can develop an overall purplish tint and tip dieback. Leaves may be curled, distorted, smaller than normal, or drop prematurely.",
+        solution: "Use Potphite 20mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days",
+        image: "./images/Potphite.jpeg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
+        problem: "Avacado potassium deficiency", 
+        infestationimage: "./images/Avocado pottasium deficiency.jpg",
+        description: "Large irregular necrotic spots are seen on old leaves, followed by interveinal chlorisis and smaller fruit size.",
+        solution: "Use Okinawo Gold Fruit 20mls/20ltrs + Polysil 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days",
+        image: "./images/Okinawo.jpeg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
         problem: "Potphite", 
         infestationimage: "./images/Potphite.jpeg",
         description: "POTPHITE® Contains <strong>Phosphorus (P205): 525 g/l , Potassium (K20): 275 g/l)</strong> is a highly efficient and effective liquid potassium phosphate fertilizer, providing plants with the necessary nutrition to thrive in any crop condition.It promotes good fruit set, reduces fruit drop, increases sugar levels, improves texture and shelf life, and enhances the colour of cut flowers. It ensures rapid rooting of all crops while guaranteeing balanced plant growth.",
