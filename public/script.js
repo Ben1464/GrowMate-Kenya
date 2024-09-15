@@ -409,29 +409,29 @@ function showContactList() {
             <th>Contact</th>
         </tr>
         <tr>
-            <td>Mt.Kenya Regional-Manager</td>
-            <td>Name 1</td>
-            <td><a href="tel:+254759790387"><i class="fas fa-phone"></i> +254759790387</a></td>
+            <td>Mt.Kenya Sales Lead</td>
+            <td>Benson Mwangi</td>
+            <td><a href="tel:+254719151171"><i class="fas fa-phone"></i> +254719151171</a></td>
         </tr>
         <tr>
             <td>Kiambu-Murang'a</td>
             <td>Name 2</td>
-            <td> <a href="tel:+254742512369"><i class="fas fa-phone"></i> +254742512369</a></td>
+            <td> <a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
         </tr>
         <tr>
             <td>Kirinyaga-Embu</td>
             <td>Name 4</td>
-            <td><a href="tel:+254742512107"><i class="fas fa-phone"></i> +254742512107</a></td>
+            <td><a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
         </tr>
         <tr>
             <td>Meru-Isiolo</td>
             <td>Name 6</td>
-            <td> <a href="tel:+254743086987"><i class="fas fa-phone"></i> +254743086987</a></td>
+            <td> <a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
         </tr>
         <tr>
             <td>Nanyuki-Nyeri</td>
             <td>Name 8</td>
-            <td> <a href="tel:+254742512384"><i class="fas fa-phone"></i> +254742512384</a></td>
+            <td> <a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
         </tr>`;
     contactList.appendChild(table);
 }
