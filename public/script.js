@@ -1,5 +1,16 @@
 const solutions = [
     { 
+        problem: "Azokon", 
+        infestationimage: "./images/Azokon.jpg",
+        description: "Contains <strong>Azoxystrobin 250 g/l + Difenoconazole 150 g/l</strong>,Unique combination of synergetic active ingredients that has excellent eradicate, systemic preventive and curative and translaminar properties against a wide range of fungal infections on crops.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/tomatoes early blight.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
         problem: "Avacado phosphorus deficiency", 
         infestationimage: "./images/Phosporus deficiency in avocado.jpeg",
         description: "Young leaves may be dark green and have purplish veins, especially on the underside of leaves. Older leaves can develop an overall purplish tint and tip dieback. Leaves may be curled, distorted, smaller than normal, or drop prematurely.",
