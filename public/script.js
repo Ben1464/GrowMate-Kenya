@@ -33,8 +33,8 @@ const solutions = [
        
     },
     { 
-        problem: "Alternaria Leaf Rust", 
-        infestationimage: "./images/Alternaria leaf rust.jpeg",
+        problem: "alternaria Leaf Rust", 
+        infestationimage: "./images/Capsicum powdery mildew.jpeg",
         description: "Alternaria leaf spot is a common foliar disease of brassica crops caused by the fungal pathogen Alternaria brassicicola. The disease can be a problem for many brassica crops including cabbage, cauliflower, kale, brussels sprouts, and broccoli.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
@@ -440,7 +440,6 @@ function displayDiagnosis(data) {
         <p>${data.recommendations}</p>`;
 }
 
-// Function to show the contact list
 function showContactList() {
     const contactList = document.getElementById("contactList");
 
@@ -461,30 +460,28 @@ function showContactList() {
         <tr>
             <td>Kiambu-Murang'a</td>
             <td>Name 2</td>
-            <td><a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
+            <td> <a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
         </tr>
         <tr>
             <td>Kirinyaga-Embu</td>
             <td>Name 4</td>
-            <td><a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
+            <td><a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
         </tr>
         <tr>
             <td>Meru-Isiolo</td>
             <td>Name 6</td>
-            <td><a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
+            <td> <a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
         </tr>
         <tr>
             <td>Nanyuki-Nyeri</td>
             <td>Name 8</td>
-            <td><a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
+            <td> <a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
         </tr>`;
     contactList.appendChild(table);
 }
 
-// Event listener to show the contact list when the 'connect' button is clicked
 document.querySelector('.connect').addEventListener('click', showContactList);
 
-// Function to create a typewriter effect for the header
 document.addEventListener('DOMContentLoaded', function() {
     const header = document.querySelector('header h2');
     const text = header.textContent;
@@ -492,7 +489,7 @@ document.addEventListener('DOMContentLoaded', function() {
     header.classList.add('typewriter');
 
     let i = 0;
-    const speed = 100; // Speed of typing effect
+    const speed = 100;
 
     function typeWriter() {
         if (i < text.length) {
