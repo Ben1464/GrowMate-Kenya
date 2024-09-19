@@ -1,5 +1,28 @@
 const solutions = [
     { 
+        problem: "Growprid", 
+        infestationimage: "./images/Growprid.jpg",
+        description: "Contains <strong>Acetamiprid 700 g/kg</strong>,A systemic insecticide with translaminar activity and with both contact and stomach action.Target: Aphids, Thrips, Spider mite, Whiteflies, Sawflies, Leaf miner, Leaf hoppers, Mirids",
+        solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/coffee thrips.jpg",
+        availablepacksize:"5gma,10gms,25gms,100gms,1kg.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
+        problem: "Coffee Thrips", 
+        infestationimage: "./images/coffee thrips.jpg",
+        description: "Thrips are tiny, slender insects that can be a significant pest for coffee trees. They feed on the plant's tissue by puncturing the surface and sucking out the cell contents, which can lead to various issues, including reduced plant vigor, leaf damage, and potentially lower coffee yields.",
+        solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"5gma,10gms,25gms,100gms,1kg.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    
+    { 
         problem: "Azokon", 
         infestationimage: "./images/Azokon.jpg",
         description: "Contains <strong>Azoxystrobin 250 g/l + Difenoconazole 150 g/l</strong>,Unique combination of synergetic active ingredients that has excellent eradicate, systemic preventive and curative and translaminar properties against a wide range of fungal infections on crops.",
