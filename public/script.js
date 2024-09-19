@@ -6,7 +6,7 @@ const solutions = [
         solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/coffee thrips.jpg",
-        availablepacksize:"5gma,10gms,25gms,100gms,1kg.",
+        availablepacksize:"5gms,10gms,25gms,100gms,1kg.",
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
@@ -17,7 +17,7 @@ const solutions = [
         solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Growprid.jpg",
-        availablepacksize:"5gma,10gms,25gms,100gms,1kg.",
+        availablepacksize:"5gms,10gms,25gms,100gms,1kg.",
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
