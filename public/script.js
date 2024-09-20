@@ -1,5 +1,16 @@
 const solutions = [
     { 
+        problem: "Muguka Powdery Mildew", 
+        infestationimage: "./images/Azokon in muguka.jpg",
+        description: "Powdery mildew causes a powdery growth on the surface of leaves, buds, young shoots, fruits, and flowers. It is caused by the fungi, Alternaria solani.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
         problem: "Growprid", 
         infestationimage: "./images/Growprid.jpg",
         description: "Contains <strong>Acetamiprid 700 g/kg</strong>,A systemic insecticide with translaminar activity and with both contact and stomach action.Target: Aphids, Thrips, Spider mite, Whiteflies, Sawflies, Leaf miner, Leaf hoppers, Mirids",
