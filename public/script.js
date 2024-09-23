@@ -508,7 +508,8 @@ function handleAutomaticSearch() {
 // Display contact list when "Connect" button is clicked
 function showContactList() {
     const contactList = document.getElementById("contactList");
-    contactList.innerHTML = "";
+    contactList.style.display = "block"; // Show the contact list
+    contactList.innerHTML = ""; // Clear existing content
 
     const table = document.createElement("table");
     table.innerHTML = `
@@ -540,7 +541,7 @@ function showContactList() {
         <tr>
             <td>Nanyuki-Nyeri</td>
             <td>Name 8</td>
-            <td><a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
+            <td><a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
         </tr>`;
     contactList.appendChild(table);
 }
