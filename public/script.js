@@ -384,7 +384,6 @@ function searchSolutions() {
 
     const filteredSolutions = solutions.filter(solution => {
         const problemName = solution.problem.toLowerCase();
-        // Check if the full problem name matches the search input exactly
         return problemName === searchInput;
     });
 
@@ -423,6 +422,76 @@ function searchSolutions() {
     }
 }
 
+// Load TensorFlow.js model
+async function loadModel() {
+    try {
+        const model = await tf.loadLayersModel('./model/model.json'); // Replace with correct path
+        console.log("Model loaded successfully");
+        return model;
+    } catch (error) {
+        console.error("Error loading the model:", error);
+    }
+}
+
+// Preview the uploaded image
+function previewImage(event) {
+    const reader = new FileReader();
+    reader.onload = function () {
+        const imagePreview = document.getElementById('imagePreview');
+        imagePreview.innerHTML = `<img src="${reader.result}" id="uploadedImage" alt="Uploaded Image" style="max-width: 300px;"/>`;
+    };
+    reader.readAsDataURL(event.target.files[0]);
+}
+
+// Upload and classify the image
+async function uploadImage() {
+    const fileInput = document.getElementById("fileInput");
+    const file = fileInput.files[0];
+
+    if (!file) {
+        alert("Please select an image to upload.");
+        return;
+    }
+
+    const imageElement = document.getElementById('uploadedImage');
+    const model = await loadModel();
+
+    // Preprocess the image to the required size (224x224)
+    const tensor = tf.browser.fromPixels(imageElement)
+        .resizeNearestNeighbor([224, 224])
+        .toFloat()
+        .expandDims(0);
+
+    // Perform classification
+    const predictions = model.predict(tensor);
+    const result = await predictions.array();
+
+    // Get the class with the highest probability
+    const highestProbabilityIndex = result[0].indexOf(Math.max(...result[0]));
+
+    // Display the result
+    displayDiagnosis(highestProbabilityIndex);
+}
+
+// Map the prediction to a diagnosis
+function displayDiagnosis(classIndex) {
+    const diagnosis = solutions[classIndex];
+    const resultDiv = document.getElementById("solutionResults");
+
+    if (diagnosis) {
+        resultDiv.innerHTML = `
+            <h3>Diagnosis Result:</h3>
+            <p>${diagnosis.problem}</p>
+            <h3>Description:</h3>
+            <p>${diagnosis.description}</p>
+            <h3>Solution:</h3>
+            <p>${diagnosis.solution}</p>`;
+    } else {
+        resultDiv.innerHTML = `<p>Diagnosis not found for this image.</p>`;
+    }
+}
+
+// Handle automatic search from URL query parameter
 function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get(param);
@@ -436,47 +505,9 @@ function handleAutomaticSearch() {
     }
 }
 
-window.onload = function() {
-    handleAutomaticSearch();
-};
-
-function uploadImage() {
-    const fileInput = document.getElementById("fileInput");
-    const file = fileInput.files[0];
-
-    if (!file) {
-        alert("Please select an image to upload.");
-        return;
-    }
-
-    const formData = new FormData();
-    formData.append("image", file);
-
-    fetch('http://localhost:3000/upload', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
-        displayDiagnosis(data);
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
-}
-
-function displayDiagnosis(data) {
-    const resultDiv = document.getElementById("solutionResults");
-    resultDiv.innerHTML = `
-        <h3>Diagnosis Result:</h3>
-        <p>${data.description}</p>
-        <h3>Recommendations:</h3>
-        <p>${data.recommendations}</p>`;
-}
-
+// Display contact list when "Connect" button is clicked
 function showContactList() {
     const contactList = document.getElementById("contactList");
-
     contactList.innerHTML = "";
 
     const table = document.createElement("table");
@@ -494,7 +525,7 @@ function showContactList() {
         <tr>
             <td>Kiambu-Murang'a</td>
             <td>Name 2</td>
-            <td> <a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
+            <td><a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
         </tr>
         <tr>
             <td>Kirinyaga-Embu</td>
@@ -504,36 +535,17 @@ function showContactList() {
         <tr>
             <td>Meru-Isiolo</td>
             <td>Name 6</td>
-            <td> <a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
+            <td><a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
         </tr>
         <tr>
             <td>Nanyuki-Nyeri</td>
             <td>Name 8</td>
-            <td> <a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
+            <td><a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
         </tr>`;
     contactList.appendChild(table);
 }
 
-document.querySelector('.connect').addEventListener('click', showContactList);
-
-document.addEventListener('DOMContentLoaded', function() {
-    const header = document.querySelector('header h2');
-    const text = header.textContent;
-    header.textContent = '';
-    header.classList.add('typewriter');
-
-    let i = 0;
-    const speed = 100;
-
-    function typeWriter() {
-        if (i < text.length) {
-            header.textContent += text.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-        } else {
-            header.classList.remove('typewriter');
-        }
-    }
-
-    typeWriter();
-});
+// Event listener for automatic search
+window.onload = function() {
+    handleAutomaticSearch();
+};
