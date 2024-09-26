@@ -43,8 +43,9 @@
         </div>
 
         <div class="contacts">
-            <p>For further technical guidance <b>CONNECT</b> with our agronomist around you.<button class="connect blinking-button"><b>Connect!</b></button></p>
-            <div id="contactList"></div> <!-- Updated to include the contact list -->
+            <p>For further technical guidance <b>CONNECT</b> with our agronomist around you.
+            <button class="connect blinking-button" onclick="showContactList()"><b>Connect!</b></button></p>
+            <div id="contactList" style="display: none;"></div>
         </div>
 
         <div class="footer">
@@ -62,5 +63,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
 </body>
 </html>
