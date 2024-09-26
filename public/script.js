@@ -1,8 +1,31 @@
 const solutions = [
+
+    { 
+        problem: "Root development", 
+        infestationimage: "./images/Growmate soil on muguka.jpg",
+        description: "GROWMATE SOIL®Contains <strong>Humic Acid: 16%, NPK: 3%</strong< GROWMATE SOIL® is a highly soluble organic humic acid soil conditioner and enhancer that optimizes nutrient uptake, improves soil structure, and helps heal damaged soil.",
+        solution: "Spray 10mls/20ltrs.",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/Shooted Muguka.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
+        problem: "Muguka shooting", 
+        infestationimage: "./images/Seagold.jpg",
+        description: "SEAGOLD® is a pure, natural fermented seaweed liquid biofertilizer enriched with chelating NPK. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits, and cereals.",
+        solution: "Spray 10mls/20ltrs.",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/Seagold in muguka.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
     { 
         problem: "Muguka Powdery Mildew", 
         infestationimage: "./images/Azokon in muguka.jpg",
-        description: "Powdery mildew causes a powdery growth on the surface of leaves, buds, young shoots, fruits, and flowers. It is caused by the fungi, Alternaria solani.",
+        description: "Powdery mildew causes a powdery growth on the surface of leaves, buds, young shoots, fruits, and flowers. It is caused by the fungi, Alternate solani.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Azokon.jpg",
