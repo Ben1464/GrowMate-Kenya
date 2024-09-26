@@ -13,20 +13,20 @@
 <body>
     <div class="container">
         <a href="https://growmate.ke/" target="_blank">
-            <img class="logo" src="./images/landing page.jpg" alt="GrowMate"></a>
+            <img class="logo" src="./images/landing page.jpg" alt="GrowMate">
+        </a>
 
         <!-- Upload Section -->
-       
         <div class="main-container">
             <div class="main-content">
                 <p class="main">
                     <article>
-                        <strong>GrowMate Kenya</strong> is a locally registered company specialising in crop nutrition and protection. We pride ourselves on our commitment to helping farmers achieve higher yields and better-quality crop. <strong>The platform offers targeted remedies curated for maximum effectiveness.</strong>
+                        <strong>GrowMate Kenya</strong> is a locally registered company specializing in crop nutrition and protection. We pride ourselves on our commitment to helping farmers achieve higher yields and better-quality crops. <strong>The platform offers targeted remedies curated for maximum effectiveness.</strong>
                     </article>
                 </p>
             </div>
         </div>
-        
+
         <main>
             <div class="search-container">
                 <input type="text" id="searchInput" placeholder="Search for solutions..." class="blinking-border">
@@ -36,15 +36,21 @@
         </main>
 
         <div class="upload-section">
-            <p>Upload an image of affected crop for diagnosis</p>
+            <p>Upload an image of the affected crop for diagnosis</p>
             <input type="file" id="fileInput" accept="image/*" onchange="previewImage(event)">
             <button onclick="uploadImage()" class="upload-button"><b>Upload Image</b></button>
             <div id="imagePreview"></div>
         </div>
 
+        <!-- Loading Spinner -->
+        <div id="loadingSpinner" style="display: none;">
+            <img src="./images/spinner.gif" alt="Loading..." />
+        </div>
+
         <div class="contacts">
             <p>For further technical guidance <b>CONNECT</b> with our agronomist around you.
-            <button class="connect blinking-button" onclick="showContactList()"><b>Connect!</b></button></p>
+                <button class="connect blinking-button" onclick="showContactList()"><b>Connect!</b></button>
+            </p>
             <div id="contactList" style="display: none;"></div>
         </div>
 
@@ -59,10 +65,10 @@
                     </ul>
                 </div>
             </footer>
-        </div> 
+        </div>
     </div>
 
-    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -448,13 +448,15 @@ function searchSolutions() {
 // Load TensorFlow.js model
 async function loadModel() {
     try {
-        const model = await tf.loadLayersModel('./model/model.json'); 
+        const model = await tf.loadLayersModel('./model/model.json'); // Ensure correct path
         console.log("Model loaded successfully");
         return model;
     } catch (error) {
         console.error("Error loading the model:", error);
+        alert("Failed to load the model. Please check if the model file exists.");
     }
 }
+
 
 // Preview the uploaded image
 function previewImage(event) {
@@ -468,51 +470,68 @@ function previewImage(event) {
 
 // Upload and classify the image
 async function uploadImage() {
-    const fileInput = document.getElementById("fileInput");
-    const file = fileInput.files[0];
+    const loadingSpinner = document.getElementById('loadingSpinner');
+    loadingSpinner.style.display = 'block'; // Show the loading spinner
 
-    if (!file) {
-        alert("Please select an image to upload.");
-        return;
+    try {
+        const fileInput = document.getElementById("fileInput");
+        const file = fileInput.files[0];
+
+        if (!file) {
+            alert("Please select an image to upload.");
+            loadingSpinner.style.display = 'none'; // Hide the spinner
+            return;
+        }
+
+        const imageElement = document.getElementById('uploadedImage');
+        const model = await loadModel();
+
+        // Preprocess the image to the required size (224x224)
+        const tensor = tf.browser.fromPixels(imageElement)
+            .resizeNearestNeighbor([224, 224])
+            .toFloat()
+            .expandDims(0);
+
+        // Perform classification
+        const predictions = model.predict(tensor);
+        const result = await predictions.array();
+
+        const highestProbabilityIndex = result[0].indexOf(Math.max(...result[0]));
+
+        // Display the result
+        displayDiagnosis(highestProbabilityIndex);
+    } finally {
+        loadingSpinner.style.display = 'none'; // Hide the spinner after processing
     }
-
-    const imageElement = document.getElementById('uploadedImage');
-    const model = await loadModel();
-
-    // Preprocess the image to the required size (224x224)
-    const tensor = tf.browser.fromPixels(imageElement)
-        .resizeNearestNeighbor([224, 224])
-        .toFloat()
-        .expandDims(0);
-
-    // Perform classification
-    const predictions = model.predict(tensor);
-    const result = await predictions.array();
-
-    // Get the class with the highest probability
-    const highestProbabilityIndex = result[0].indexOf(Math.max(...result[0]));
-
-    // Display the result
-    displayDiagnosis(highestProbabilityIndex);
 }
+
 
 // Map the prediction to a diagnosis
 function displayDiagnosis(classIndex) {
-    const diagnosis = solutions[classIndex];
+    const diagnosis = solutions[classIndex]; // Map the classIndex to the solution
     const resultDiv = document.getElementById("solutionResults");
 
     if (diagnosis) {
         resultDiv.innerHTML = `
             <h3>Diagnosis Result:</h3>
-            <p>${diagnosis.problem}</p>
+            <p><strong>Problem:</strong> ${diagnosis.problem}</p>
+            <img src="${diagnosis.infestationimage}" alt="${diagnosis.problem}" style="max-width: 300px;">
             <h3>Description:</h3>
             <p>${diagnosis.description}</p>
             <h3>Solution:</h3>
-            <p>${diagnosis.solution}</p>`;
+            <p><strong>Spray:</strong> ${diagnosis.solution}</p>
+            <p><strong>Spraying Intervals:</strong> ${diagnosis.sprayingintervals}</p>
+            <img src="${diagnosis.image}" alt="Solution image" style="max-width: 300px;">
+            <h3>Available Pack Sizes:</h3>
+            <p>${diagnosis.availablepacksize}</p>
+            <h3>Price Range:</h3>
+            <p>${diagnosis.pricerange}</p>
+        `;
     } else {
         resultDiv.innerHTML = `<p>Diagnosis not found for this image.</p>`;
     }
 }
+
 
 // Handle automatic search from URL query parameter
 function getQueryParam(param) {

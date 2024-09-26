@@ -416,3 +416,22 @@ tr:hover {
     height: auto;
     border-radius: 6px;
 }
+/* Loading spinner styles */
+#loadingSpinner {
+    position: fixed; /* Fix the spinner in the center of the screen */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Ensure it is on top of everything */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    width: 100%; /* Full-width and height to cover the screen */
+    height: 100vh;
+}
+
+#loadingSpinner img {
+    width: 80px; /* Spinner size */
+    height: 80px;
+}
