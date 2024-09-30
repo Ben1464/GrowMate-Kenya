@@ -1,5 +1,26 @@
 const solutions = [
-
+    { 
+        problem: "Septoria Leaf Spot", 
+        infestationimage: "./images/TOmatoes septoria leaf rust.jpg",
+        description: "Septoria leaf spot is caused by a fungus, Septoria lycopersici. It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
+    { 
+        problem: "Septoria Leaf Rust", 
+        infestationimage: "./images/TOmatoes septoria leaf rust.jpg",
+        description: "Septoria leaf spot is caused by a fungus, Septoria lycopersici. It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       
+    },
     { 
         problem: "Root development", 
         infestationimage: "./images/Growmate soil on muguka.jpg",
