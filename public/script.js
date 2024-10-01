@@ -613,3 +613,20 @@ function showContactList() {
 window.onload = function() {
     handleAutomaticSearch();
 };
+
+const logoImages = [
+    "./images/Landing page.jpg", // Replace with your first image path
+    "./images/Landing image 2.jpg", // Replace with your second image path
+    "./images/Landing image 3.avif"  // Replace with your third image path
+];
+
+let currentIndex = 0;
+
+function changeLogo() {
+    const logo = document.getElementById("logo");
+    currentIndex = (currentIndex + 1) % logoImages.length;
+    logo.src = logoImages[currentIndex];
+}
+
+// Set interval to change the image every 3 seconds (3000 milliseconds)
+setInterval(changeLogo, 8000);
