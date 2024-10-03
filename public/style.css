@@ -351,7 +351,11 @@ tr:hover {
 }
 
 .contact-item ul li a {
-    color:#133c8a;
+    display: inline-block; /* Ensures the element can have the background clipped properly */
+    background: linear-gradient(135deg, #00bfff, #1e90ff, #4682b4, #87cefa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
     font-size: 24px;
     font-weight: bolder;
 }
