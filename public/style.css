@@ -91,14 +91,18 @@ h2 {
 }
 /* Slogan styles */
 .slogan {
-    background: linear-gradient(to right, #4CAF50, #8ad872); /* Gradient background for text visibility */
+    display: inline-block; /* Helps with background clipping */
+    background: linear-gradient(to right, rgba(76, 175, 80, 0), rgba(138, 216, 114, 0.7), rgba(76, 175, 80, 0));
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent; /* Makes the text itself transparent */
-    font-weight: bolder;
-    font-size: 25.1px;
-    text-align: center;
+    -webkit-text-fill-color: transparent; /* Makes the text transparent */
+    color: transparent; /* Added to ensure the text color itself is also transparent */
+    font-weight: bold; /* Changed to "bold" for better readability */
+    font-size: 25px; /* Changed to a simpler value for compatibility */
+    text-align: center; /* Will align the text within the container */
+    width: 100%; /* Make sure the text aligns properly within its container */
 }
+
 
 
 /* Define blinking animation */
