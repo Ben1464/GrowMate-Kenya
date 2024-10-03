@@ -98,7 +98,7 @@ h2 {
     -webkit-text-fill-color: transparent; /* Makes the text transparent */
     color: transparent; /* Added to ensure the text color itself is also transparent */
     font-weight: bold; /* Changed to "bold" for better readability */
-    font-size: 28px; /* Changed to a simpler value for compatibility */
+    font-size: 26px; /* Changed to a simpler value for compatibility */
     text-align: center; /* Will align the text within the container */
     width: 100%; /* Make sure the text aligns properly within its container */
 }
