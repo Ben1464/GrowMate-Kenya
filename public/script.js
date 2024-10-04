@@ -161,8 +161,8 @@ const solutions = [
         solution: "Use <strong>Zincbomate</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Zincbomate coffee.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
        
     },
     { 
@@ -172,8 +172,8 @@ const solutions = [
         solution: "Use <strong>Calcibora</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Water melon calcibora.webp",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+       availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
        
     },
     { 
@@ -183,9 +183,8 @@ const solutions = [
         solution: "Use <strong>Boroking</strong> 20mls/20ltrs + <strong>Polysil<strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/coffee flowering.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
-       
+        availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
     },
     { 
         problem: "Azolaxyl", 
@@ -317,8 +316,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Okinawo.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
        
     },
     { 
@@ -328,8 +327,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
        
     },
     { 
@@ -339,8 +338,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
        
     },
     { 
@@ -350,8 +349,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
        
     },
     { 
@@ -361,8 +360,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
        
     },
     { 
@@ -372,8 +371,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
        
     },
     { 
@@ -383,8 +382,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
        
     },
     { 
@@ -394,8 +393,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"1ltr.",
+        pricerange:"(2600-2700)"
        
     },
     { 
