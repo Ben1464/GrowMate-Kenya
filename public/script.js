@@ -160,7 +160,7 @@ const solutions = [
         description: "ZINCBOMATE® Contains <strong>Water soluble Zinc (Zn) 16% , Boron (B) 2%, Seaweed extract 5% </strong> is a revolutionary foliar fertilizer, enriched with seaweed extract, designed to enhance plant growth and development by rapidly providing essential boron and zinc nutrients.Rapid supplementation of ZINCBOMATE® improves pollen production, enhances flower and leaf vigor, promotes fruit development, and aids bud differentiation in all agricultural crops and ornamentals.It is rich in boron and zinc, essential nutrients for key stages such as flowering",
         solution: "Use <strong>Zincbomate</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/Zincbomate coffee.jpg",
+        image: "./images/Flowering coffee Zincbomate.jpg",
         availablepacksize:"1ltr.",
         pricerange:"(2600-2700)"
        
