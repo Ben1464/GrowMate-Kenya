@@ -405,7 +405,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/stress free tomatoes.webp",
         availablepacksize:"250mls,500mls,1ltr.",
-        pricerange:"(700-750),(1250-1300),(2150-2200)"
+         pricerange:"(750-800),(1250-1300),(2150-2200)"
        
     },
     { 
@@ -416,7 +416,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/stress free tomatoes.webp",
         availablepacksize:"250mls,500mls,1ltr.",
-        pricerange:"(700-750),(1250-1300),(2150-2200)"
+        pricerange:"(750-800),(1250-1300),(2150-2200)"
        
        
     },
