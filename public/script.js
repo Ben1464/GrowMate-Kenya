@@ -587,11 +587,6 @@ function showContactList() {
             <td><a href="tel:+254719151171"><i class="fas fa-phone"></i> +254719151171</a></td>
         </tr>
         <tr>
-            <td>Kiambu-Murang'a</td>
-            <td>Name 2</td>
-            <td><a href="tel:1234567891"><i class="fas fa-phone"></i> 1234567891</a></td>
-        </tr>
-        <tr>
             <td>Kirinyaga-Embu</td>
             <td>Name 4</td>
             <td><a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
