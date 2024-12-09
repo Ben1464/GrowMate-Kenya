@@ -7,7 +7,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
     { 
@@ -18,7 +18,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
     { 
@@ -73,7 +73,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
     { 
@@ -107,9 +107,43 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/tomatoes early blight.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
+    { 
+        problem: "Ascochyta", 
+        infestationimage: "./images/Ascochyta disease.jpeg",
+        description: "<strong>Ascochyta Blight</strong> is a significant fungal disease affecting various crops, particularly legumes like chickpeas, lentils, and peas. It is caused by pathogens from the genus Ascochyta. This disease can severely impact crop yield and quality under favorable conditions, especially cool, wet weather.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Ascochyta Diseases", 
+        infestationimage: "./images/Ascochyta disease.jpeg",
+        description: "<strong>Ascochyta Blight</strong> is a significant fungal disease affecting various crops, particularly legumes like chickpeas, lentils, and peas. It is caused by pathogens from the genus Ascochyta. This disease can severely impact crop yield and quality under favorable conditions, especially cool, wet weather.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Ascochyta Diseases of peas", 
+        infestationimage: "./images/Ascochyta disease.jpeg",
+        description: "<strong>Ascochyta Blight</strong> is a significant fungal disease affecting various crops, particularly legumes like chickpeas, lentils, and peas. It is caused by pathogens from the genus Ascochyta. This disease can severely impact crop yield and quality under favorable conditions, especially cool, wet weather.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+
     { 
         problem: "Early blight", 
         infestationimage: "./images/tomatoes early blight.jpg",
@@ -118,7 +152,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
     { 
@@ -129,18 +163,18 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
     { 
-        problem: "alternaria Leaf Rust", 
+        problem: "Alternaria Leaf Rust", 
         infestationimage: "./images/Capsicum powdery mildew.jpeg",
         description: "Alternaria leaf spot is a common foliar disease of brassica crops caused by the fungal pathogen Alternaria brassicicola. The disease can be a problem for many brassica crops including cabbage, cauliflower, kale, brussels sprouts, and broccoli.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
     { 
@@ -179,7 +213,7 @@ const solutions = [
     { 
         problem: "Zincbomate", 
         infestationimage: "./images/Zincbomate.jpeg",
-        description: "ZINCBOMATE® Contains <strong>Water soluble Zinc (Zn) 16% , Boron (B) 2%, Seaweed extract 5% </strong> is a revolutionary foliar fertilizer, enriched with seaweed extract, designed to enhance plant growth and development by rapidly providing essential boron and zinc nutrients.Rapid supplementation of ZINCBOMATE® improves pollen production, enhances flower and leaf vigor, promotes fruit development, and aids bud differentiation in all agricultural crops and ornamentals.It is rich in boron and zinc, essential nutrients for key stages such as flowering",
+        description: "ZINCBOMATE® Contains <strong>Water soluble Zinc (Zn) 16% , Boron (B) 2%, Seaweed extract 5% </strong> is a revolutionary foliar fertilizer, enriched with seaweed extract, designed to enhance plant growth and development by rapidly providing essential <strong>Boron</strong> and <strong>Zinc</strong> nutrients.Rapid supplementation of ZINCBOMATE® improves pollen production, enhances flower and leaf vigor, promotes fruit development, and aids bud differentiation in all agricultural crops and ornamentals.It is rich in boron and zinc, essential nutrients for key stages such as flowering",
         solution: "Use <strong>Zincbomate</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Flowering coffee Zincbomate.jpg",
@@ -190,7 +224,7 @@ const solutions = [
     { 
         problem: "Calcibora", 
         infestationimage: "./images/Calcibora.jpeg",
-        description: "CALCIBORA® Contains <strong>Sea weed extract 30%, Organic matter 2%, Calcium Oxide (CaO) 20%, Boron Trioxide (B2O3) 1%, Potassium (K₂O) 8% </strong> is a highly soluble liquid foliar fertilizer formulation with high Calcium, Potassium, Organic matter, Seaweed extract, and Boron content.It is used for crop-specific foliar nutrition to prevent and eliminate general calcium, potassium, and boron deficiencies as well as maintain quality by eradicating biotic and abiotic stress on ornamentals, fruit, legumes, and vegetables.",
+        description: "CALCIBORA® Contains <strong>Sea weed extract 30%, Organic matter 2%, Calcium Oxide (CaO) 20%, Boron Trioxide (B2O3) 1%, Potassium (K₂O) 8% </strong> is a highly soluble liquid foliar fertilizer formulation with high <strong>Calcium, Potassium, Organic matter, Seaweed extract, and Boron content</strong>.It is used for crop-specific foliar nutrition to prevent and eliminate general calcium, potassium, and boron deficiencies as well as maintain quality by eradicating biotic and abiotic stress on ornamentals, fruit, legumes, and vegetables.",
         solution: "Use <strong>Calcibora</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Water melon calcibora.webp",
