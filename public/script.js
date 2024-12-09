@@ -40,7 +40,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/Seagold in muguka.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        pricerange:"(600-750),(1150-1250),(1900-2000)"
        
     },
     { 
