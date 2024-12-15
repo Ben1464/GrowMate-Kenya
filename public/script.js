@@ -43,24 +43,14 @@ const solutions = [
         pricerange:"(600-750),(1150-1250),(1900-2000)"
        
     },
-    { 
-        problem: "Drought Stress", 
-        infestationimage: "./images/Seagold.jpg",
-        description: "SEAGOLD® is a pure, natural <strong>fermented seaweed liquid biofertilizer 30% enriched with chelating NPK (12:12:17) and organic matter 10% </strong>. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits,miraa and cereals.",
-        solution: "Spray 10mls/20ltrs.",
-        sprayingintervals: "Repeat spray after every 14-21 days.",
-        image: "./images/Seagold in muguka.jpg",
-        availablepacksize:"250mls,500mls,1ltr.",
-        pricerange:"(600-650),(1150-1200),(1900-2000)"
-       
-    },
+    
     { 
         problem: "Crop Stress", 
-        infestationimage: "./images/Seagold.jpg",
-        description: "SEAGOLD® is a pure, natural fermented seaweed liquid biofertilizer enriched with chelating NPK. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits, and cereals.",
-        solution: "Spray 10mls/20ltrs.",
+        infestationimage: "./images/TOmatoes stress.jpg",
+        description: "Crop stress occurs when crops face adverse conditions that hinder their growth and productivity. It can be caused by environmental factors (drought, extreme temperatures, nutrient deficiencies), biological factors (pests, diseases, weeds), or chemical factors (improper pesticide use, pollutants). Effective management involves addressing the specific cause and ensuring proper soil, water, and pest management.",
+        solution: "Spray 10mls/20ltrs.SEAGOLD® is a pure, natural fermented seaweed liquid biofertilizer enriched with chelating NPK. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits, and cereals.",
         sprayingintervals: "Repeat spray after every 14-21 days.",
-        image: "./images/Seagold in muguka.jpg",
+        image: "./images/Seagold.jpg",
         availablepacksize:"250mls,500mls,1ltr.",
         pricerange:"(600-650),(1150-1200),(1900-2000)"
        
@@ -88,7 +78,7 @@ const solutions = [
        
     },
     { 
-        problem: "Coffee Thrips", 
+        problem: "Thrips", 
         infestationimage: "./images/coffee thrips.jpg",
         description: "Thrips are tiny, slender insects that can be a significant pest for coffee trees. They feed on the plant's tissue by puncturing the surface and sucking out the cell contents, which can lead to various issues, including reduced plant vigor, leaf damage, and potentially lower coffee yields.",
         solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -121,29 +111,7 @@ const solutions = [
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
-    { 
-        problem: "Ascochyta Diseases", 
-        infestationimage: "./images/Ascochyta disease.jpeg",
-        description: "<strong>Ascochyta Blight</strong> is a significant fungal disease affecting various crops, particularly legumes like chickpeas, lentils, and peas. It is caused by pathogens from the genus Ascochyta. This disease can severely impact crop yield and quality under favorable conditions, especially cool, wet weather.",
-        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
-        image: "./images/Azokon.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
-       
-    },
-    { 
-        problem: "Ascochyta Diseases of peas", 
-        infestationimage: "./images/Ascochyta disease.jpeg",
-        description: "<strong>Ascochyta Blight</strong> is a significant fungal disease affecting various crops, particularly legumes like chickpeas, lentils, and peas. It is caused by pathogens from the genus Ascochyta. This disease can severely impact crop yield and quality under favorable conditions, especially cool, wet weather.",
-        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
-        image: "./images/Azokon.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
-       
-    },
-
+   
     { 
         problem: "Early blight", 
         infestationimage: "./images/tomatoes early blight.jpg",
@@ -156,7 +124,7 @@ const solutions = [
        
     },
     { 
-        problem: "Powdery Mildew", 
+        problem: "Capsicum Powdery Mildew", 
         infestationimage: "./images/Capsicum powdery mildew.jpeg",
         description: "Powdery mildew causes a powdery growth on the surface of leaves, buds, young shoots, fruits, and flowers. It is caused by the fungi, Alternaria solani.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -297,17 +265,7 @@ const solutions = [
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
-    { 
-        problem: "Ballworms ", 
-        infestationimage: "./images/ballworms.webp",
-        description: " Young bollworm caterpillars enter tomatoes and start feeding. You will see a small, darkened hole at the base of the tomato fruit near the fruit stem. If you find such a darkened hole, open the fruit to search for the bollworm. Fruits with caterpillars inside decay or ripen fast.",
-        solution: "Use Spinotech 3-4mls/20ltrs + Polysil 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
-        image: "./images/Spinotech.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
-       
-    },
+    
     { 
         problem: "Spinotech", 
         infestationimage: "./images/Spinotech.jpg",
@@ -319,17 +277,7 @@ const solutions = [
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
-    { 
-        problem: "Spinotech ", 
-        infestationimage: "./images/Spinotech.jpg",
-        description: "SPINOTECH 480 SC Contains <strong>Spinosad 480 g/l</strong>, Spinosad is a naturally occurring substance found in Spinotech 480 SC that specifically affects GABA-gated ion channels and neuroreceptors in the nervous system of insects.Target: Thrips, Gypsy moth, Leaf beetles, Tent caterpillars, Colorado potato beetle, Leaf miner",
-        solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil<strong>2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
-        image: "./images/Capsicum thrips.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
-       
-    },
+    
     { 
         problem: "Ballworm ", 
         infestationimage: "./images/ballworms.webp",
@@ -387,61 +335,8 @@ const solutions = [
         pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
        
     },
-    { 
-        problem: "OKINAWO NPK GOLD ", 
-        infestationimage: "./images/Okinawo.jpg",
-        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
-        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/ripeberries.jpg",
-       availablepacksize:"100mls,250mls,500mls,1ltr.",
-        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
-       
-    },
-    { 
-        problem: "OKINAWO", 
-        infestationimage: "./images/Okinawo.jpg",
-        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
-        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/ripeberries.jpg",
-        availablepacksize:"100mls,250mls,500mls,1ltr.",
-        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
-       
-    },
-    { 
-        problem: "OKINAWO ", 
-        infestationimage: "./images/Okinawo.jpg",
-        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
-        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/ripeberries.jpg",
-        availablepacksize:"100mls,250mls,500mls,1ltr.",
-        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
-       
-    },
-    { 
-        problem: "OKINAWO GOLD", 
-        infestationimage: "./images/Okinawo.jpg",
-        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
-        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/ripeberries.jpg",
-        availablepacksize:"100mls,250mls,500mls,1ltr.",
-        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
-       
-    },
-    { 
-        problem: "OKINAWO GOLD ", 
-        infestationimage: "./images/Okinawo.jpg",
-        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
-        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/ripeberries.jpg",
-        availablepacksize:"100mls,250mls,500mls,1ltr.",
-        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
-       
-    },
+    
+    
     { 
         problem: "Potassium", 
         infestationimage: "./images/Okinawo.jpg",
@@ -464,27 +359,17 @@ const solutions = [
         pricerange:"(600-650),(1150-1200),(1900-2000)"
        
     },
-    { 
-        problem: "SEAGOLD ", 
-        infestationimage: "./images/Seagold.jpg",
-        description: "SEAGOLD® is a pure, natural <strong>fermented seaweed liquid biofertilizer 30% enriched with chelating NPK (12:12:17) and organic matter 10% </strong>. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits,miraa and cereals.",
-        solution: "Spray 10mls/20ltrs.",
-        sprayingintervals: "Repeat spray after every 14-21 days.",
-        image: "./images/Seagold tomatoes pic.jpg",
-        availablepacksize:"250mls,500mls,1ltr.",
-        pricerange:"(600-650),(1150-1200),(1900-2000)"
-       
-       
-    },
+    
 ]
 function searchSolutions() {
     const searchInput = document.getElementById("searchInput").value.toLowerCase();
     const solutionResults = document.getElementById("solutionResults");
     solutionResults.innerHTML = "";
 
+    // Filter solutions to match partial text in the problem name
     const filteredSolutions = solutions.filter(solution => {
         const problemName = solution.problem.toLowerCase();
-        return problemName === searchInput;
+        return problemName.includes(searchInput); // Check if search term is part of the problem name
     });
 
     if (filteredSolutions.length === 0) {
