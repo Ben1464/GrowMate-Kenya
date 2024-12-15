@@ -50,8 +50,8 @@ const solutions = [
         solution: "Spray 10mls/20ltrs.",
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/Seagold in muguka.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"250mls,500mls,1ltr.",
+        pricerange:"(600-650),(1150-1200),(1900-2000)"
        
     },
     { 
@@ -61,8 +61,8 @@ const solutions = [
         solution: "Spray 10mls/20ltrs.",
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/Seagold in muguka.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"250mls,500mls,1ltr.",
+        pricerange:"(600-650),(1150-1200),(1900-2000)"
        
     },
     { 
@@ -83,8 +83,8 @@ const solutions = [
         solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/coffee thrips.jpg",
-        availablepacksize:"5gms,10gms,25gms,100gms,1kg.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
        
     },
     { 
@@ -94,8 +94,8 @@ const solutions = [
         solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Growprid.jpg",
-        availablepacksize:"5gms,10gms,25gms,100gms,1kg.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
        
     },
     
@@ -195,8 +195,8 @@ const solutions = [
         solution: "Use <strong>Okinawo Gold Fruit</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days",
         image: "./images/Okinawo.jpeg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        availablepacksize:"100mls,250mls,500mls,1ltr.",
+        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
        
     },
     { 
@@ -383,8 +383,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"1ltr.",
-        pricerange:"(2600-2700)"
+        availablepacksize:"100mls,250mls,500mls,1ltr.",
+        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
        
     },
     { 
@@ -394,8 +394,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"1ltr.",
-        pricerange:"(2600-2700)"
+       availablepacksize:"100mls,250mls,500mls,1ltr.",
+        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
        
     },
     { 
@@ -405,8 +405,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"1ltr.",
-        pricerange:"(2600-2700)"
+        availablepacksize:"100mls,250mls,500mls,1ltr.",
+        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
        
     },
     { 
@@ -416,8 +416,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"1ltr.",
-        pricerange:"(2600-2700)"
+        availablepacksize:"100mls,250mls,500mls,1ltr.",
+        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
        
     },
     { 
@@ -427,8 +427,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"1ltr.",
-        pricerange:"(2600-2700)"
+        availablepacksize:"100mls,250mls,500mls,1ltr.",
+        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
        
     },
     { 
@@ -438,8 +438,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"1ltr.",
-        pricerange:"(2600-2700)"
+        availablepacksize:"100mls,250mls,500mls,1ltr.",
+        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
        
     },
     { 
@@ -449,8 +449,8 @@ const solutions = [
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/ripeberries.jpg",
-        availablepacksize:"1ltr.",
-        pricerange:"(2600-2700)"
+        availablepacksize:"100mls,250mls,500mls,1ltr.",
+        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
        
     },
     { 
@@ -461,7 +461,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/Seagold tomatoes pic.jpg",
         availablepacksize:"250mls,500mls,1ltr.",
-         pricerange:"(750-800),(1250-1300),(2150-2200)"
+        pricerange:"(600-650),(1150-1200),(1900-2000)"
        
     },
     { 
@@ -472,7 +472,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/Seagold tomatoes pic.jpg",
         availablepacksize:"250mls,500mls,1ltr.",
-        pricerange:"(750-800),(1250-1300),(2150-2200)"
+        pricerange:"(600-650),(1150-1200),(1900-2000)"
        
        
     },
