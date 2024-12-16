@@ -78,9 +78,42 @@ const solutions = [
        
     },
     { 
-        problem: "Thrips", 
-        infestationimage: "./images/coffee thrips.jpg",
-        description: "Thrips are tiny, slender insects that can be a significant pest for coffee trees. They feed on the plant's tissue by puncturing the surface and sucking out the cell contents, which can lead to various issues, including reduced plant vigor, leaf damage, and potentially lower coffee yields.",
+        problem: "Onion Thrips", 
+        infestationimage: "./images/Onion thrips.jpg",
+        description: "Thrips are tiny, slender insects that can cause significant damage to onion crops. They feed on the plant's leaves by piercing the surface and sucking out the cell contents, resulting in silvery streaks, discoloration, and curling of leaves. Severe infestations can weaken the plant, reduce bulb size, and lower overall yield. Thrips populations often increase in hot, dry conditions, making regular monitoring and timely control measures critical for managing their impact on onion crops.",
+        solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: " Avocado Thrips", 
+        infestationimage: "./images/Avocado thrips.jpeg",
+        description: "Thrips feed on young leaves, flowers, and fruit, leaving behind scars, discoloration, and deformities. On fruit, their feeding results in silvery or brownish patches, reducing market quality and value. Thrips populations thrive in warm, dry conditions, making regular monitoring and early intervention essential to minimize their impact on avocado yields.",
+        solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Tomatoes Thrips", 
+        infestationimage: "./images/tomato_thrips-1.jpg",
+        description: "Thrips feed on leaves, flowers, and fruits, causing discoloration, scarring, and curling of leaves. Thrips also transmit devastating plant viruses like Tomato Spotted Wilt Virus (TSWV), which leads to stunted growth and reduced yields. Their populations typically surge in warm, dry conditions, making consistent monitoring and timely control measures essential to protect tomato crops.",
+        solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Capsicum Thrips", 
+        infestationimage: "./images/Capsicum thrips.jpg",
+        description: "Thrips feed on leaves, flowers, and fruits, leading to silvery streaks, deformities, and scarring on the fruit surface, reducing market quality. Thrips also act as vectors for viruses like Tomato Spotted Wilt Virus (TSWV), which can severely affect plant health and yield. Regular monitoring and early control are crucial to managing thrips in capsicum crops, especially during warm, dry weather when their populations thrive.",
         solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Growprid.jpg",
