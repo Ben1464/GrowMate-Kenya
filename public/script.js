@@ -11,6 +11,28 @@ const solutions = [
        
     },
     { 
+        problem: "Onions purple blotch", 
+        infestationimage: "./images/Onion purple blotch.jpg",
+        description: "Onion purple blotch, caused by Alternaria porri, forms purple spots with yellow halos on leaves, leading to tissue death and reduced yields. It thrives in warm, humid conditions, requiring proper sanitation and timely fungicide use for control.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Onions Downy Mildew", 
+        infestationimage: "./images/Onion downey mildew.JPG",
+        description: "Downy mildew in onions, caused by Peronospora destructor, produces pale yellow spots on leaves that develop into grayish-purple mold. It weakens plants, reduces bulb size, and thrives in cool, humid conditions. Effective control includes proper spacing, drainage, and fungicide application.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
         problem: "Septoria Leaf Rust", 
         infestationimage: "./images/TOmatoes septoria leaf rust.jpg",
         description: "Septoria leaf spot is caused by a fungus, Septoria lycopersici. It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
@@ -78,7 +100,7 @@ const solutions = [
        
     },
     { 
-        problem: "Onion Thrips", 
+        problem: "Onions Thrips", 
         infestationimage: "./images/Onion thrips.jpg",
         description: "Thrips are tiny, slender insects that can cause significant damage to onion crops. They feed on the plant's leaves by piercing the surface and sucking out the cell contents, resulting in silvery streaks, discoloration, and curling of leaves. Severe infestations can weaken the plant, reduce bulb size, and lower overall yield. Thrips populations often increase in hot, dry conditions, making regular monitoring and timely control measures critical for managing their impact on onion crops.",
         solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
