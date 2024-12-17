@@ -460,7 +460,7 @@ function searchSolutions() {
                         <li>
                             <strong>${problem.problem}</strong><br>
                             ${problem.infestationimage
-                                ? `<img src="${problem.infestationimage}" alt="${problem.problem} Infestation" style="max-width: 300px; display: inline-block; margin-right: 0px; margin-top: 10px;">`
+                                ? `<img src="${problem.infestationimage}" alt="${problem.problem} Infestation" style="max-width: 300px; margin-top: 10px;">`
                                 : `<p>No infestation image available.</p>`
                             }
                             <p>${problem.description || "No additional details available."}</p>
