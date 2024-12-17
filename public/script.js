@@ -463,17 +463,21 @@ function searchSolutions() {
                                 ? `<img src="${problem.infestationimage}" alt="${problem.problem} Infestation" style="max-width: 300px;">`
                                 : `<p>No infestation image available.</p>`
                             }
-                            <div style="background-color: #FDFBE5;: 10px; border-radius: 5px;">
+                            <div style="background-color: #FCE2E1; padding: 10px; border-radius: 5px; margin-top: 10px;">
                                 <p>${problem.description || "No additional details available."}</p>
                             </div>
                         </li>
                     `).join('')}
                 </ul>
                 <h3>Solution:</h3>
-                <p>${group.solution}</p>
+                <div style="background-color: #FDFBE5; padding: 10px; border-radius: 5px; margin-top: 10px;">
+                    <p>${group.solution}</p>
+                </div>
                 <img src="${group.image}" alt="Solution Image" style="max-width: 300px;">
                 <h3>Spraying Intervals:</h3>
-                <p>${group.sprayingintervals}</p>
+                <div style="background-color: #FDFBE5; padding: 10px; border-radius: 5px; margin-top: 10px;">
+                    <p>${group.sprayingintervals}</p>
+                </div>
                 <h3>Available Pack Size:</h3>
                 <table>
                     <tr>
