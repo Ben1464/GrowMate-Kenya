@@ -430,37 +430,69 @@ function searchSolutions() {
     if (filteredSolutions.length === 0) {
         solutionResults.innerHTML = "<p>Kindly check your spelling or try rephrasing your search again.</p>";
     } else {
+        // Group problems by unique solutions
+        const groupedSolutions = {};
+
         filteredSolutions.forEach(solution => {
-            const solutionDiv = document.createElement("div");
-            solutionDiv.classList.add("solution");
-            solutionDiv.innerHTML = `
-                <h3>${solution.problem}</h3>
-                <img src="${solution.infestationimage}" alt="${solution.problem}">
-                <h3>Description:</h3>
-                <p>${solution.description}</p>
+            const key = `${solution.solution}|${solution.sprayingintervals}|${solution.image}|${solution.availablepacksize}|${solution.pricerange}`;
+            if (!groupedSolutions[key]) {
+                groupedSolutions[key] = {
+                    solution: solution.solution,
+                    sprayingintervals: solution.sprayingintervals,
+                    image: solution.image,
+                    availablepacksize: solution.availablepacksize,
+                    pricerange: solution.pricerange,
+                    problems: []
+                };
+            }
+            groupedSolutions[key].problems.push(solution);
+        });
+
+        // Display grouped solutions
+        Object.values(groupedSolutions).forEach(group => {
+            const groupDiv = document.createElement("div");
+            groupDiv.classList.add("solution-group");
+
+            groupDiv.innerHTML = `
+                <h3>Problems:</h3>
+                <ul>
+                    ${group.problems.map(problem => `
+                        <li>
+                            <strong>${problem.problem}</strong><br>
+                            <p>${problem.description || "No additional details available."}</p>
+                            ${problem.infestationimage
+                                ? `<img src="${problem.infestationimage}" alt="${problem.problem} Infestation" style="max-width: 150px; display: inline-block; margin-right: 10px; margin-top: 10px;">`
+                                : `<p>No infestation image available.</p>`
+                            }
+                        </li>
+                    `).join('')}
+                </ul>
                 <h3>Solution:</h3>
-                <p>${solution.solution}</p>
-                <img src="${solution.image}" alt="${solution.problem}">
+                <p>${group.solution}</p>
+                <img src="${group.image}" alt="Solution Image" style="max-width: 300px;">
                 <h3>Spraying Intervals:</h3>
-                <p>${solution.sprayingintervals}</p>
+                <p>${group.sprayingintervals}</p>
                 <h3>Available Pack Size:</h3>
                 <table>
                     <tr>
                         <th>Pack Size</th>
-                        <th>Price Range (Ksh) </th>
+                        <th>Price Range (Ksh)</th>
                     </tr>
-                    ${solution.availablepacksize.split(',').map((size, index) => `
+                    ${group.availablepacksize.split(',').map((size, index) => `
                         <tr>
                             <td>${size}</td>
-                            <td>${solution.pricerange.split(',')[index]}</td>
+                            <td>${group.pricerange.split(',')[index]}</td>
                         </tr>
                     `).join('')}
-                </table>`;
-            
-            solutionResults.appendChild(solutionDiv);
+                </table>
+            `;
+
+            solutionResults.appendChild(groupDiv);
         });
     }
 }
+
+
 
 // Load TensorFlow.js model
 async function loadModel() {
