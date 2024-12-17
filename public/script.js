@@ -24,7 +24,7 @@ const solutions = [
     { 
         problem: "Onions Downy Mildew", 
         infestationimage: "./images/Onion downey mildew.JPG",
-        description: "Onion purple blotch, caused by Alternaria porri, forms purple spots with yellow halos on leaves, leading to tissue death and reduced yields. It thrives in warm, humid conditions, requiring proper sanitation and timely fungicide use for control.",
+        description: "Downy mildew in onions, caused by Peronospora destructor, produces pale yellow spots on leaves that develop into grayish-purple mold. It weakens plants, reduces bulb size, and thrives in cool, humid conditions. Effective control includes proper spacing, drainage, and fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Azokon.jpg",
@@ -421,76 +421,46 @@ function searchSolutions() {
     const solutionResults = document.getElementById("solutionResults");
     solutionResults.innerHTML = "";
 
-    // Filter solutions to match the search term
+    // Filter solutions to match partial text in the problem name
     const filteredSolutions = solutions.filter(solution => {
         const problemName = solution.problem.toLowerCase();
-        return problemName.includes(searchInput);
+        return problemName.includes(searchInput); // Check if search term is part of the problem name
     });
 
     if (filteredSolutions.length === 0) {
         solutionResults.innerHTML = "<p>Kindly check your spelling or try rephrasing your search again.</p>";
-        return;
-    }
-
-    // Group solutions by their shared attributes (e.g., solution, spraying intervals, available pack size)
-    const groupedSolutions = new Map();
-
-    filteredSolutions.forEach(solution => {
-        const key = `${solution.solution}_${solution.sprayingintervals}_${solution.availablepacksize}`;
-        if (!groupedSolutions.has(key)) {
-            groupedSolutions.set(key, { shared: solution, problems: [] });
-        }
-        groupedSolutions.get(key).problems.push(solution);
-    });
-
-    // Display grouped results
-    groupedSolutions.forEach((group, key) => {
-        const shared = group.shared;
-        const problems = group.problems;
-
-        // Display shared details only once, in the new order
-        const groupDiv = document.createElement("div");
-        groupDiv.classList.add("solution-group");
-
-        // Display all problems in the group first
-        problems.forEach(problem => {
-            const problemDiv = document.createElement("div");
-            problemDiv.classList.add("problem");
-            problemDiv.innerHTML = `
-                <h3>${problem.problem}</h3>
-                <img src="${problem.infestationimage}" alt="${problem.problem}">
+    } else {
+        filteredSolutions.forEach(solution => {
+            const solutionDiv = document.createElement("div");
+            solutionDiv.classList.add("solution");
+            solutionDiv.innerHTML = `
+                <h3>${solution.problem}</h3>
+                <img src="${solution.infestationimage}" alt="${solution.problem}">
                 <h3>Description:</h3>
-                <p>${problem.description}</p>
-            `;
-            groupDiv.appendChild(problemDiv);
-        });
-
-        // Display solution details next
-        groupDiv.innerHTML += `
-            <h3>Solution:</h3>
-            <p>${shared.solution}</p>
-            <h3>Spraying Intervals:</h3>
-            <p>${shared.sprayingintervals}</p>
-            <h3>Available Pack Sizes:</h3>
-            <table>
-                <tr>
-                    <th>Pack Size</th>
-                    <th>Price Range (Ksh)</th>
-                </tr>
-                ${shared.availablepacksize.split(',').map((size, index) => `
+                <p>${solution.description}</p>
+                <h3>Solution:</h3>
+                <p>${solution.solution}</p>
+                <img src="${solution.image}" alt="${solution.problem}">
+                <h3>Spraying Intervals:</h3>
+                <p>${solution.sprayingintervals}</p>
+                <h3>Available Pack Size:</h3>
+                <table>
                     <tr>
-                        <td>${size}</td>
-                        <td>${shared.pricerange.split(',')[index]}</td>
+                        <th>Pack Size</th>
+                        <th>Price Range (Ksh) </th>
                     </tr>
-                `).join('')}
-            </table>
-        `;
-
-        solutionResults.appendChild(groupDiv);
-    });
+                    ${solution.availablepacksize.split(',').map((size, index) => `
+                        <tr>
+                            <td>${size}</td>
+                            <td>${solution.pricerange.split(',')[index]}</td>
+                        </tr>
+                    `).join('')}
+                </table>`;
+            
+            solutionResults.appendChild(solutionDiv);
+        });
+    }
 }
-
-
 
 // Load TensorFlow.js model
 async function loadModel() {
