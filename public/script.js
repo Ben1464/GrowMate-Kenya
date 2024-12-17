@@ -459,11 +459,11 @@ function searchSolutions() {
                     ${group.problems.map(problem => `
                         <li>
                             <strong>${problem.problem}</strong><br>
-                            <p>${problem.description || "No additional details available."}</p>
                             ${problem.infestationimage
                                 ? `<img src="${problem.infestationimage}" alt="${problem.problem} Infestation" style="max-width: 300px; display: inline-block; margin-right: 10px; margin-top: 10px;">`
                                 : `<p>No infestation image available.</p>`
                             }
+                            <p>${problem.description || "No additional details available."}</p>
                         </li>
                     `).join('')}
                 </ul>
@@ -491,6 +491,7 @@ function searchSolutions() {
         });
     }
 }
+
 
 
 
