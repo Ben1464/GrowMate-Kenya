@@ -111,6 +111,17 @@ const solutions = [
        
     },
     { 
+        problem: "Coffee Thrips", 
+        infestationimage: "./images/coffee thrips.jpg",
+        description: "Thrips damage coffee crops by feeding on leaves, buds, and berries, causing scars, deformities, and reduced yield. Control involves monitoring, natural predators, and insecticides.",
+        solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
         problem: " Avocado Thrips", 
         infestationimage: "./images/Avocado thrips.jpeg",
         description: "Thrips on avocados feeds on young leaves, flowers, and fruit, leaving behind scars, discoloration, and deformities. On fruit, their feeding results in silvery or brownish patches, reducing market quality and value. Thrips populations thrive in warm, dry conditions, making regular monitoring and early intervention essential to minimize their impact on avocado yields.",
