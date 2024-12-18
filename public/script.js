@@ -569,7 +569,7 @@ async function uploadImage() {
 
         if (!file) {
             alert("Please select an image to upload.");
-            loadingSpinner.style.display = 'none'; // Hide the spinner
+            loadingSpinner.style.display = 'none';
             return;
         }
 
@@ -673,15 +673,15 @@ function showContactList() {
     contactList.appendChild(table);
 }
 
-// Event listener for automatic search
+
 window.onload = function() {
     handleAutomaticSearch();
 };
 
 const logoImages = [
-    "./images/Landing page.jpg", // Replace with your first image path
-    "./images/Landing image 2.jpg", // Replace with your second image path
-    "./images/Landing image 3.avif"  // Replace with your third image path
+    "./images/Landing page.jpg", 
+    "./images/Landing image 2.jpg", 
+    "./images/Landing image 3.avif" 
 ];
 
 let currentIndex = 0;
