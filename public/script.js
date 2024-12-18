@@ -113,7 +113,7 @@ const solutions = [
     { 
         problem: " Avocado Thrips", 
         infestationimage: "./images/Avocado thrips.jpeg",
-        description: "Thrips feed on young leaves, flowers, and fruit, leaving behind scars, discoloration, and deformities. On fruit, their feeding results in silvery or brownish patches, reducing market quality and value. Thrips populations thrive in warm, dry conditions, making regular monitoring and early intervention essential to minimize their impact on avocado yields.",
+        description: "Thrips on avocados feeds on young leaves, flowers, and fruit, leaving behind scars, discoloration, and deformities. On fruit, their feeding results in silvery or brownish patches, reducing market quality and value. Thrips populations thrive in warm, dry conditions, making regular monitoring and early intervention essential to minimize their impact on avocado yields.",
         solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Growprid.jpg",
@@ -124,7 +124,7 @@ const solutions = [
     { 
         problem: "Tomatoes Thrips", 
         infestationimage: "./images/tomato_thrips-1.jpg",
-        description: "Thrips feed on leaves, flowers, and fruits, causing discoloration, scarring, and curling of leaves. Thrips also transmit devastating plant viruses like Tomato Spotted Wilt Virus (TSWV), which leads to stunted growth and reduced yields. Their populations typically surge in warm, dry conditions, making consistent monitoring and timely control measures essential to protect tomato crops.",
+        description: "Thrips on tomatoes feed on leaves, flowers, and fruits, causing discoloration, scarring, and curling of leaves. Thrips also transmit devastating plant viruses like Tomato Spotted Wilt Virus (TSWV), which leads to stunted growth and reduced yields. Their populations typically surge in warm, dry conditions, making consistent monitoring and timely control measures essential to protect tomato crops.",
         solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Growprid.jpg",
@@ -135,7 +135,7 @@ const solutions = [
     { 
         problem: "Capsicum Thrips", 
         infestationimage: "./images/Capsicum thrips.jpg",
-        description: "Thrips feed on leaves, flowers, and fruits, leading to silvery streaks, deformities, and scarring on the fruit surface, reducing market quality. Thrips also act as vectors for viruses like Tomato Spotted Wilt Virus (TSWV), which can severely affect plant health and yield. Regular monitoring and early control are crucial to managing thrips in capsicum crops, especially during warm, dry weather when their populations thrive.",
+        description: "Thrips on capsicums feeds on leaves, flowers, and fruits, leading to silvery streaks, deformities, and scarring on the fruit surface, reducing market quality. Thrips also act as vectors for viruses like Tomato Spotted Wilt Virus (TSWV), which can severely affect plant health and yield. Regular monitoring and early control are crucial to managing thrips in capsicum crops, especially during warm, dry weather when their populations thrive.",
         solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Growprid.jpg",
@@ -168,8 +168,30 @@ const solutions = [
     },
    
     { 
-        problem: "Early blight", 
+        problem: "Tomatoes Early blight", 
         infestationimage: "./images/tomatoes early blight.jpg",
+        description: "Early blight is caused by the fungus, Alternaria solani, which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Potatoes Early blight", 
+        infestationimage: "./images/early-blight-potatoes.jpg",
+        description: "Early blight in potatoes, caused by Alternaria solani, appears as dark, concentric spots on leaves, leading to yellowing, drying, and premature defoliation. It thrives in warm, humid conditions, reducing tuber size and yield. Control includes resistant varieties, crop rotation, and timely fungicide application.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Watermelons Early blight", 
+        infestationimage: "./images/watermelon early b light.jpg",
         description: "Early blight is caused by the fungus, Alternaria solani, which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
@@ -181,7 +203,18 @@ const solutions = [
     { 
         problem: "Capsicum Powdery Mildew", 
         infestationimage: "./images/Capsicum powdery mildew.jpeg",
-        description: "Powdery mildew causes a powdery growth on the surface of leaves, buds, young shoots, fruits, and flowers. It is caused by the fungi, Alternaria solani.",
+        description: "Powdery mildew in capsicum, caused by Leveillula taurica or Oidium spp., appears as white, powdery patches on leaves, stems, and sometimes fruits, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions, reducing plant vigor and yield. Control includes resistant varieties, proper spacing, and fungicide application.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Watermelon Powdery Mildew", 
+        infestationimage: "./images/Watermelon powdery mildew.jpg",
+        description: "Powdery mildew in watermelon, caused by Podosphaera xanthii or Erysiphe cichoracearum, appears as white, powdery spots on leaves and stems, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions and reduces fruit quality. Control involves resistant varieties, proper spacing, and fungicides.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
         image: "./images/Azokon.jpg",
