@@ -100,16 +100,17 @@ const solutions = [
        
     },
     { 
-        problem: "Onions Thrips", 
+        problem: "Onion Thrips", 
         infestationimage: "./images/Onion thrips.jpg",
-        description: "Thrips are tiny, slender insects that can cause significant damage to onion crops. They feed on the plant's leaves by piercing the surface and sucking out the cell contents, resulting in silvery streaks, discoloration, and curling of leaves. Severe infestations can weaken the plant, reduce bulb size, and lower overall yield. Thrips populations often increase in hot, dry conditions, making regular monitoring and timely control measures critical for managing their impact on onion crops.",
-        solution: "Use <strong>Growprid</strong> 5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        description: "Thrips damage onion crops by feeding on leaves, causing silvery streaks, curling, and reduced photosynthesis. Severe infestations stunt growth, deform bulbs, and lower yields. They thrive in hot, dry conditions and may transmit diseases like Iris Yellow Spot Virus.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
         availablepacksize:"25gms,50gms,1kg.",
         pricerange:"(300-350),(600-650),(8800-9000)"
        
     },
+    
     { 
         problem: "Coffee Thrips", 
         infestationimage: "./images/coffee thrips.jpg",
