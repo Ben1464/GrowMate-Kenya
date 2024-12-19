@@ -402,17 +402,7 @@ const solutions = [
     },
     
     
-    { 
-        problem: "Tuta Absoluta ", 
-        infestationimage: "./images/Tuta 2.jpg",
-        description: "Larvae of Tuta absoluta attack leaves, buds, stems, flowers, calyces, and tomato fruit. Then severely attacked tomato fruits lose their commercial value. ",
-        solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
-        image: "./images/Spinotech.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
-       
-    },
+    
     { 
         problem: "Fruit and flowering foliar", 
         infestationimage: "./images/Flowering tomatoes.jpg",
