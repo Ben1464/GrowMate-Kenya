@@ -4,7 +4,7 @@ const solutions = [
         infestationimage: "./images/TOmatoes septoria leaf rust.jpg",
         description: "Septoria leaf spot is caused by a fungus, Septoria lycopersici. It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -15,7 +15,7 @@ const solutions = [
         infestationimage: "./images/Onion purple blotch.jpg",
         description: "Onion purple blotch, caused by Alternaria porri, forms purple spots with yellow halos on leaves, leading to tissue death and reduced yields. It thrives in warm, humid conditions, requiring proper sanitation and timely fungicide use for control.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -26,7 +26,7 @@ const solutions = [
         infestationimage: "./images/Onion downey mildew.JPG",
         description: "Downy mildew in onions, caused by Peronospora destructor, produces pale yellow spots on leaves that develop into grayish-purple mold. It weakens plants, reduces bulb size, and thrives in cool, humid conditions. Effective control includes proper spacing, drainage, and fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -37,7 +37,7 @@ const solutions = [
         infestationimage: "./images/TOmatoes septoria leaf rust.jpg",
         description: "Septoria leaf spot is caused by a fungus, Septoria lycopersici. It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -82,7 +82,7 @@ const solutions = [
         infestationimage: "./images/Azokon in muguka.jpg",
         description: "Powdery mildew causes a powdery growth on the surface of leaves, buds, young shoots, fruits, and flowers. It is caused by the fungi, Alternate solani.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -159,9 +159,9 @@ const solutions = [
     { 
         problem: "Azokon", 
         infestationimage: "./images/Azokon.jpg",
-        description: "Contains <strong>Azoxystrobin 250 g/l + Difenoconazole 150 g/l</strong>,Unique combination of synergetic active ingredients that has excellent eradicate, systemic preventive and curative and translaminar properties against a wide range of fungal infections on crops.",
+        description: " Azokon contains <strong>Azoxystrobin 250 g/l + Difenoconazole 150 g/l</strong>,Unique combination of synergetic active ingredients that has excellent eradicate, systemic preventive and curative and translaminar properties against a wide range of fungal infections on crops.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/tomatoes early blight.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -172,7 +172,7 @@ const solutions = [
         infestationimage: "./images/Ascochyta disease.jpeg",
         description: "<strong>Ascochyta Blight</strong> is a significant fungal disease affecting various crops, particularly legumes like chickpeas, lentils, and peas. It is caused by pathogens from the genus Ascochyta. This disease can severely impact crop yield and quality under favorable conditions, especially cool, wet weather.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -184,7 +184,7 @@ const solutions = [
         infestationimage: "./images/tomatoes early blight.jpg",
         description: "Early blight is caused by the fungus, Alternaria solani, which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -195,7 +195,7 @@ const solutions = [
         infestationimage: "./images/early-blight-potatoes.jpg",
         description: "Early blight in potatoes, caused by Alternaria solani, appears as dark, concentric spots on leaves, leading to yellowing, drying, and premature defoliation. It thrives in warm, humid conditions, reducing tuber size and yield. Control includes resistant varieties, crop rotation, and timely fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -206,7 +206,7 @@ const solutions = [
         infestationimage: "./images/watermelon early b light.jpg",
         description: "Early blight is caused by the fungus, Alternaria solani, which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -217,7 +217,7 @@ const solutions = [
         infestationimage: "./images/Capsicum powdery mildew.jpeg",
         description: "Powdery mildew in capsicum, caused by Leveillula taurica or Oidium spp., appears as white, powdery patches on leaves, stems, and sometimes fruits, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions, reducing plant vigor and yield. Control includes resistant varieties, proper spacing, and fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -228,7 +228,7 @@ const solutions = [
         infestationimage: "./images/Watermelon powdery mildew.jpg",
         description: "Powdery mildew in watermelon, caused by Podosphaera xanthii or Erysiphe cichoracearum, appears as white, powdery spots on leaves and stems, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions and reduces fruit quality. Control involves resistant varieties, proper spacing, and fungicides.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -239,7 +239,7 @@ const solutions = [
         infestationimage: "./images/Capsicum powdery mildew.jpeg",
         description: "Alternaria leaf spot is a common foliar disease of brassica crops caused by the fungal pathogen Alternaria brassicicola. The disease can be a problem for many brassica crops including cabbage, cauliflower, kale, brussels sprouts, and broccoli.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
@@ -315,7 +315,7 @@ const solutions = [
         infestationimage: "./images/Azolaxyl.jpg",
         description: "Contains <strong>Azoxystrobin 282 g/l + Metalaxyl-M 108 g/l </strong>An excellent broad-spectrum systemic fungicide with translaminar, curative, and protectant action against a wide range of diseases for use on a wide range of plants. It combines two highly effective molecules synergistically for enhanced crop protection.Target: Puccinia spp./Rusts, Powdery mildew, Black rot, Scab, Blight, Anthracnose, Leaf spot, Downy mildew, Botrytis",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Tomatoes AZolax.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
@@ -326,10 +326,10 @@ const solutions = [
         infestationimage: "./images/avocado anthraconos.jpg",
         description: "New avocado shoots develops brown or purplish lesions, and shoots may dieback. Infected flower heads turns dark and die without producing fruit,young fruit form and then drop.",
         solution: "Use <strong>Azolaxy</strong> 5mls/20ltrs + <strong>Polysil </strong>2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 21 days. If the infestation is adverse repeat after 14 days.",
-        image: "./images/Azolaxyl.jpg",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
     { 
@@ -337,10 +337,10 @@ const solutions = [
         infestationimage: "./images/avacado Phytophthora fruit rot.jpeg",
         description: "Diseased fruit have a distinct circular black area that usually occurs near the bottom portion or lowest spot on the fruit. Internally, the rot extends into the flesh, darkening it in the same pattern as on the affected surface. Affected fruit are often touching the soil or are hanging on low branches.",
         solution: "Use <strong>Azolaxy</strong> 5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 21 days. If the infestation is adverse repeat after 14 days.",
-        image: "./images/Azolaxyl.jpg",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Azokon.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
     { 
@@ -348,53 +348,33 @@ const solutions = [
         infestationimage: "./images/Tuta 2.jpg",
         description: "Larvae of Tuta absoluta attack leaves, buds, stems, flowers, calyces, and tomato fruit. Then severely attacked tomato fruits lose their commercial value. ",
         solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Spinotech.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
-    { 
-        problem: "Ballworms", 
-        infestationimage: "./images/ballworms.webp",
-        description: " Young bollworm caterpillars enter tomatoes and start feeding. You will see a small, darkened hole at the base of the tomato fruit near the fruit stem. If you find such a darkened hole, open the fruit to search for the bollworm. Fruits with caterpillars inside decay or ripen fast.",
-        solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
-        image: "./images/Spinotech.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
-       
-    },
+   
     
     { 
         problem: "Spinotech", 
         infestationimage: "./images/Spinotech.jpg",
         description: "SPINOTECH 480 SC Contains <strong>Spinosad 480 g/l</strong>, Spinosad is a naturally occurring substance found in Spinotech 480 SC that specifically affects GABA-gated ion channels and neuroreceptors in the nervous system of insects.Target: Thrips, Gypsy moth, Leaf beetles, Tent caterpillars, Colorado potato beetle, Leaf miner",
         solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Capsicum thrips.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
     
-    { 
-        problem: "Ballworm ", 
-        infestationimage: "./images/ballworms.webp",
-        description: " Young bollworm caterpillars enter tomatoes and start feeding. You will see a small, darkened hole at the base of the tomato fruit near the fruit stem. If you find such a darkened hole, open the fruit to search for the bollworm. Fruits with caterpillars inside decay or ripen fast.",
-        solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil<strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
-        image: "./images/Spinotech.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
-       
-    },
+    
     { 
         problem: "Ballworm", 
         infestationimage: "./images/ballworms.webp",
         description: " Young bollworm caterpillars enter tomatoes and start feeding. You will see a small, darkened hole at the base of the tomato fruit near the fruit stem. If you find such a darkened hole, open the fruit to search for the bollworm. Fruits with caterpillars inside decay or ripen fast.",
         solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil<strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14 days. If the infestation is adverse repeat after 7 days.",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Spinotech.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
