@@ -520,7 +520,7 @@ function searchSolutions() {
 // Load TensorFlow.js model
 async function loadModel() {
     try {
-        const model = await tf.loadLayersModel('./model/model.json'); // Ensure correct path
+        const model = await tf.loadLayersModel('./model/model.json'); // Path from the model
         console.log("Model loaded successfully");
         return model;
     } catch (error) {
