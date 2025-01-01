@@ -550,7 +550,7 @@ async function uploadImage() {
         const file = fileInput.files[0];
 
         if (!file) {
-            alert("Please select an image to upload.");
+            alert("Please select an image for diagnosis.");
             loadingSpinner.style.display = 'none';
             return;
         }
