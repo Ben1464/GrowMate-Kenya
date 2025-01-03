@@ -285,8 +285,8 @@ const solutions = [
         solution: "Use <strong>Zincbomate</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Flowering coffee Zincbomate.jpg",
-        availablepacksize:"1ltr.",
-        pricerange:"(2600-2700)"
+        availablepacksize:"250mls,500mls,1ltr.",
+        pricerange:"(450-500),(700-800),(1200-1300)"
        
     },
     { 
@@ -296,8 +296,8 @@ const solutions = [
         solution: "Use <strong>Calcibora</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Water melon calcibora.webp",
-       availablepacksize:"1ltr.",
-        pricerange:"(2600-2700)"
+       availablepacksize:"250mls,500mks,1ltr.",
+        pricerange:"(500-550),(900-1000),(1800-1900)"
        
     },
     { 
@@ -307,8 +307,8 @@ const solutions = [
         solution: "Use <strong>Boroking</strong> 20mls/20ltrs + <strong>Polysil<strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/coffee flowering.jpg",
-        availablepacksize:"1ltr.",
-        pricerange:"(2600-2700)"
+        availablepacksize:"250mls,500mls,1ltr.",
+        pricerange:"(350-400),(550-650),(1100-1200)"
     },
     { 
         problem: "Azolaxyl", 
