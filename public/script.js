@@ -203,6 +203,28 @@ const solutions = [
        
     },
     { 
+        problem: "Rice Blast", 
+        infestationimage: "./images/RiceBlast1.jpg",
+        description: " Rice blast, caused by the fungus <strong>Magnaporthe oryzae,</strong> is a major disease affecting rice crops. It manifests as diamond-shaped lesions on leaves, neck rot on panicles, and stem lesions, leading to reduced photosynthesis, weakened plants, and significant yield loss. Favorable conditions include high humidity and wet foliage, making timely fungicide application and resistant varieties critical for management.",
+        solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Rice Blast", 
+        infestationimage: "./images/Rice Bakanae disease.png",
+        description: " Rice Bakanae disease, caused by the fungus <strong>Fusarium fujikuroi,</strong> leads to abnormal elongation of seedlings, yellowing, weak stems, and reduced tillering. Affected plants often topple over and may die prematurely. It spreads through infected seeds, making seed treatment and the use of certified, disease-free seeds essential for control.",
+        solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
         problem: "Ascochyta", 
         infestationimage: "./images/Ascochyta disease.jpeg",
         description: "<strong>Ascochyta Blight</strong> is a significant fungal disease affecting various crops, particularly legumes like chickpeas, lentils, and peas. It is caused by pathogens from the genus Ascochyta. This disease can severely impact crop yield and quality under favorable conditions, especially cool, wet weather.",
@@ -217,7 +239,7 @@ const solutions = [
     { 
         problem: "Tomatoes Early blight", 
         infestationimage: "./images/tomatoes early blight.jpg",
-        description: "Early blight is caused by the fungus, Alternaria solani, which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
+        description: "Early blight is caused by the fungus, <strong>Alternaria solani,</strong> which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
@@ -228,7 +250,7 @@ const solutions = [
     { 
         problem: "Potatoes Early blight", 
         infestationimage: "./images/early-blight-potatoes.jpg",
-        description: "Early blight in potatoes, caused by Alternaria solani, appears as dark, concentric spots on leaves, leading to yellowing, drying, and premature defoliation. It thrives in warm, humid conditions, reducing tuber size and yield. Control includes resistant varieties, crop rotation, and timely fungicide application.",
+        description: "Early blight in potatoes, caused by <strong>Alternaria solani,</strong> appears as dark, concentric spots on leaves, leading to yellowing, drying, and premature defoliation. It thrives in warm, humid conditions, reducing tuber size and yield. Control includes resistant varieties, crop rotation, and timely fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
@@ -239,7 +261,7 @@ const solutions = [
     { 
         problem: "Watermelons Early blight", 
         infestationimage: "./images/watermelon early b light.jpg",
-        description: "Early blight is caused by the fungus, Alternaria solani, which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
+        description: "Early blight is caused by the fungus, <strong>Alternaria solani,</strong> which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
@@ -250,7 +272,7 @@ const solutions = [
     { 
         problem: "Capsicum Powdery Mildew", 
         infestationimage: "./images/Capsicum powdery mildew.jpeg",
-        description: "Powdery mildew in capsicum, caused by Leveillula taurica or Oidium spp., appears as white, powdery patches on leaves, stems, and sometimes fruits, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions, reducing plant vigor and yield. Control includes resistant varieties, proper spacing, and fungicide application.",
+        description: "Powdery mildew in capsicum, caused by <strong>Leveillula taurica or Oidium spp,</strong> appears as white, powdery patches on leaves, stems, and sometimes fruits, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions, reducing plant vigor and yield. Control includes resistant varieties, proper spacing, and fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
@@ -261,7 +283,7 @@ const solutions = [
     { 
         problem: "Watermelon Powdery Mildew", 
         infestationimage: "./images/Watermelon powdery mildew.jpg",
-        description: "Powdery mildew in watermelon, caused by Podosphaera xanthii or Erysiphe cichoracearum, appears as white, powdery spots on leaves and stems, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions and reduces fruit quality. Control involves resistant varieties, proper spacing, and fungicides.",
+        description: "Powdery mildew in watermelon, caused by <strong>Podosphaera xanthii or Erysiphe cichoracearum,</strong> appears as white, powdery spots on leaves and stems, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions and reduces fruit quality. Control involves resistant varieties, proper spacing, and fungicides.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
@@ -272,7 +294,7 @@ const solutions = [
     { 
         problem: "Alternaria Leaf Rust", 
         infestationimage: "./images/Capsicum powdery mildew.jpeg",
-        description: "Alternaria leaf spot is a common foliar disease of brassica crops caused by the fungal pathogen Alternaria brassicicola. The disease can be a problem for many brassica crops including cabbage, cauliflower, kale, brussels sprouts, and broccoli.",
+        description: "Alternaria leaf spot is a common foliar disease of brassica crops caused by the fungal pathogen <strong>Alternaria brassicicola.</strong> The disease can be a problem for many brassica crops including cabbage, cauliflower, kale, brussels sprouts, and broccoli.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/Azokon.jpg",
