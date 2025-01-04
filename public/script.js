@@ -100,6 +100,19 @@ const solutions = [
        
     },
     { 
+        problem: "Black Aphids", 
+        infestationimage: "./images/Black aphids.jpeg",
+        description: "Black aphids (Aphis fabae) are pests that infest legumes like beans and peas, feeding on plant sap and weakening growth. They cause leaf curling, stunting, and reduced yields while promoting sooty mold through honeydew secretion. They also transmit plant viruses, making early detection and control essential.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    
+    
+    { 
         problem: "Onion Thrips", 
         infestationimage: "./images/Onion thrips.jpg",
         description: "Thrips damage onion crops by feeding on leaves, causing silvery streaks, curling, and reduced photosynthesis. Severe infestations stunt growth, deform bulbs, and lower yields. They thrive in hot, dry conditions and may transmit diseases like Iris Yellow Spot Virus.",
@@ -148,6 +161,28 @@ const solutions = [
         problem: "Capsicum Thrips", 
         infestationimage: "./images/Capsicum thrips.jpg",
         description: "Thrips on capsicums feeds on leaves, flowers, and fruits, leading to silvery streaks, deformities, and scarring on the fruit surface, reducing market quality. Thrips also act as vectors for viruses like Tomato Spotted Wilt Virus (TSWV), which can severely affect plant health and yield. Regular monitoring and early control are crucial to managing thrips in capsicum crops, especially during warm, dry weather when their populations thrive.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Citrus Thrips", 
+        infestationimage: "./images/Citrus thrips.jpg",
+        description: "Thrips feed on citrus leaves, flowers, and fruits by rasping surfaces and sucking sap. This causes silvery scars, leaf curling, and fruit distortion, reducing yield quality. Severe infestations may stunt growth, and some thrips also transmit viral diseases, necessitating timely monitoring and control.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Cucabits Thrips", 
+        infestationimage: "./images/Cucabits Thrips.jpg",
+        description: "Thrips attack cucurbits like cucumbers, melons, and squash by feeding on leaves, flowers, and fruits. Their feeding causes silvery streaks, leaf curling, and distorted fruits, reducing crop quality and yield. They can also transmit viral diseases, making prompt control essential.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Growprid.jpg",
