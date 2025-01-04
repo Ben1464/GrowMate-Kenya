@@ -214,7 +214,7 @@ const solutions = [
        
     },
     { 
-        problem: "Rice Blast", 
+        problem: "Rice Bakanae", 
         infestationimage: "./images/Rice Bakanae disease.png",
         description: " Rice Bakanae disease, caused by the fungus <strong>Fusarium fujikuroi,</strong> leads to abnormal elongation of seedlings, yellowing, weak stems, and reduced tillering. Affected plants often topple over and may die prematurely. It spreads through infected seeds, making seed treatment and the use of certified, disease-free seeds essential for control.",
         solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
