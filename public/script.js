@@ -203,6 +203,28 @@ const solutions = [
        
     },
     { 
+        problem: "Muguka Blight", 
+        infestationimage:"./images/Muguka picture.jpg",
+        description: "Blight affects Muguka by causing dark spots on leaves and stems, leading to yellowing, curling, and defoliation. Severe infections cause stem dieback, reducing yield and quality. It spreads quickly in warm, humid conditions, requiring timely removal of infected parts and fungicide application for control.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Miraa Blight", 
+        infestationimage:"./images/MIraa photo.jpg",
+        description: "Blight affects Miraa by causing dark spots on leaves and stems, leading to yellowing, curling, and defoliation. Severe infections cause stem dieback, reducing yield and quality. It spreads quickly in warm, humid conditions, requiring timely removal of infected parts and fungicide application for control.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
         problem: "Rice Blast", 
         infestationimage: "./images/RiceBlast1.jpg",
         description: " Rice blast, caused by the fungus <strong>Magnaporthe oryzae,</strong> is a major disease affecting rice crops. It manifests as diamond-shaped lesions on leaves, neck rot on panicles, and stem lesions, leading to reduced photosynthesis, weakened plants, and significant yield loss. Favorable conditions include high humidity and wet foliage, making timely fungicide application and resistant varieties critical for management.",
