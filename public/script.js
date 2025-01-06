@@ -1,6 +1,6 @@
 const solutions = [
     { 
-        problem: "Septoria Leaf Spot", 
+        problem: "Septoria leaf spot", 
         infestationimage: "./images/TOmatoes septoria leaf rust.jpg",
         description: "Septoria leaf spot is caused by a fungus, Septoria lycopersici. It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -22,7 +22,7 @@ const solutions = [
        
     },
     { 
-        problem: "Onions Downy Mildew", 
+        problem: "Onions downy mildew", 
         infestationimage: "./images/Onion downey mildew.JPG",
         description: "Downy mildew in onions, caused by Peronospora destructor, produces pale yellow spots on leaves that develop into grayish-purple mold. It weakens plants, reduces bulb size, and thrives in cool, humid conditions. Effective control includes proper spacing, drainage, and fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -33,7 +33,7 @@ const solutions = [
        
     },
     { 
-        problem: "Septoria Leaf Rust", 
+        problem: "Septoria leaf rust", 
         infestationimage: "./images/TOmatoes septoria leaf rust.jpg",
         description: "Septoria leaf spot is caused by a fungus, Septoria lycopersici. It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -67,7 +67,7 @@ const solutions = [
     },
     
     { 
-        problem: "Crop Stress", 
+        problem: "Crop stress", 
         infestationimage: "./images/TOmatoes stress.jpg",
         description: "Crop stress occurs when crops face adverse conditions that hinder their growth and productivity. It can be caused by environmental factors (drought, extreme temperatures, nutrient deficiencies), biological factors (pests, diseases, weeds), or chemical factors (improper pesticide use, pollutants). Effective management involves addressing the specific cause and ensuring proper soil, water, and pest management.",
         solution: "Spray 10mls/20ltrs.SEAGOLD® is a pure, natural fermented seaweed liquid biofertilizer enriched with chelating NPK. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits, and cereals.",
@@ -78,7 +78,7 @@ const solutions = [
        
     },
     { 
-        problem: "Muguka Powdery Mildew", 
+        problem: "Muguka powdery mildew", 
         infestationimage: "./images/Azokon in muguka.jpg",
         description: "Powdery mildew causes a powdery growth on the surface of leaves, buds, young shoots, fruits, and flowers. It is caused by the fungi, Alternate solani.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -100,7 +100,7 @@ const solutions = [
        
     },
     { 
-        problem: "Black Aphids", 
+        problem: "Black aphids", 
         infestationimage: "./images/Black aphids.jpeg",
         description: "Black aphids (Aphis fabae) are pests that infest legumes like beans and peas, feeding on plant sap and weakening growth. They cause leaf curling, stunting, and reduced yields while promoting sooty mold through honeydew secretion. They also transmit plant viruses, making early detection and control essential.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
@@ -113,7 +113,7 @@ const solutions = [
     
     
     { 
-        problem: "Onion Thrips", 
+        problem: "Onion thrips", 
         infestationimage: "./images/Onion thrips.jpg",
         description: "Thrips damage onion crops by feeding on leaves, causing silvery streaks, curling, and reduced photosynthesis. Severe infestations stunt growth, deform bulbs, and lower yields. They thrive in hot, dry conditions and may transmit diseases like Iris Yellow Spot Virus.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
@@ -125,7 +125,7 @@ const solutions = [
     },
     
     { 
-        problem: "Coffee Thrips", 
+        problem: "Coffee thrips", 
         infestationimage: "./images/coffee thrips.jpg",
         description: "Thrips damage coffee crops by feeding on leaves, buds, and berries, causing scars, deformities, and reduced yield. Control involves monitoring, natural predators, and insecticides.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
@@ -136,7 +136,7 @@ const solutions = [
        
     },
     { 
-        problem: " Avocado Thrips", 
+        problem: " Avocado thrips", 
         infestationimage: "./images/Avocado thrips.jpeg",
         description: "Thrips on avocados feeds on young leaves, flowers, and fruit, leaving behind scars, discoloration, and deformities. On fruit, their feeding results in silvery or brownish patches, reducing market quality and value. Thrips populations thrive in warm, dry conditions, making regular monitoring and early intervention essential to minimize their impact on avocado yields.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
@@ -147,7 +147,7 @@ const solutions = [
        
     },
     { 
-        problem: "Tomatoes Thrips", 
+        problem: "Tomatoes thrips", 
         infestationimage: "./images/tomato_thrips-1.jpg",
         description: "Thrips on tomatoes feed on leaves, flowers, and fruits, causing discoloration, scarring, and curling of leaves. Thrips also transmit devastating plant viruses like Tomato Spotted Wilt Virus (TSWV), which leads to stunted growth and reduced yields. Their populations typically surge in warm, dry conditions, making consistent monitoring and timely control measures essential to protect tomato crops.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
@@ -158,7 +158,7 @@ const solutions = [
        
     },
     { 
-        problem: "Capsicum Thrips", 
+        problem: "Capsicum thrips", 
         infestationimage: "./images/Capsicum thrips.jpg",
         description: "Thrips on capsicums feeds on leaves, flowers, and fruits, leading to silvery streaks, deformities, and scarring on the fruit surface, reducing market quality. Thrips also act as vectors for viruses like Tomato Spotted Wilt Virus (TSWV), which can severely affect plant health and yield. Regular monitoring and early control are crucial to managing thrips in capsicum crops, especially during warm, dry weather when their populations thrive.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
@@ -169,7 +169,7 @@ const solutions = [
        
     },
     { 
-        problem: "Citrus Thrips", 
+        problem: "Citrus thrips", 
         infestationimage: "./images/Citrus thrips.jpg",
         description: "Thrips feed on citrus leaves, flowers, and fruits by rasping surfaces and sucking sap. This causes silvery scars, leaf curling, and fruit distortion, reducing yield quality. Severe infestations may stunt growth, and some thrips also transmit viral diseases, necessitating timely monitoring and control.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
@@ -180,7 +180,7 @@ const solutions = [
        
     },
     { 
-        problem: "Cucabits Thrips", 
+        problem: "Cucabits thrips", 
         infestationimage: "./images/Cucabits Thrips.jpg",
         description: "Thrips attack cucurbits like cucumbers, melons, and squash by feeding on leaves, flowers, and fruits. Their feeding causes silvery streaks, leaf curling, and distorted fruits, reducing crop quality and yield. They can also transmit viral diseases, making prompt control essential.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
@@ -203,7 +203,7 @@ const solutions = [
        
     },
     { 
-        problem: "Muguka Blight", 
+        problem: "Muguka blight", 
         infestationimage:"./images/Muguka picture.jpg",
         description: "Blight affects Muguka by causing dark spots on leaves and stems, leading to yellowing, curling, and defoliation. Severe infections cause stem dieback, reducing yield and quality. It spreads quickly in warm, humid conditions, requiring timely removal of infected parts and fungicide application for control.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -214,7 +214,29 @@ const solutions = [
        
     },
     { 
-        problem: "Miraa Blight", 
+        problem: "Legumes bacterial blight", 
+        infestationimage:"./images/Beans bacterial blight.jpg",
+        description: "Legumes Bacterial Blight is caused by bacteria like <strong>Pseudomonas syringae,</strong> causing brown lesions with yellow halos on leaves and pods. It spreads through infected seeds and water, thriving in humid conditions. Control involves clean seeds, crop rotation, and resistant varieties.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Bean rust", 
+        infestationimage:"./images/Bean rust.jpg",
+        description: "Bean Rust is a fungal disease caused by <strong>Uromyces appendiculatus.</strong> It forms rust-colored pustules on leaves, stems, and pods, reducing photosynthesis and yield. It spreads via windborne spores and thrives in warm, humid conditions. Control includes resistant varieties, crop rotation, and fungicides.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Miraa blight", 
         infestationimage:"./images/MIraa photo.jpg",
         description: "Blight affects Miraa by causing dark spots on leaves and stems, leading to yellowing, curling, and defoliation. Severe infections cause stem dieback, reducing yield and quality. It spreads quickly in warm, humid conditions, requiring timely removal of infected parts and fungicide application for control.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -225,7 +247,7 @@ const solutions = [
        
     },
     { 
-        problem: "Rice Blast", 
+        problem: "Rice blast", 
         infestationimage: "./images/RiceBlast1.jpg",
         description: " Rice blast, caused by the fungus <strong>Magnaporthe oryzae,</strong> is a major disease affecting rice crops. It manifests as diamond-shaped lesions on leaves, neck rot on panicles, and stem lesions, leading to reduced photosynthesis, weakened plants, and significant yield loss. Favorable conditions include high humidity and wet foliage, making timely fungicide application and resistant varieties critical for management.",
         solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -236,7 +258,7 @@ const solutions = [
        
     },
     { 
-        problem: "Rice Bakanae", 
+        problem: "Rice bakanae", 
         infestationimage: "./images/Rice Bakanae disease.png",
         description: " Rice Bakanae disease, caused by the fungus <strong>Fusarium fujikuroi,</strong> leads to abnormal elongation of seedlings, yellowing, weak stems, and reduced tillering. Affected plants often topple over and may die prematurely. It spreads through infected seeds, making seed treatment and the use of certified, disease-free seeds essential for control.",
         solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -259,7 +281,7 @@ const solutions = [
     },
    
     { 
-        problem: "Tomatoes Early blight", 
+        problem: "Tomatoes early blight", 
         infestationimage: "./images/tomatoes early blight.jpg",
         description: "Early blight is caused by the fungus, <strong>Alternaria solani,</strong> which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -270,7 +292,7 @@ const solutions = [
        
     },
     { 
-        problem: "Potatoes Early blight", 
+        problem: "Potatoes early blight", 
         infestationimage: "./images/early-blight-potatoes.jpg",
         description: "Early blight in potatoes, caused by <strong>Alternaria solani,</strong> appears as dark, concentric spots on leaves, leading to yellowing, drying, and premature defoliation. It thrives in warm, humid conditions, reducing tuber size and yield. Control includes resistant varieties, crop rotation, and timely fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -281,7 +303,7 @@ const solutions = [
        
     },
     { 
-        problem: "Watermelons Early blight", 
+        problem: "Watermelons early blight", 
         infestationimage: "./images/watermelon early b light.jpg",
         description: "Early blight is caused by the fungus, <strong>Alternaria solani,</strong> which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -292,7 +314,7 @@ const solutions = [
        
     },
     { 
-        problem: "Capsicum Powdery Mildew", 
+        problem: "Capsicum powdery mildew", 
         infestationimage: "./images/Capsicum powdery mildew.jpeg",
         description: "Powdery mildew in capsicum, caused by <strong>Leveillula taurica or Oidium spp,</strong> appears as white, powdery patches on leaves, stems, and sometimes fruits, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions, reducing plant vigor and yield. Control includes resistant varieties, proper spacing, and fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -303,7 +325,7 @@ const solutions = [
        
     },
     { 
-        problem: "Watermelon Powdery Mildew", 
+        problem: "Watermelon powdery mildew", 
         infestationimage: "./images/Watermelon powdery mildew.jpg",
         description: "Powdery mildew in watermelon, caused by <strong>Podosphaera xanthii or Erysiphe cichoracearum,</strong> appears as white, powdery spots on leaves and stems, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions and reduces fruit quality. Control involves resistant varieties, proper spacing, and fungicides.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -314,7 +336,7 @@ const solutions = [
        
     },
     { 
-        problem: "Alternaria Leaf Rust", 
+        problem: "Alternaria leaf rust", 
         infestationimage: "./images/Capsicum powdery mildew.jpeg",
         description: "Alternaria leaf spot is a common foliar disease of brassica crops caused by the fungal pathogen <strong>Alternaria brassicicola.</strong> The disease can be a problem for many brassica crops including cabbage, cauliflower, kale, brussels sprouts, and broccoli.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -412,7 +434,7 @@ const solutions = [
        
     },
     { 
-        problem: "Phytophthora Fruit Rot", 
+        problem: "Phytophthora fruit Rot", 
         infestationimage: "./images/avacado Phytophthora fruit rot.jpeg",
         description: "Diseased fruit have a distinct circular black area that usually occurs near the bottom portion or lowest spot on the fruit. Internally, the rot extends into the flesh, darkening it in the same pattern as on the affected surface. Affected fruit are often touching the soil or are hanging on low branches.",
         solution: "Use <strong>Azolaxy</strong> 5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -423,7 +445,7 @@ const solutions = [
        
     },
     { 
-        problem: "Tuta Absoluta", 
+        problem: "Tuta absoluta", 
         infestationimage: "./images/Tuta 2.jpg",
         description: "Larvae of Tuta absoluta attack leaves, buds, stems, flowers, calyces, and tomato fruit. Then severely attacked tomato fruits lose their commercial value. ",
         solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -474,7 +496,7 @@ const solutions = [
        
     },
     { 
-        problem: "OKINAWO NPK GOLD", 
+        problem: "Okinawo", 
         infestationimage: "./images/Okinawo.jpg",
         description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
         solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
@@ -498,7 +520,7 @@ const solutions = [
        
     },
     { 
-        problem: "SEAGOLD", 
+        problem: "Seagold", 
         infestationimage: "./images/Seagold.jpg",
         description: "SEAGOLD® is a pure, natural <strong>fermented seaweed liquid biofertilizer 30% enriched with chelating NPK (12:12:17) and organic matter 10% </strong>. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits,miraa and cereals.",
         solution: "Spray 10mls/20ltrs.",
