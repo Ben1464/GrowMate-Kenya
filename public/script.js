@@ -522,7 +522,7 @@ const solutions = [
     { 
         problem: "Seagold", 
         infestationimage: "./images/Seagold.jpg",
-        description: "SEAGOLD® is a pure, natural <strong>fermented seaweed liquid biofertilizer 30% enriched with chelating NPK (12:12:17) and organic matter 10% </strong>. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits,miraa and cereals.",
+        description: "Seagold is a pure, natural <strong>fermented seaweed liquid biofertilizer 30% enriched with chelating NPK (12:12:17) and organic matter 10% </strong>. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits,miraa and cereals.",
         solution: "Spray 10mls/20ltrs.",
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/Seagold tomatoes pic.jpg",
