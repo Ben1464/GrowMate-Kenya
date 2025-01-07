@@ -416,8 +416,8 @@ const solutions = [
         problem: "Coffee pruning",
         infestationimage: "./images/coffee prunning.jpg",
         description: "Pruning coffee trees is essential for improving air circulation, reducing disease risk, and encouraging new, healthy growth. A well-pruned coffee tree focuses its energy on producing high-quality cherries, ensuring a bountiful harvest. <a href='https://wikifarmer.com/library/en/article/how-to-prune-your-coffee-trees-in-an-agroforestry-system' target='_blank'>Learn more on prunning...</a>",
-        solution: "With 16% Zinc, 2% Boron, and 5% seaweed extract, <strong>Zincbomate</strong> (20mls/20ltrs) enhances flowering, strengthens tissue, promotes nutrient uptake, and <strong>accelerates the healing of pruned branches</strong>. The seaweed extract boosts plant energy, stress tolerance, and overall health.",
-        sprayingintervals: "Repeat spray after 14-21 days, during pruning and flowering seasons.",
+        solution: "With <i>16% Zinc, 2% Boron, and 5% seaweed extract,</i> <strong>Zincbomate (20mls/20ltrs)</strong> enhances flowering, strengthens tissue, promotes nutrient uptake, and <strong>accelerates the healing of pruned branches</strong>. The seaweed extract boosts plant energy, stress tolerance, and overall health.",
+        sprayingintervals: "Repeat spray after <strong>14-21 days</strong>, during pruning and flowering seasons.",
         image: "./images/Flowering coffee Zincbomate.jpg",
         availablepacksize: "1ltr",
         pricerange: "(1250-1300)"
