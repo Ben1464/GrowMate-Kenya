@@ -404,14 +404,26 @@ const solutions = [
     { 
         problem: "Zincbomate", 
         infestationimage: "./images/Zincbomate.jpeg",
-        description: "ZINCBOMATE® Contains <strong>Water soluble Zinc (Zn) 16% , Boron (B) 2%, Seaweed extract 5% </strong> is a revolutionary foliar fertilizer, enriched with seaweed extract, designed to enhance plant growth and development by rapidly providing essential <strong>Boron</strong> and <strong>Zinc</strong> nutrients.Rapid supplementation of ZINCBOMATE® improves pollen production, enhances flower and leaf vigor, promotes fruit development, and aids bud differentiation in all agricultural crops and ornamentals.It is rich in boron and zinc, essential nutrients for key stages such as flowering",
+        description: "ZINCBOMATE® Contains <strong>Water soluble Zinc (Zn) 16% , Boron (B) 2%, Seaweed extract 5% </strong> is a revolutionary foliar fertilizer, enriched with seaweed extract, designed to enhance plant growth and development by rapidly providing essential <strong>Boron</strong> and <strong>Zinc</strong> nutrients.Rapid supplementation of ZINCBOMATE® improves pollen production, enhances flower and leaf vigor, promotes fruit development, and aids bud differentiation in all agricultural crops and ornamentals.",
         solution: "Use <strong>Zincbomate</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Flowering coffee Zincbomate.jpg",
-        availablepacksize:"250mls,500mls,1ltr.",
-        pricerange:"(450-500),(700-800),(1200-1300)"
+        availablepacksize:"1ltr.",
+        pricerange:"(1200-1300)"
        
     },
+    {
+        problem: "Coffee pruning",
+        infestationimage: "./images/coffee prunning.jpg",
+        description: "Pruning coffee trees is essential for improving air circulation, reducing disease risk, and encouraging new, healthy growth. A well-pruned coffee tree focuses its energy on producing high-quality cherries, ensuring a bountiful harvest. <a href='https://perfectdailygrind.com/2019/08/a-producers-guide-to-pruning-stumping-coffee-trees/' target='_blank'>Learn more on prunning...</a>",
+        solution: "With 16% Zinc, 2% Boron, and 5% seaweed extract, <strong>Zincbomate</strong> (20mls/20ltrs) enhances flowering, strengthens tissue, promotes nutrient uptake, and <strong>accelerates the healing of pruned branches</strong>. The seaweed extract boosts plant energy, stress tolerance, and overall health.",
+        sprayingintervals: "Repeat spray after 14-21 days, during pruning and flowering seasons.",
+        image: "./images/Flowering coffee Zincbomate.jpg",
+        availablepacksize: "1ltr",
+        pricerange: "(1250-1300)"
+    },
+    
+
     { 
         problem: "Calcibora", 
         infestationimage: "./images/Calcibora.jpeg",
