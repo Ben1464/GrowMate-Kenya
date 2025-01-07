@@ -22,6 +22,17 @@ const solutions = [
        
     },
     { 
+        problem: "Onions smut", 
+        infestationimage: "./images/onion smut.jpg",
+        description: "Onion Smut is a fungal disease caused by Urocystis cepulae, marked by dark streaks on leaves and bulbs, stunted growth, and seedling death. It thrives in cool, moist soils and persists in fields for years. Control involves crop rotation, resistant varieties, and soil fungicides.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
         problem: "Onions downy mildew", 
         infestationimage: "./images/Onion downey mildew.JPG",
         description: "Downy mildew in onions, caused by Peronospora destructor, produces pale yellow spots on leaves that develop into grayish-purple mold. It weakens plants, reduces bulb size, and thrives in cool, humid conditions. Effective control includes proper spacing, drainage, and fungicide application.",
@@ -116,6 +127,17 @@ const solutions = [
         problem: "Onion thrips", 
         infestationimage: "./images/Onion thrips.jpg",
         description: "Thrips damage onion crops by feeding on leaves, causing silvery streaks, curling, and reduced photosynthesis. Severe infestations stunt growth, deform bulbs, and lower yields. They thrive in hot, dry conditions and may transmit diseases like Iris Yellow Spot Virus.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Onion leaf miner", 
+        infestationimage: "./images/Onion leaf miners.jpeg",
+        description: "Onion Leaf Miners <strong>(Liriomyza spp.)</strong> are fly larvae that tunnel into onion leaves, reducing photosynthesis and stunting growth. Management includes crop rotation, removing infested plants, insect-proof nets, and targeted insecticides. Biological controls like parasitic wasps can also help.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Growprid.jpg",
