@@ -432,6 +432,16 @@ const solutions = [
         availablepacksize: "1ltr",
         pricerange: "(1250-1300)"
     },
+    {
+        problem: "Citrus pruning",
+        infestationimage: "./images/Citrus pruning.webp",
+        description: "Citrus trees benefit from pruning after harvest, usually in late winter or early spring. Trim away dead, damaged, or crowded branches to allow better airflow, sunlight penetration, and pest prevention.<a href='https://www.wikihow.com/Prune-Citrus-Trees' target='_blank'>Learn more on prunning...</a>",
+        solution: "With <i>16% Zinc, 2% Boron, and 5% seaweed extract,</i> <strong>Zincbomate (20mls/20ltrs)</strong> enhances flowering, strengthens tissue, promotes nutrient uptake, and <strong>accelerates the healing of pruned branches</strong>. The seaweed extract boosts plant energy, stress tolerance, and overall health. <a href='https://grow-mate-kenya.vercel.app/?search=zincbomate' target='_blank'>Learn more on Zincbomate...</a>",
+        sprayingintervals: "Repeat spray after <strong>14-21 days</strong>, during pruning and flowering seasons.",
+        image: "./images/Zincbomate.jpeg",
+        availablepacksize: "1ltr",
+        pricerange: "(1250-1300)"
+    },
 
     { 
         problem: "Calcibora", 
