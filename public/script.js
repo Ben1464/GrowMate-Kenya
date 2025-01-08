@@ -2,7 +2,7 @@ const solutions = [
     { 
         problem: "Septoria leaf spot", 
         infestationimage: "./images/TOmatoes septoria leaf rust.jpg",
-        description: "Septoria leaf spot is caused by a fungus, Septoria lycopersici. It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
+        description: "Septoria leaf spot is caused by a fungus, <strong>Septoria lycopersici.</strong> It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Azokon.jpg",
@@ -13,7 +13,7 @@ const solutions = [
     { 
         problem: "Onions purple blotch", 
         infestationimage: "./images/Onion purple blotch.jpg",
-        description: "Onion purple blotch, caused by Alternaria porri, forms purple spots with yellow halos on leaves, leading to tissue death and reduced yields. It thrives in warm, humid conditions, requiring proper sanitation and timely fungicide use for control.",
+        description: "Onion purple blotch, caused by <strong>Alternaria porri,</strong> forms purple spots with yellow halos on leaves, leading to tissue death and reduced yields. It thrives in warm, humid conditions, requiring proper sanitation and timely fungicide use for control.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Azokon.jpg",
@@ -24,7 +24,7 @@ const solutions = [
     { 
         problem: "Onions smut", 
         infestationimage: "./images/onion smut.jpg",
-        description: "Onion Smut is a fungal disease caused by Urocystis cepulae, marked by dark streaks on leaves and bulbs, stunted growth, and seedling death. It thrives in cool, moist soils and persists in fields for years. Control involves crop rotation, resistant varieties, and soil fungicides.",
+        description: "Onion Smut is a fungal disease caused by <strong>Urocystis cepulae,</strong> marked by dark streaks on leaves and bulbs, stunted growth, and seedling death. It thrives in cool, moist soils and persists in fields for years. Control involves crop rotation, resistant varieties, and soil fungicides.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Azokon.jpg",
@@ -35,7 +35,7 @@ const solutions = [
     { 
         problem: "Onions downy mildew", 
         infestationimage: "./images/Onion downey mildew.JPG",
-        description: "Downy mildew in onions, caused by Peronospora destructor, produces pale yellow spots on leaves that develop into grayish-purple mold. It weakens plants, reduces bulb size, and thrives in cool, humid conditions. Effective control includes proper spacing, drainage, and fungicide application.",
+        description: "Downy mildew in onions, caused by <strong>Peronospora destructor,</strong> produces pale yellow spots on leaves that develop into grayish-purple mold. It weakens plants, reduces bulb size, and thrives in cool, humid conditions. Effective control includes proper spacing, drainage, and fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Azokon.jpg",
@@ -46,7 +46,7 @@ const solutions = [
     { 
         problem: "Septoria leaf rust", 
         infestationimage: "./images/TOmatoes septoria leaf rust.jpg",
-        description: "Septoria leaf spot is caused by a fungus, Septoria lycopersici. It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
+        description: "Septoria leaf spot is caused by a fungus, <strong>Septoria lycopersici.</strong> It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Azokon.jpg",
@@ -91,7 +91,7 @@ const solutions = [
     { 
         problem: "Muguka powdery mildew", 
         infestationimage: "./images/Azokon in muguka.jpg",
-        description: "Powdery mildew causes a powdery growth on the surface of leaves, buds, young shoots, fruits, and flowers. It is caused by the fungi, Alternate solani.",
+        description: "Powdery mildew causes a powdery growth on the surface of leaves, buds, young shoots, fruits, and flowers. It is caused by the <strong>fungi, Alternate solani.</strong>",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/Azokon.jpg",
@@ -102,7 +102,7 @@ const solutions = [
     { 
         problem: "Growprid", 
         infestationimage: "./images/Growprid.jpg",
-        description: "Contains <strong>Acetamiprid 700 g/kg</strong>,A systemic insecticide with translaminar activity and with both contact and stomach action.Target: Aphids, Thrips, Spider mite, Whiteflies, Sawflies, Leaf miner, Leaf hoppers, Mirids",
+        description: "Contains <strong>Acetamiprid 700 g/kg</strong>,Growprid is a systemic insecticide with translaminar activity and with both contact and stomach action.Target: Aphids, Thrips, Spider mite, Whiteflies, Sawflies, Leaf miner, Leaf hoppers, Mirids",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/coffee thrips.jpg",
@@ -113,7 +113,7 @@ const solutions = [
     { 
         problem: "Black aphids", 
         infestationimage: "./images/Black aphids.jpeg",
-        description: "Black aphids (Aphis fabae) are pests that infest legumes like beans and peas, feeding on plant sap and weakening growth. They cause leaf curling, stunting, and reduced yields while promoting sooty mold through honeydew secretion. They also transmit plant viruses, making early detection and control essential.",
+        description: "Black aphids <strong>(Aphis fabae)</strong> are pests that infest legumes like beans and peas, feeding on plant sap and weakening growth. They cause leaf curling, stunting, and reduced yields while promoting sooty mold through honeydew secretion. They also transmit plant viruses, making early detection and control essential.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Growprid.jpg",
@@ -216,7 +216,7 @@ const solutions = [
     { 
         problem: "Azokon", 
         infestationimage: "./images/Azokon.jpg",
-        description: " Azokon contains <strong>Azoxystrobin 250 g/l + Difenoconazole 150 g/l</strong>,Unique combination of synergetic active ingredients that has excellent eradicate, systemic preventive and curative and translaminar properties against a wide range of fungal infections on crops.",
+        description: " Azokon contains <strong>Azoxystrobin 250 g/l + Difenoconazole 150 g/l</strong>,Unique combination of synergetic active ingredients that has excellent eradicate, systemic preventive and curative and translaminar properties against a wide range of fungal and bacterial infections on all crops.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/tomatoes early blight.jpg",
