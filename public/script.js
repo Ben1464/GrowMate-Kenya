@@ -772,21 +772,7 @@ function showContactList() {
             <td>Benson Mwangi</td>
             <td><a href="tel:+254719151171"><i class="fas fa-phone"></i> +254719151171</a></td>
         </tr>
-        <tr>
-            <td>Kirinyaga-Embu</td>
-            <td>Name 4</td>
-            <td><a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
-        </tr>
-        <tr>
-            <td>Meru-Isiolo</td>
-            <td>Name 6</td>
-            <td><a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
-        </tr>
-        <tr>
-            <td>Nanyuki-Nyeri</td>
-            <td>Name 8</td>
-            <td><a href="tel:1234567891"><i class="fas fa-phone"></i>1234567891</a></td>
-        </tr>`;
+       `;
     contactList.appendChild(table);
 }
 
