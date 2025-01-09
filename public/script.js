@@ -431,7 +431,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Flowering coffee Zincbomate.jpg",
         availablepacksize:"1ltr.",
-        pricerange:"(1200-1300)"
+        pricerange:"(1250-1300)"
        
     },
     {
