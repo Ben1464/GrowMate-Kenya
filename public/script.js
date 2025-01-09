@@ -314,6 +314,28 @@ const solutions = [
        
     },
     { 
+        problem: "Beans anthracnose", 
+        infestationimage: "./images/Beans Anthraconose.webp",
+        description: "Beans anthracnose, caused by <strong>Colletotrichum lindemuthianum,</strong> affects beans in cool, wet conditions, causing dark lesions on leaves, stems, and pods, and discolored seeds. It spreads via infected seeds and rain splash. Control includes resistant seeds, crop rotation, debris removal, fungicides, and proper spacing.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Beans root rot", 
+        infestationimage: "./images/beans root rot.webp",
+        description: "Beans root rot, caused by fungi such as <strong>Pythium and Rhizoctonia,</strong> thrives in poorly drained, waterlogged soils. It leads to root discoloration, decay, stunted growth, and wilting. The disease spreads through infected soil and water. Control involves planting in well-drained soils, crop rotation, using resistant varieties, and treating seeds with fungicides.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
         problem: "Potatoes early blight", 
         infestationimage: "./images/early-blight-potatoes.jpg",
         description: "Early blight in potatoes, caused by <strong>Alternaria solani,</strong> appears as dark, concentric spots on leaves, leading to yellowing, drying, and premature defoliation. It thrives in warm, humid conditions, reducing tuber size and yield. Control includes resistant varieties, crop rotation, and timely fungicide application.",
