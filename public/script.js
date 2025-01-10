@@ -121,7 +121,17 @@ const solutions = [
         pricerange:"(300-350),(600-650),(8800-9000)"
        
     },
-    
+    { 
+        problem: "Green aphids", 
+        infestationimage: "./images/Green aphids.jpeg",
+        description: "Green Aphids <strong>(Myzus persicae)</strong> are pests that feed on plant sap, causing leaf curling, yellowing, stunting, and reduced yields. They secrete honeydew, leading to sooty mold, and transmit plant viruses, making early control vital.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
     
     { 
         problem: "Onion thrips", 
@@ -205,6 +215,17 @@ const solutions = [
         problem: "Cucabits thrips", 
         infestationimage: "./images/Cucabits Thrips.jpg",
         description: "Thrips attack cucurbits like cucumbers, melons, and squash by feeding on leaves, flowers, and fruits. Their feeding causes silvery streaks, leaf curling, and distorted fruits, reducing crop quality and yield. They can also transmit viral diseases, making prompt control essential.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Kales Thrips", 
+        infestationimage: "./images/Kales thrips.jpg",
+        description: "Kale Thrips <strong>(Thrips tabaci)</strong> are tiny pests that feed on kale leaves, causing silvering, curling, and discoloration. Severe infestations reduce yield and quality. They also transmit plant viruses, making early detection and control essential.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Growprid.jpg",
