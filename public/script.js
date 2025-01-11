@@ -837,7 +837,7 @@ function showContactList() {
          <tr>
             <td>Kirinyaga-Kiambu</td>
             <td>Erick Mwenda</td>
-            <td><a href="tel:+254746759008><i class="fas fa-phone"></i> +254746759008</a></td>
+            <td><a href="tel:+254746759008"><i class="fas fa-phone"></i> +254746759008</a></td>
         </tr>
          <tr>
             <td>Embu-Meru</td>
