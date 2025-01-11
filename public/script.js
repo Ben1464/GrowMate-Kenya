@@ -493,7 +493,7 @@ const solutions = [
         solution: "Use <strong>Calcibora</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Water melon calcibora.webp",
-       availablepacksize:"250mls,500mks,1ltr.",
+        availablepacksize:"250mls,500mks,1ltr.",
         pricerange:"(500-550),(900-1000),(1800-1900)"
        
     },
@@ -833,6 +833,16 @@ function showContactList() {
             <td>Mt.Kenya Sales Lead</td>
             <td>Benson Mwangi</td>
             <td><a href="tel:+254719151171"><i class="fas fa-phone"></i> +254719151171</a></td>
+        </tr>
+         <tr>
+            <td>Kirinyaga-Kiambu</td>
+            <td>Erick Mwenda</td>
+            <td><a href="tel:+254719151171"><i class="fas fa-phone"></i> +254746759008</a></td>
+        </tr>
+         <tr>
+            <td>Embu-Meru</td>
+            <td>Clinton Muigai</td>
+            <td><a href="tel:+254719151171"><i class="fas fa-phone"></i> +254701771190</a></td>
         </tr>
        `;
     contactList.appendChild(table);
