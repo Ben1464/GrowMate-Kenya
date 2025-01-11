@@ -837,12 +837,12 @@ function showContactList() {
          <tr>
             <td>Kirinyaga-Kiambu</td>
             <td>Erick Mwenda</td>
-            <td><a href="tel:+254719151171"><i class="fas fa-phone"></i> +254746759008</a></td>
+            <td><a href="tel:+254746759008><i class="fas fa-phone"></i> +254746759008</a></td>
         </tr>
          <tr>
             <td>Embu-Meru</td>
             <td>Clinton Muigai</td>
-            <td><a href="tel:+254719151171"><i class="fas fa-phone"></i> +254701771190</a></td>
+            <td><a href="tel:+254701771190"><i class="fas fa-phone"></i> +254701771190</a></td>
         </tr>
        `;
     contactList.appendChild(table);
