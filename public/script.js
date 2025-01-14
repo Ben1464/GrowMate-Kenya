@@ -530,6 +530,17 @@ const solutions = [
        
     },
     { 
+        problem: "Mango Anthracnose", 
+        infestationimage: "./images/Mango anthraconose.jpg",
+        description: "Anthracnose, caused by <strong>Colletotrichum fungi,</strong> affects mangoes by causing dark lesions on fruits, flowers, and leaves. It leads to fruit rot, premature ripening, and crop loss, especially in humid conditions. Control measures include sanitation, fungicides, and removing infected parts.",
+        solution: "Use <strong>Azolaxy</strong> 5mls/20ltrs + <strong>Polysil </strong>2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Azokon.jpg",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
         problem: "Phytophthora fruit Rot", 
         infestationimage: "./images/avacado Phytophthora fruit rot.jpeg",
         description: "Diseased fruit have a distinct circular black area that usually occurs near the bottom portion or lowest spot on the fruit. Internally, the rot extends into the flesh, darkening it in the same pattern as on the affected surface. Affected fruit are often touching the soil or are hanging on low branches.",
