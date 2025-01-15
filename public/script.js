@@ -132,7 +132,17 @@ const solutions = [
         pricerange:"(300-350),(600-650),(8800-9000)"
        
     },
-    
+    { 
+        problem: "Mango weevils", 
+        infestationimage: "./images/Mango weavils.jpg",
+        description: "Mango weevils are small beetles that infest mango fruits and seeds. Adults lay eggs on fruits, and the larvae burrow into the seed, causing internal damage. They reduce fruit quality and seed viability, making control crucial. Management includes orchard hygiene, removing infested fruits, and using systemic insecticides or biological controls.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
     { 
         problem: "Onion thrips", 
         infestationimage: "./images/Onion thrips.jpg",
