@@ -462,7 +462,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Flowering coffee Zincbomate.jpg",
         availablepacksize:"1ltr.",
-        pricerange:"(1250-1300)"
+        pricerange:"(1400-1500)"
        
     },
     {
@@ -473,7 +473,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after <strong>14-21 days</strong>, during pruning and flowering seasons.",
         image: "./images/Flowering coffee Zincbomate.jpg",
         availablepacksize: "1ltr",
-        pricerange: "(1250-1300)"
+        pricerange: "(1400-1500)"
     },
     {
         problem: "Avocado pruning",
@@ -483,7 +483,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after <strong>14-21 days</strong>, during pruning and flowering seasons.",
         image: "./images/Zincbomate.jpeg",
         availablepacksize: "1ltr",
-        pricerange: "(1250-1300)"
+        pricerange: "(1400-1500)"
     },
     {
         problem: "Citrus pruning",
@@ -493,7 +493,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after <strong>14-21 days</strong>, during pruning and flowering seasons.",
         image: "./images/Zincbomate.jpeg",
         availablepacksize: "1ltr",
-        pricerange: "(1250-1300)"
+        pricerange: "(1400-1500)"
     },
 
     { 
