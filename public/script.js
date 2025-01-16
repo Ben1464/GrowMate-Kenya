@@ -5,7 +5,7 @@ const solutions = [
         description: "Septoria leaf spot is caused by a fungus, <strong>Septoria lycopersici.</strong> It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -16,7 +16,7 @@ const solutions = [
         description: "Onion purple blotch, caused by <strong>Alternaria porri,</strong> forms purple spots with yellow halos on leaves, leading to tissue death and reduced yields. It thrives in warm, humid conditions, requiring proper sanitation and timely fungicide use for control.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -27,7 +27,7 @@ const solutions = [
         description: "Onion Smut is a fungal disease caused by <strong>Urocystis cepulae,</strong> marked by dark streaks on leaves and bulbs, stunted growth, and seedling death. It thrives in cool, moist soils and persists in fields for years. Control involves crop rotation, resistant varieties, and soil fungicides.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -38,7 +38,7 @@ const solutions = [
         description: "Downy mildew in onions, caused by <strong>Peronospora destructor,</strong> produces pale yellow spots on leaves that develop into grayish-purple mold. It weakens plants, reduces bulb size, and thrives in cool, humid conditions. Effective control includes proper spacing, drainage, and fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -49,7 +49,7 @@ const solutions = [
         description: "Septoria leaf spot is caused by a fungus, <strong>Septoria lycopersici.</strong> It is one of the most destructive diseases of tomato foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -94,7 +94,7 @@ const solutions = [
         description: "Powdery mildew causes a powdery growth on the surface of leaves, buds, young shoots, fruits, and flowers. It is caused by the <strong>fungi, Alternate solani.</strong>",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 14-21 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -246,7 +246,7 @@ const solutions = [
     
     { 
         problem: "Azokon", 
-        infestationimage: "./images/Azokon.jpg",
+        infestationimage: "./images/azokon.png",
         description: " Azokon contains <strong>Azoxystrobin 250 g/l + Difenoconazole 150 g/l</strong>,Unique combination of synergetic active ingredients that has excellent eradicate, systemic preventive and curative and translaminar properties against a wide range of fungal and bacterial infections on all crops.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
@@ -261,7 +261,7 @@ const solutions = [
         description: "Blight affects Muguka by causing dark spots on leaves and stems, leading to yellowing, curling, and defoliation. Severe infections cause stem dieback, reducing yield and quality. It spreads quickly in warm, humid conditions, requiring timely removal of infected parts and fungicide application for control.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -272,7 +272,7 @@ const solutions = [
         description: "Legumes Bacterial Blight is caused by bacteria like <strong>Pseudomonas syringae,</strong> causing brown lesions with yellow halos on leaves and pods. It spreads through infected seeds and water, thriving in humid conditions. Control involves clean seeds, crop rotation, and resistant varieties.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -283,7 +283,7 @@ const solutions = [
         description: "Bean Rust is a fungal disease caused by <strong>Uromyces appendiculatus.</strong> It forms rust-colored pustules on leaves, stems, and pods, reducing photosynthesis and yield. It spreads via windborne spores and thrives in warm, humid conditions. Control includes resistant varieties, crop rotation, and fungicides.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -294,7 +294,7 @@ const solutions = [
         description: "Blight affects Miraa by causing dark spots on leaves and stems, leading to yellowing, curling, and defoliation. Severe infections cause stem dieback, reducing yield and quality. It spreads quickly in warm, humid conditions, requiring timely removal of infected parts and fungicide application for control.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -305,7 +305,7 @@ const solutions = [
         description: " Rice blast, caused by the fungus <strong>Magnaporthe oryzae,</strong> is a major disease affecting rice crops. It manifests as diamond-shaped lesions on leaves, neck rot on panicles, and stem lesions, leading to reduced photosynthesis, weakened plants, and significant yield loss. Favorable conditions include high humidity and wet foliage, making timely fungicide application and resistant varieties critical for management.",
         solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -316,7 +316,7 @@ const solutions = [
         description: " Rice Bakanae disease, caused by the fungus <strong>Fusarium fujikuroi,</strong> leads to abnormal elongation of seedlings, yellowing, weak stems, and reduced tillering. Affected plants often topple over and may die prematurely. It spreads through infected seeds, making seed treatment and the use of certified, disease-free seeds essential for control.",
         solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -327,7 +327,7 @@ const solutions = [
         description: "<strong>Ascochyta Blight</strong> is a significant fungal disease affecting various crops, particularly legumes like chickpeas, lentils, and peas. It is caused by pathogens from the genus Ascochyta. This disease can severely impact crop yield and quality under favorable conditions, especially cool, wet weather.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -337,11 +337,11 @@ const solutions = [
         problem: "Tomatoes early blight", 
         infestationimage: "./images/tomatoes early blight.jpg",
         description: "Early blight is caused by the fungus, <strong>Alternaria solani,</strong> which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
-        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Azokon.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
        
     },
     { 
@@ -350,7 +350,7 @@ const solutions = [
         description: "Beans anthracnose, caused by <strong>Colletotrichum lindemuthianum,</strong> affects beans in cool, wet conditions, causing dark lesions on leaves, stems, and pods, and discolored seeds. It spreads via infected seeds and rain splash. Control includes resistant seeds, crop rotation, debris removal, fungicides, and proper spacing.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -361,7 +361,7 @@ const solutions = [
         description: "Beans root rot, caused by fungi such as <strong>Pythium and Rhizoctonia,</strong> thrives in poorly drained, waterlogged soils. It leads to root discoloration, decay, stunted growth, and wilting. The disease spreads through infected soil and water. Control involves planting in well-drained soils, crop rotation, using resistant varieties, and treating seeds with fungicides.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -370,22 +370,22 @@ const solutions = [
         problem: "Potatoes early blight", 
         infestationimage: "./images/early-blight-potatoes.jpg",
         description: "Early blight in potatoes, caused by <strong>Alternaria solani,</strong> appears as dark, concentric spots on leaves, leading to yellowing, drying, and premature defoliation. It thrives in warm, humid conditions, reducing tuber size and yield. Control includes resistant varieties, crop rotation, and timely fungicide application.",
-        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Azokon.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
        
     },
     { 
         problem: "Watermelons early blight", 
         infestationimage: "./images/watermelon early b light.jpg",
         description: "Early blight is caused by the fungus, <strong>Alternaria solani,</strong> which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
-        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Azokon.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
        
     },
     { 
@@ -394,7 +394,7 @@ const solutions = [
         description: "Powdery mildew in capsicum, caused by <strong>Leveillula taurica or Oidium spp,</strong> appears as white, powdery patches on leaves, stems, and sometimes fruits, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions, reducing plant vigor and yield. Control includes resistant varieties, proper spacing, and fungicide application.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -405,7 +405,7 @@ const solutions = [
         description: "Powdery mildew in watermelon, caused by <strong>Podosphaera xanthii or Erysiphe cichoracearum,</strong> appears as white, powdery spots on leaves and stems, leading to yellowing, curling, and defoliation. It thrives in warm, humid conditions and reduces fruit quality. Control involves resistant varieties, proper spacing, and fungicides.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -416,7 +416,7 @@ const solutions = [
         description: "Alternaria leaf spot is a common foliar disease of brassica crops caused by the fungal pathogen <strong>Alternaria brassicicola.</strong> The disease can be a problem for many brassica crops including cabbage, cauliflower, kale, brussels sprouts, and broccoli.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -534,7 +534,7 @@ const solutions = [
         description: "New avocado shoots develops brown or purplish lesions, and shoots may dieback. Infected flower heads turns dark and die without producing fruit,young fruit form and then drop.",
         solution: "Use <strong>Azolaxy</strong> 5mls/20ltrs + <strong>Polysil </strong>2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -545,7 +545,7 @@ const solutions = [
         description: "Anthracnose, caused by <strong>Colletotrichum fungi,</strong> affects mangoes by causing dark lesions on fruits, flowers, and leaves. It leads to fruit rot, premature ripening, and crop loss, especially in humid conditions. Control measures include sanitation, fungicides, and removing infected parts.",
         solution: "Use <strong>Azolaxy</strong> 5mls/20ltrs + <strong>Polysil </strong>2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -556,7 +556,7 @@ const solutions = [
         description: "Diseased fruit have a distinct circular black area that usually occurs near the bottom portion or lowest spot on the fruit. Internally, the rot extends into the flesh, darkening it in the same pattern as on the affected surface. Affected fruit are often touching the soil or are hanging on low branches.",
         solution: "Use <strong>Azolaxy</strong> 5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Azokon.jpg",
+        image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
@@ -638,7 +638,7 @@ const solutions = [
     },
     { 
         problem: "Seagold", 
-        infestationimage: "./images/Seagold.jpg",
+        infestationimage: "./images/seagold.jpeg",
         description: "Seagold is a pure, natural <strong>fermented seaweed liquid biofertilizer 30% enriched with chelating NPK (12:12:17) and organic matter 10% </strong>. It helps plants overcome stress and stimulates growth, enhancing overall plant condition and production. Suitable for various crops including vegetables, fruits,miraa and cereals.",
         solution: "Spray 10mls/20ltrs.",
         sprayingintervals: "Repeat spray after every 14-21 days.",
