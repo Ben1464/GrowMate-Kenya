@@ -468,7 +468,7 @@ const solutions = [
     {
         problem: "Coffee pruning",
         infestationimage: "./images/coffee prunning.jpg",
-        description: "Pruning coffee trees is essential for improving air circulation, reducing disease risk, and encouraging new, healthy growth. A well-pruned coffee tree focuses its energy on producing high-quality cherries, ensuring a bountiful harvest. <a href='https://wikifarmer.com/library/en/article/how-to-prune-your-coffee-trees-in-an-agroforestry-system' target='_blank'>Learn more on prunning...</a>",
+        description: "Pruning coffee trees is essential for improving air circulation, reducing disease risk, and encouraging new, healthy growth. A well-pruned coffee tree focuses its energy on producing high-quality cherries, ensuring a bountiful harvest. <a href='https://wikifarmer.com/library/en/article/how-to-prune-your-coffee-trees-in-an-agroforestry-system' target='_blank'>How to prune coffee trees...</a>",
         solution: "With <i>16% Zinc, 2% Boron, and 5% seaweed extract,</i> <strong>Zincbomate (20mls/20ltrs)</strong> enhances flowering, strengthens tissue, promotes nutrient uptake, and <strong>accelerates the healing of pruned branches</strong>. The seaweed extract boosts plant energy, stress tolerance, and overall health. <a href='https://grow-mate-kenya.vercel.app/?search=zincbomate' target='_blank'>Learn more on Zincbomate...</a>",
         sprayingintervals: "Repeat spray after <strong>14-21 days</strong>, during pruning and flowering seasons.",
         image: "./images/Flowering coffee Zincbomate.jpg",
@@ -478,7 +478,7 @@ const solutions = [
     {
         problem: "Avocado pruning",
         infestationimage: "./images/Avocado prunning.jpg",
-        description: "Pruning avocado trees after harvest boost growth, improve fruit yield, and maintain tree health. Focus on removing dead, weak, or overcrowded branches to enhance sunlight penetration, air circulation, and pest control.<a href='https://www.ediblebackyard.co.nz/how-to-prune-an-avocado/#:~:text=An%20annual%20prune%20makes%20for,remove%20all%20the%20fruitful%20wood.' target='_blank'>Learn more on prunning...</a>",
+        description: "Pruning avocado trees after harvest boost growth, improve fruit yield, and maintain tree health. Focus on removing dead, weak, or overcrowded branches to enhance sunlight penetration, air circulation, and pest control.<a href='https://www.ediblebackyard.co.nz/how-to-prune-an-avocado/#:~:text=An%20annual%20prune%20makes%20for,remove%20all%20the%20fruitful%20wood.' target='_blank'>How to prune avocado trees...</a>",
         solution: "With <i>16% Zinc, 2% Boron, and 5% seaweed extract,</i> <strong>Zincbomate (20mls/20ltrs)</strong> enhances flowering, strengthens tissue, promotes nutrient uptake, and <strong>accelerates the healing of pruned branches</strong>. The seaweed extract boosts plant energy, stress tolerance, and overall health. <a href='https://grow-mate-kenya.vercel.app/?search=zincbomate' target='_blank'>Learn more on Zincbomate...</a>",
         sprayingintervals: "Repeat spray after <strong>14-21 days</strong>, during pruning and flowering seasons.",
         image: "./images/Zincbomate.jpeg",
@@ -488,7 +488,7 @@ const solutions = [
     {
         problem: "Citrus pruning",
         infestationimage: "./images/Citrus pruning.webp",
-        description: "Citrus trees benefit from pruning after harvest, usually in late winter or early spring. Trim away dead, damaged, or crowded branches to allow better airflow, sunlight penetration, and pest prevention.<a href='https://www.wikihow.com/Prune-Citrus-Trees' target='_blank'>Learn more on prunning...</a>",
+        description: "Citrus trees benefit from pruning after harvest, usually in late winter or early spring. Trim away dead, damaged, or crowded branches to allow better airflow, sunlight penetration, and pest prevention.<a href='https://www.wikihow.com/Prune-Citrus-Trees' target='_blank'>How to prune citrus trees...</a>",
         solution: "With <i>16% Zinc, 2% Boron, and 5% seaweed extract,</i> <strong>Zincbomate (20mls/20ltrs)</strong> enhances flowering, strengthens tissue, promotes nutrient uptake, and <strong>accelerates the healing of pruned branches</strong>. The seaweed extract boosts plant energy, stress tolerance, and overall health. <a href='https://grow-mate-kenya.vercel.app/?search=zincbomate' target='_blank'>Learn more on Zincbomate...</a>",
         sprayingintervals: "Repeat spray after <strong>14-21 days</strong>, during pruning and flowering seasons.",
         image: "./images/Zincbomate.jpeg",
