@@ -644,7 +644,7 @@ const solutions = [
         sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/Seagold tomatoes pic.jpg",
         availablepacksize:"250mls,500mls,1ltr.",
-        pricerange:"(600-650),(1150-1200),(1900-2000)"
+        pricerange:"(700-750),(1250-1300),(2200-2300)"
        
     },
     
