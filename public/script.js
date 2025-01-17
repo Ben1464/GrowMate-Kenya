@@ -599,7 +599,7 @@ const solutions = [
     { 
         problem: "Manlaxyl", 
         infestationimage: "./images/manlaxyl.png",
-        description: "MANLAXYL 68 WG Contains <strong>Mancozeb 640 g/kg + Metalaxyl-M 40 g/kg </strong>offers a unique combination of synergetic active ingredients for foliar spray and soil application against a wide range of agricultural crop diseases.",
+        description: "MANLAXYL 68 WG Contains <strong>Mancozeb 640 g/kg + Metalaxyl-M 40 g/kg </strong>offers a unique combination of synergetic active ingredients for foliar spray and soil application against a wide range of bacterial and fungal infections in agricultural crop diseases.",
         solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days",
         image: "./images/early-blight-potatoes.jpg",
