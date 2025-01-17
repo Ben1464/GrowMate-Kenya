@@ -585,7 +585,17 @@ const solutions = [
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
-    
+    { 
+        problem: "POlysil", 
+        infestationimage: "./images/polysil.png",
+        description: "It is an organosilicon-based non-ionic wetter and spreader that is highly effective in improving spray coverage, adhesion, and penetration of insecticides, fungicides, Foliar fertilizers and herbicides.",
+        solution: "Use <strong>Polysil</strong> 2/20ltrs.",
+        sprayingintervals: "Incoporate everytime you spray.",
+        image: "./images/sticker spraying.jpg",
+        availablepacksize:"25mls,50mls,100mls,250mls,1ltr.",
+        pricerange:"(150-180),(200-250),(400-500),(1000-1100),(2700-2800)"
+       
+    },
     
     { 
         problem: "Ballworm", 
