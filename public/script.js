@@ -586,17 +586,27 @@ const solutions = [
        
     },
     { 
-        problem: "POlysil", 
+        problem: "Polysil", 
         infestationimage: "./images/polysil.png",
         description: "It is an organosilicon-based non-ionic wetter and spreader that is highly effective in improving spray coverage, adhesion, and penetration of insecticides, fungicides, Foliar fertilizers and herbicides.",
-        solution: "Use <strong>Polysil</strong> 2/20ltrs.",
+        solution: "Use <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Incoporate everytime you spray.",
         image: "./images/sticker spraying.jpg",
         availablepacksize:"25mls,50mls,100mls,250mls,1ltr.",
         pricerange:"(150-180),(200-250),(400-500),(1000-1100),(2700-2800)"
        
     },
-    
+    { 
+        problem: "Manlaxyl", 
+        infestationimage: "./images/manlaxyl.png",
+        description: "MANLAXYL 68 WG Contains <strong>Mancozeb 640 g/kg + Metalaxyl-M 40 g/kg </strong>offers a unique combination of synergetic active ingredients for foliar spray and soil application against a wide range of agricultural crop diseases.",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days",
+        image: "./images/early-blight-potatoes.jpg",
+        availablepacksize:"25mls,50mls,100mls,250mls,1ltr.",
+        pricerange:"(150-180),(200-250),(400-500),(1000-1100),(2700-2800)"
+       
+    },
     { 
         problem: "Ballworm", 
         infestationimage: "./images/ballworms.webp",
@@ -868,12 +878,12 @@ function showContactList() {
          <tr>
             <td>Kirinyaga-Kiambu</td>
             <td>Erick Mwenda</td>
-            <td><a href="tel:+254746759008"><i class="fas fa-phone"></i> +254746759008</a></td>
+            <td><a href="tel:+254742591767"><i class="fas fa-phone"></i> +254742591767</a></td>
         </tr>
          <tr>
             <td>Embu-Meru</td>
             <td>Clinton Muigai</td>
-            <td><a href="tel:+254701771190"><i class="fas fa-phone"></i> +254701771190</a></td>
+            <td><a href="tel:+254742591859"><i class="fas fa-phone"></i> +254742591859</a></td>
         </tr>
        `;
     contactList.appendChild(table);
