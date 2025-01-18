@@ -422,6 +422,39 @@ const solutions = [
        
     },
     { 
+        problem: "Coffee berry disease", 
+        infestationimage: "./images/coffee berry disease.jpg",
+        description: "Coffee Berry Disease (CBD) is caused by the fungus <strong>Colletotrichum kahawae</strong> or <strong>Colletotrichum gloeosporioides</strong>, which attacks coffee berries and causes yellowing, brown spots, and defoliation. It is also known as Colletotrichum kahawae, affecting green coffee berries and leading to dark lesions and premature drop. It thrives in cool, humid conditions and can cause up to 80% crop loss. Control includes resistant varieties, proper hygiene, and fungicide application.",
+        solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "CBD", 
+        infestationimage: "./images/coffee berry disease.jpg",
+        description: "Coffee Berry Disease (CBD) is caused by the fungus <strong>Colletotrichum kahawae</strong> or <strong>Colletotrichum gloeosporioides</strong>, which attacks coffee berries and causes yellowing, brown spots, and defoliation. It is also known as Colletotrichum kahawae, affecting green coffee berries and leading to dark lesions and premature drop. It thrives in cool, humid conditions and can cause up to 80% crop loss. Control includes resistant varieties, proper hygiene, and fungicide application.",
+        solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Coffee berry blight", 
+        infestationimage: "./images/Coffee berry blight.jpg",
+        description: "Coffee Berry Blight (CBB) is caused by the fungus <strong>colletotrichum gloeosporioides</strong>, attacking coffee berries and causing dark spots, rot, and premature drop. It thrives in warm, humid conditions and can lead to significant crop losses. Management involves proper pruning, sanitation, and timely fungicide use.",
+        solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
         problem: "Avacado phosphorus deficiency", 
         infestationimage: "./images/Phosporus deficiency in avocado.jpeg",
         description: "Young leaves may be dark green and have purplish veins, especially on the underside of leaves. Older leaves can develop an overall purplish tint and tip dieback. Leaves may be curled, distorted, smaller than normal, or drop prematurely.",
@@ -471,7 +504,7 @@ const solutions = [
         description: "Pruning coffee trees is essential for improving air circulation, reducing disease risk, and encouraging new, healthy growth. A well-pruned coffee tree focuses its energy on producing high-quality cherries, ensuring a bountiful harvest. <a href='https://wikifarmer.com/library/en/article/how-to-prune-your-coffee-trees-in-an-agroforestry-system' target='_blank'>How to prune coffee trees...</a>",
         solution: "With <i>16% Zinc, 2% Boron, and 5% seaweed extract,</i> <strong>Zincbomate (20mls/20ltrs)</strong> enhances flowering, strengthens tissue, promotes nutrient uptake, and <strong>accelerates the healing of pruned branches</strong>. The seaweed extract boosts plant energy, stress tolerance, and overall health. <a href='https://grow-mate-kenya.vercel.app/?search=zincbomate' target='_blank'>Learn more on Zincbomate...</a>",
         sprayingintervals: "Repeat spray after <strong>14-21 days</strong>, during pruning and flowering seasons.",
-        image: "./images/Flowering coffee Zincbomate.jpg",
+        image: "./images/Zincbomate.jpeg",
         availablepacksize: "1ltr",
         pricerange: "(1500-1600)"
     },
