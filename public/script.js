@@ -278,6 +278,39 @@ const solutions = [
        
     },
     { 
+        problem: "Passion fruit alternaria disease", 
+        infestationimage:"./images/Passion fruits alternaria fruits .jpg",
+        description: "Alternaria disease, caused by <strong>Alternaria passiflorae,</strong> affects passion fruit leaves, stems, and fruits, causing dark lesions and fruit drop. It thrives in humid conditions and can be managed through pruning, removing infected material, and using fungicides.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Passion fruit septoria disease", 
+        infestationimage:"./images/passion fruit septoria.jpeg",
+        description: "Septoria disease, caused by <strong>Septoria passiflorae,</strong> affects passion fruit leaves, causing small, dark brown spots with yellow halos that can lead to defoliation. It thrives in wet, humid conditions and is managed through pruning, removing infected leaves, and applying fungicides.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Passion fruit woodiness virus", 
+        infestationimage:"./images/Passion woodiness potyvirus.jpeg",
+        description: "Woodiness virus, caused by the <strong>Potyvirus</strong>, affects passion fruit, causing distorted, hardened fruits and yellowing, mottled leaves. It spreads through aphids and infected plant material. Management includes using virus-free seedlings, controlling aphids, and removing infected plants.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
         problem: "Bean rust", 
         infestationimage:"./images/Bean rust.jpg",
         description: "Bean Rust is a fungal disease caused by <strong>Uromyces appendiculatus.</strong> It forms rust-colored pustules on leaves, stems, and pods, reducing photosynthesis and yield. It spreads via windborne spores and thrives in warm, humid conditions. Control includes resistant varieties, crop rotation, and fungicides.",
