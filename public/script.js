@@ -132,17 +132,7 @@ const solutions = [
         pricerange:"(300-350),(600-650),(8800-9000)"
        
     },
-    { 
-        problem: "Mango weevils", 
-        infestationimage: "./images/Mango weavils.jpg",
-        description: "Mango weevils are small beetles that infest mango fruits and seeds. Adults lay eggs on fruits, and the larvae burrow into the seed, causing internal damage. They reduce fruit quality and seed viability, making control crucial. Management includes orchard hygiene, removing infested fruits, and using systemic insecticides or biological controls.",
-        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
-        sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Growprid.jpg",
-        availablepacksize:"25gms,50gms,1kg.",
-        pricerange:"(300-350),(600-650),(8800-9000)"
-       
-    },
+    
     { 
         problem: "Onion thrips", 
         infestationimage: "./images/Onion thrips.jpg",
@@ -243,7 +233,72 @@ const solutions = [
         pricerange:"(300-350),(600-650),(8800-9000)"
        
     },
-    
+    { 
+        problem: "Papaya mealybugs", 
+        infestationimage: "./images/papaya-mealybug1.jpg",
+        description: "Papaya mealybugs <strong>Paracoccus marginatus</strong> are sap-sucking pests that damage papaya by feeding on leaves, stems, and fruits, causing yellowing, leaf curl, and fruit distortion. They secrete honeydew, leading to sooty mold growth. Effective control includes biological agents like parasitoid wasps, chemical sprays, and maintaining field hygiene.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Papaya thrips", 
+        infestationimage: "./images/Papaya thrips.png",
+        description: "Papaya thrips <strong>Thrips parvispinus</strong> are tiny pests that feed on papaya leaves, flowers, and fruits, causing silvering, scarring, and fruit deformities. They thrive in hot, dry conditions. Control measures include biological predators, insecticidal sprays, and good field hygiene.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Mango thrips", 
+        infestationimage: "./images/Mango thrips.jpg",
+        description: "Mango thrips <strong>Scirtothrips mangiferae</strong> feed on mango flowers, leaves, and young fruits, causing scarring, discoloration, and fruit drop. They are most active in dry weather. Control includes biological predators, insecticides, and proper orchard management.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Mango gall midge", 
+        infestationimage: "./images/Mango gal midge.jpg",
+        description: "Mango gall midge <strong>Procontarinia spp.</strong> is a pest that causes small, wart-like galls on mango leaves, flowers, and shoots, leading to deformities and reduced fruit yield. Management involves pruning infected parts, applying insecticides, and maintaining orchard hygiene.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Mango weavils", 
+        infestationimage: "./images/Mango weavils.jpg",
+        description: "Mango weevils <strong>Sternochetus mangiferae</strong> infest mango seeds, causing internal damage and reducing fruit quality. They lay eggs on immature fruits, and larvae bore into the seed. Control measures include orchard sanitation, timely insecticide application, and removing infested fruits.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Mango mealybugs", 
+        infestationimage: "./images/Mango-mealybug-pest.webp",
+        description: "Mango mealybugs <strong>Drosicha mangiferae</strong>are sap-sucking pests that infest mango leaves, shoots, and fruits, causing yellowing, wilting, and fruit drop. They excrete honeydew, promoting sooty mold growth. Control includes biological agents, insecticides, and proper orchard hygiene.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
     { 
         problem: "Azokon", 
         infestationimage: "./images/azokon.png",
@@ -383,6 +438,17 @@ const solutions = [
         description: "Beans anthracnose, caused by <strong>Colletotrichum lindemuthianum,</strong> affects beans in cool, wet conditions, causing dark lesions on leaves, stems, and pods, and discolored seeds. It spreads via infected seeds and rain splash. Control includes resistant seeds, crop rotation, debris removal, fungicides, and proper spacing.",
         solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Papaya anthracnose", 
+        infestationimage: "./images/Papaya Anthraconose.jpg",
+        description: "Anthracnose in papaya is caused by <strong>Colletotrichum gloeosporioides</strong>, is a fungal disease that affects papaya, causing dark, sunken spots on ripening fruit. It thrives in warm, humid conditions and can lead to significant post-harvest losses. Management involves proper sanitation, fungicide use, and harvesting at the right maturity stage.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
