@@ -159,7 +159,7 @@ const solutions = [
     { 
         problem: "Coffee thrips", 
         infestationimage: "./images/coffee thrips.jpg",
-        description: "Thrips damage coffee crops by feeding on leaves, buds, and berries, causing scars, deformities, and reduced yield. Control involves monitoring, natural predators, and insecticides.",
+        description: "Coffee thrips <strong>Diarthrothrips coffeae</strong> are pests that feed on coffee leaves and berries, causing silvering, scarring, leaf drop, and reduced berry quality. They thrive in dry conditions. Management includes biological predators, insecticidal sprays, and maintaining field hygiene.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Growprid.jpg",
