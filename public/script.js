@@ -433,6 +433,39 @@ const solutions = [
        
     },
     { 
+        problem: "Avocado fruit rot", 
+        infestationimage: "./images/avocado fruit rot.png",
+        description: "Avocado fruit rot, often caused by <strong>Colletotrichum gloeosporioides or Phytophthora cinnamomi</strong>, results in dark, sunken lesions on the fruit, leading to decay. It spreads through infected soil, water, and plant debris, thriving in humid, wet conditions. Management includes pruning for air circulation, proper drainage, removing infected fruits, and applying appropriate fungicides.",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
+       
+    },
+    { 
+        problem: "Avocado canker", 
+        infestationimage: "./images/Avocado canker.jpg",
+        description: "Avocado canker, caused by <strong>Phytophthora spp. or Botryosphaeria spp.</strong>, results in dark, sunken lesions on branches, stems, or trunk, often exuding gum. It can weaken the tree and reduce yield. The disease spreads through wounds, contaminated tools, and water splash. Management involves pruning infected areas, sterilizing tools, improving drainage, and applying protective fungicides.",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
+       
+    },
+    { 
+        problem: "Capsicum blight", 
+        infestationimage: "./images/Capsicum blight.jpg",
+        description: "Capsicum blight, caused by <strong>Phytophthora capsici</strong>, leads to water-soaked lesions on leaves, stems, and fruits, eventually causing wilting and fruit rot. It spreads through contaminated soil, water, and plant debris, thriving in wet, humid conditions. Management includes crop rotation, well-drained soils, resistant varieties, and fungicide applications.",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
+       
+    },
+    { 
         problem: "Beans anthracnose", 
         infestationimage: "./images/Beans Anthraconose.webp",
         description: "Beans anthracnose, caused by <strong>Colletotrichum lindemuthianum,</strong> affects beans in cool, wet conditions, causing dark lesions on leaves, stems, and pods, and discolored seeds. It spreads via infected seeds and rain splash. Control includes resistant seeds, crop rotation, debris removal, fungicides, and proper spacing.",
