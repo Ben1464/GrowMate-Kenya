@@ -499,11 +499,44 @@ const solutions = [
        
     },
     { 
+        problem: "Potatoes common rust", 
+        infestationimage: "./images/Potatoes common rust.jpeg",
+        description: "Potato common rust, caused by <strong>Puccinia spp.</strong>, is a fungal disease that forms reddish-brown pustules on leaves and stems. It reduces photosynthesis and crop yield. The disease spreads via windborne spores. Manage it with resistant varieties, crop rotation, and timely fungicide application.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
         problem: "Potatoes early blight", 
         infestationimage: "./images/early-blight-potatoes.jpg",
         description: "Early blight in potatoes, caused by <strong>Alternaria solani,</strong> appears as dark, concentric spots on leaves, leading to yellowing, drying, and premature defoliation. It thrives in warm, humid conditions, reducing tuber size and yield. Control includes resistant varieties, crop rotation, and timely fungicide application.",
         solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
+       
+    },
+    { 
+        problem: "Potatoes ring rot", 
+        infestationimage: "./images/POtataoes ring rot.png",
+        description: "Potato ring rot, caused by <strong>Clavibacter michiganensis subsp. sepedonicus, </strong>is a bacterial disease marked by vascular browning, leaf wilting, and yellowing. It spreads through infected seed, contaminated tools, and poor hygiene. Use certified seed, sanitize equipment, and practice crop rotation to manage it.",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
+       
+    },
+    { 
+        problem: "Potatoes bacterial wilt", 
+        infestationimage: "./images/Potataoes bacterial wilt.webp",
+        description: "Bacterial wilt, caused by <strong>Ralstonia solanacearum</strong>, is a destructive disease affecting potatoes and other crops. It causes rapid wilting, browning of stems, and bacterial ooze. The disease spreads through contaminated soil, water, tools, and infected plant material. Manage it with crop rotation, resistant varieties, and proper sanitation.",
+        solution: "Soil drench <strong>Manlaxyl</strong> 100gms/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
         image: "./images/manlaxyl.png",
         availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
         pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
@@ -587,7 +620,7 @@ const solutions = [
        
     },
     { 
-        problem: "Avacado phosphorus deficiency", 
+        problem: "Avocado phosphorus deficiency", 
         infestationimage: "./images/Phosporus deficiency in avocado.jpeg",
         description: "Young leaves may be dark green and have purplish veins, especially on the underside of leaves. Older leaves can develop an overall purplish tint and tip dieback. Leaves may be curled, distorted, smaller than normal, or drop prematurely.",
         solution: "Use <strong>Potphite</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
@@ -598,7 +631,7 @@ const solutions = [
        
     },
     { 
-        problem: "Avacado potassium deficiency", 
+        problem: "Avocado potassium deficiency", 
         infestationimage: "./images/Avocado pottasium deficiency.jpg",
         description: "Large irregular necrotic spots are seen on old leaves, followed by interveinal chlorisis and smaller fruit size.",
         solution: "Use <strong>Okinawo Gold Fruit</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
