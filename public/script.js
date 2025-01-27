@@ -289,6 +289,28 @@ const solutions = [
        
     },
     { 
+        problem: "Cabbage thrips", 
+        infestationimage: "./images/Cabbages thrips.jpeg",
+        description: "Cabbage thrips <strong>Thrips tabaci</strong> are tiny pests that feed on cabbage and other crucifers, causing silvery streaks, leaf curling, and stunted growth. They thrive in warm, dry conditions and are managed through monitoring, crop rotation, biological controls, and insecticides.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Cabbage DBM", 
+        infestationimage: "./images/Cabbage dbm.jpeg",
+        description: "The diamondback moth <strong>Plutella xylostella</strong> is a major pest of cabbage and other crucifers. Its larvae feed on leaves, creating holes and reducing yield. It thrives in warm conditions and is controlled through monitoring, crop rotation, biological controls, and targeted insecticides.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
         problem: "Mango mealybugs", 
         infestationimage: "./images/Mango-mealybug-pest.webp",
         description: "Mango mealybugs <strong>Drosicha mangiferae</strong>are sap-sucking pests that infest mango leaves, shoots, and fruits, causing yellowing, wilting, and fruit drop. They excrete honeydew, promoting sooty mold growth. Control includes biological agents, insecticides, and proper orchard hygiene.",
