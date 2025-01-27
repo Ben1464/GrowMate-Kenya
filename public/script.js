@@ -201,6 +201,17 @@ const solutions = [
        
     },
     { 
+        problem: "Capsicum Whitefly", 
+        infestationimage: "./images/Capsicum Whiteflies.jpg",
+        description: "Capsicum whiteflies <strong>Bemisia tabaci </strong> are tiny, white-winged pests that infest capsicum crops, feeding on plant sap and causing yellowing, wilting, and stunted growth. They excrete honeydew, leading to sooty mold development, and may transmit plant viruses. Control methods include yellow sticky traps, natural predators, and insecticides.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
         problem: "Citrus thrips", 
         infestationimage: "./images/Citrus thrips.jpg",
         description: "Thrips feed on citrus leaves, flowers, and fruits by rasping surfaces and sucking sap. This causes silvery scars, leaf curling, and fruit distortion, reducing yield quality. Severe infestations may stunt growth, and some thrips also transmit viral diseases, necessitating timely monitoring and control.",
@@ -255,6 +266,7 @@ const solutions = [
         pricerange:"(300-350),(600-650),(8800-9000)"
        
     },
+    
     { 
         problem: "Mango thrips", 
         infestationimage: "./images/Mango thrips.jpg",
@@ -303,6 +315,17 @@ const solutions = [
         problem: "Cabbage DBM", 
         infestationimage: "./images/Cabbage dbm.jpeg",
         description: "The diamondback moth <strong>Plutella xylostella</strong> is a major pest of cabbage and other crucifers. Its larvae feed on leaves, creating holes and reducing yield. It thrives in warm conditions and is controlled through monitoring, crop rotation, biological controls, and targeted insecticides.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Cabbage Aphids", 
+        infestationimage: "./images/Cabbage aphids.jpg",
+        description: "Cabbage aphids <strong>Brevicoryne brassicae</strong> are small, gray-green pests that feed on brassica crops by sucking sap, causing yellowing, curling, and stunted growth. They form dense clusters, excrete honeydew, and can reduce crop yield. Control includes natural predators, insecticidal soaps, and crop rotation.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Growprid.jpg",
