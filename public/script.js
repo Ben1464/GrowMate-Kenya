@@ -201,6 +201,17 @@ const solutions = [
        
     },
     { 
+        problem: "Scales", 
+        infestationimage: "./images/Scales.jpg",
+        description: "Pest scales are small, sap-sucking insects that weaken plants. They are either soft scales, which produce honeydew, or armored scales, which have a hard shell. Control includes predators, oils, and insecticides.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
         problem: "Capsicum Whitefly", 
         infestationimage: "./images/Capsicum Whiteflies.jpg",
         description: "Capsicum whiteflies <strong>Bemisia tabaci </strong> are tiny, white-winged pests that infest capsicum crops, feeding on plant sap and causing yellowing, wilting, and stunted growth. They excrete honeydew, leading to sooty mold development, and may transmit plant viruses. Control methods include yellow sticky traps, natural predators, and insecticides.",
@@ -831,7 +842,7 @@ const solutions = [
     { 
         problem: "Polysil", 
         infestationimage: "./images/polysil.png",
-        description: "It is an organosilicon-based non-ionic wetter and spreader that is highly effective in improving spray coverage, adhesion, and penetration of insecticides, fungicides, Foliar fertilizers and herbicides.",
+        description: "It is an <strong>organosilicon-based non-ionic</strong> wetter and spreader that is highly effective in improving spray coverage, adhesion, and penetration of insecticides, fungicides, Foliar fertilizers and herbicides.",
         solution: "Use <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Incoporate everytime you spray.",
         image: "./images/sticker spraying.jpg",
