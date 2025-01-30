@@ -190,6 +190,28 @@ const solutions = [
        
     },
     { 
+        problem: "Tomatoes whiteflies", 
+        infestationimage: "./images/Tomatoes whiteflies.webp",
+        description: "Tomato whiteflies <strong>Bemisia tabaci</strong> are small, sap-sucking insects that damage tomato plants by feeding on their leaves, causing weakening and potential viral transmission, like tomato yellow leaf curl virus. Control methods include insecticides, biological agents, and cultural practices like crop rotation.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Tomatoes aphids", 
+        infestationimage: "./images/Tomataoes aphids.jpg",
+        description: "Tomato aphids <strong>Aphis gossypii</strong> are small, soft-bodied insects that feed on the sap of tomato plants, causing stunted growth, leaf curling, and yellowing. They can also transmit plant viruses, such as tomato mosaic virus. Control methods include insecticides, natural predators like ladybugs, and the use of resistant varieties.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
         problem: "Capsicum thrips", 
         infestationimage: "./images/Capsicum thrips.jpg",
         description: "Thrips on capsicums feeds on leaves, flowers, and fruits, leading to silvery streaks, deformities, and scarring on the fruit surface, reducing market quality. Thrips also act as vectors for viruses like Tomato Spotted Wilt Virus (TSWV), which can severely affect plant health and yield. Regular monitoring and early control are crucial to managing thrips in capsicum crops, especially during warm, dry weather when their populations thrive.",
@@ -248,6 +270,17 @@ const solutions = [
         problem: "Kales Thrips", 
         infestationimage: "./images/Kales thrips.jpg",
         description: "Kale Thrips <strong>(Thrips tabaci)</strong> are tiny pests that feed on kale leaves, causing silvering, curling, and discoloration. Severe infestations reduce yield and quality. They also transmit plant viruses, making early detection and control essential.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Kales loopers", 
+        infestationimage: "./images/Kales loopers.jpg",
+        description: "Kale Loopers are green caterpillars that feed on leaves, creating holes and reducing yield. They spread through moth eggs and thrive in warm conditions. Control includes handpicking, biological predators, and insecticides.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Growprid.jpg",
@@ -389,6 +422,28 @@ const solutions = [
        
     },
     { 
+        problem: "Kales powdery mildew", 
+        infestationimage:"./images/Kales powdery mildew.jpg",
+        description: "Kale Powdery Mildew is a fungal disease causing white, powdery patches on leaves, leading to yellowing and reduced growth. It spreads through air and thrives in dry conditions. Control includes proper spacing, fungicides, and resistant varieties.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Kales downey mildew", 
+        infestationimage:"./images/Kales downeymildew.jpg",
+        description: "Kale Downy Mildew is a fungal disease causing yellow leaf spots with a fuzzy white underside, leading to leaf drop. It thrives in cool, moist conditions and spreads via water and wind. Control includes proper spacing, crop rotation, and fungicide use.",
+        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
         problem: "Passion fruit alternaria disease", 
         infestationimage:"./images/Passion fruits alternaria fruits .jpg",
         description: "Alternaria disease, caused by <strong>Alternaria passiflorae,</strong> affects passion fruit leaves, stems, and fruits, causing dark lesions and fruit drop. It thrives in humid conditions and can be managed through pruning, removing infected material, and using fungicides.",
@@ -481,6 +536,50 @@ const solutions = [
         problem: "Tomatoes early blight", 
         infestationimage: "./images/tomatoes early blight.jpg",
         description: "Early blight is caused by the fungus, <strong>Alternaria solani,</strong> which can cause disease in potato, tomato, other members of the potato family, and some mustards. This disease, also known as target spot, rarely affects young, vigorously growing plants. It is found on older leaves first.",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
+       
+    },
+    { 
+        problem: "Tomatoes alternaria leaf spot", 
+        infestationimage: "./images/Tomatoes alteneria leaf spot.jpg",
+        description: "Alternaria leaf spot is a fungal disease caused by <strong>Alternaria solani</strong>, which affects tomato plants. It leads to dark, circular lesions on leaves, reducing photosynthesis and weakening the plant. Severe infections can result in defoliation and yield loss. Control involves proper spacing, crop rotation, and fungicide application.",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
+       
+    },
+    { 
+        problem: "Tomatoes late blight", 
+        infestationimage: "./images/Tomatoes late blight.jpg",
+        description: "Late blight, caused by <strong>Phytophthora infestans</strong>, is a devastating fungal disease that affects tomatoes. It causes dark, water-soaked lesions on leaves, stems, and fruit, leading to rapid plant decay and significant yield loss. Control methods include resistant varieties, fungicides, and proper plant spacing for airflow.",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
+       
+    },
+    { 
+        problem: "Tomatoes powdery mildew", 
+        infestationimage: "./images/Tomatoes powdery mildew.jpeg",
+        description: "Powdery mildew, caused by fungi like <strong>Leveillula taurica</strong>, results in a white, powdery coating on tomato leaves, leading to yellowing, leaf drop, and reduced fruit yield. It thrives in warm, dry conditions. Control methods include fungicides, proper spacing for air circulation, and removing infected plant parts.",
+        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 7-14 days.",
+        image: "./images/manlaxyl.png",
+        availablepacksize:"50gms,100gms,250gms,500gms,1kg.",
+        pricerange:"(120-150),(250-300),(600-650),(950-1000),(1750-1800)"
+       
+    },
+    { 
+        problem: "Tomatoes downey mildew", 
+        infestationimage: "./images/Tomatoes downey mildew.jpg",
+        description: "Downy mildew, caused by <strong>Pseudoperonospora cubensis</strong>, results in yellowing of tomato leaves, often with a purple or brown discoloration, and a fuzzy, grayish mold on the underside. It thrives in cool, moist conditions. Control includes fungicide application, proper spacing, and crop rotation to reduce moisture buildup.",
         solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 7-14 days.",
         image: "./images/manlaxyl.png",
@@ -648,6 +747,50 @@ const solutions = [
         description: "Coffee Berry Disease (CBD) is caused by the fungus <strong>Colletotrichum kahawae</strong> or <strong>Colletotrichum gloeosporioides</strong>, which attacks coffee berries and causes yellowing, brown spots, and defoliation. It is also known as Colletotrichum kahawae, affecting green coffee berries and leading to dark lesions and premature drop. It thrives in cool, humid conditions and can cause up to 80% crop loss. Control includes resistant varieties, proper hygiene, and fungicide application.",
         solution: "Use <strong>Azokon</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Cabbage blackrot", 
+        infestationimage: "./images/cabbage blackrot.jpg",
+        description: "Cabbage Black Rot <strong>Xanthomonas campestris pv. campestris </strong>is a bacterial disease affecting cruciferous crops like cabbage, kale, and broccoli. It spreads through infected seeds, water, and plant debris, thriving in warm, humid conditions. Symptoms include yellow V-shaped lesions on leaf edges, blackened veins, and wilting. ",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Cabbage downy mildew", 
+        infestationimage: "./images/Cabbage Downey mildew.jpg",
+        description: "Cabbage Downy Mildew is a fungal disease causing yellow spots on leaves with a white, fuzzy underside. It thrives in cool, wet conditions and spreads via wind and water. Control includes proper spacing, crop rotation, and fungicide use.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Cabbage alternaria leaf spot", 
+        infestationimage: "./images/Cabbage Alternaria_brassicae.jpeg",
+        description: "Cabbage Alternaria Leaf Spot is a fungal disease causing dark, concentric-ring spots on leaves, leading to wilting and defoliation. It spreads through infected debris and moisture. Management includes crop rotation, proper spacing, and fungicide application.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after every 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Cabbage fusarium wilt", 
+        infestationimage: "./images/cabbage fusarium yellow disease.jpg",
+        description: "Cabbage Fusarium Wilt is a soil-borne fungal disease causing yellowing, wilting, and stunted growth. It spreads through infected soil and plant debris. Management includes resistant varieties, crop rotation, and soil sterilization.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "To manage cabbage fusarium wilt,repeat soil dreaching after every 14-21 days.",
         image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
