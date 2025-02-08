@@ -134,7 +134,7 @@ const solutions = [
     },
     
     { 
-        problem: "Onion thrips", 
+        problem: "Onions thrips", 
         infestationimage: "./images/Onion thrips.jpg",
         description: "Thrips damage onion crops by feeding on leaves, causing silvery streaks, curling, and reduced photosynthesis. Severe infestations stunt growth, deform bulbs, and lower yields. They thrive in hot, dry conditions and may transmit diseases like Iris Yellow Spot Virus.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
@@ -145,7 +145,7 @@ const solutions = [
        
     },
     { 
-        problem: "Onion leaf miner", 
+        problem: "OnionsS leaf miner", 
         infestationimage: "./images/Onion leaf miners.jpeg",
         description: "Onion Leaf Miners <strong>(Liriomyza spp.)</strong> are fly larvae that tunnel into onion leaves, reducing photosynthesis and stunting growth. Management includes crop rotation, removing infested plants, insect-proof nets, and targeted insecticides. Biological controls like parasitic wasps can also help.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
