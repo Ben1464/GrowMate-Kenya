@@ -359,44 +359,43 @@ const solutions = [
         problem: "Cabbage DBM", 
         infestationimage: "./images/Cabbage dbm.jpeg",
         description: "The diamondback moth <strong>Plutella xylostella</strong> is a major pest of cabbage and other crucifers. Its larvae feed on leaves, creating holes and reducing yield. It thrives in warm conditions and is controlled through monitoring, crop rotation, biological controls, and targeted insecticides.",
-        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        solution: "Use <strong>Growprid</strong> 2.5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Emaguard.png",
-        availablepacksize:"25gms,50gms,1kg.",
-        pricerange:"(300-350),(600-650),(8800-9000)"
+        availablepacksize:"25mls,50mls,100mls,250nls,1ltr",
+        pricerange:"(200-250),(350-400),(700-750),(1250-1300),(4500-4700)"
        
     },
     { 
         problem: "Maize fall armyworm", 
         infestationimage: "./images/Maize fall army warm.jpg",
         description: "Maize Fall Armyworm <strong>Spodoptera frugiperda</strong> is a harmful pest that feeds on maize leaves, whorls, and ears, causing holes, ragged edges, and reduced yields. It thrives in warm, moist conditions and spreads quickly. Control methods include monitoring, crop rotation, resistant varieties, biological controls, and insecticides.",
-        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        solution: "Use <strong>Growprid</strong> 2.5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Emaguard.png",
-        availablepacksize:"",
-        pricerange:""
+        availablepacksize:"25mls,50mls,100mls,250nls,1ltr",
+        pricerange:"(200-250),(350-400),(700-750),(1250-1300),(4500-4700)"
        
     },
     { 
         problem: "Maize streak virus", 
         infestationimage: "./images/Maize streak virus.jpeg",
         description: "Maize Streak Virus (MSV) is a viral disease that causes yellow streaks on maize leaves, leading to stunted growth and poor yields. It is transmitted by leafhoppers and thrives in warm, dry conditions. Management includes using resistant varieties, controlling leafhoppers, crop rotation, and timely planting.",
-        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        solution: "Use <strong>Growprid</strong> 2.5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Emaguard.png",
-        availablepacksize:"",
-        pricerange:""
-       
+        availablepacksize:"25mls,50mls,100mls,250nls,1ltr",
+        pricerange:"(200-250),(350-400),(700-750),(1250-1300),(4500-4700)"
     },
     { 
         problem: "FAW", 
         infestationimage: "./images/Maize fall army warm.jpg",
         description: "Maize Fall Armyworm <strong>Spodoptera frugiperda</strong> is a harmful pest that feeds on maize leaves, whorls, and ears, causing holes, ragged edges, and reduced yields. It thrives in warm, moist conditions and spreads quickly. Control methods include monitoring, crop rotation, resistant varieties, biological controls, and insecticides.",
-        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        solution: "Use <strong>Growprid</strong> 2.5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Emaguard.png",
-        availablepacksize:"",
-        pricerange:""
+        availablepacksize:"25mls,50mls,100mls,250nls,1ltr",
+        pricerange:"(200-250),(350-400),(700-750),(1250-1300),(4500-4700)"
        
     },
     { 
@@ -439,8 +438,8 @@ const solutions = [
         solution: "Use <strong>Emaguard</strong> 2.5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Maize fall army warm.jpg",
-        availablepacksize:"",
-        pricerange:""
+        availablepacksize:"25mls,50mls,100mls,250nls,1ltr",
+        pricerange:"(200-250),(350-400),(700-750),(1250-1300),(4500-4700)"
        
     },
     { 
@@ -450,10 +449,33 @@ const solutions = [
         solution: "Use <strong>Pyracopp</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/coffee berry disease.jpg",
-        availablepacksize:"",
-        pricerange:""
+        availablepacksize:"50mls,100mls,250mls,1ltr",
+        pricerange:"(250-300),(450-500),(1000-1050),(3600-3800)"
        
     },
+    { 
+        problem: "Pendistar", 
+        infestationimage: "./images/Pendistar.png",
+        description: " Contains <strong>Pendimethalin 450 g/l</strong> Pendistar 450 CS is a powerful selective broad-spectrum pre-emergence systemic capsule suspension herbicide for controlling various weeds, including annual and perennial grasses, broadleaf species, and woody species in maize, rice, wheat, and barley fields.",
+        solution: "Use <strong>Pendistar</strong> 250mls/20ltrs",
+        sprayingintervals: "Do a one off spray 3-4 days after transplanting",
+        image: "./images/Rice field.jpg",
+        availablepacksize:"1ltr",
+        pricerange:"1600-1700"
+       
+    },
+    { 
+        problem: "Rice weeds", 
+        infestationimage:"./images/Rice field.jpg",
+        description: "Weeds in rice are unwanted plants that compete for nutrients, water, and light, reducing yields and grain quality. Common types include grasses, sedges, and broadleaf weeds. Effective management is key for optimal production.",
+        solution: "Use <strong>Pendistar</strong> 250mls/20ltrs",
+        sprayingintervals: "Do a one off spray 3-4 days after transplanting",
+        image: "./images/Pendistar.png",
+        availablepacksize:"1ltr",
+        pricerange:"1600-1700"
+       
+    },
+
     { 
         problem: "Muguka blight", 
         infestationimage:"./images/Muguka picture.jpg",
