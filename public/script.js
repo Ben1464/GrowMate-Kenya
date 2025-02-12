@@ -349,7 +349,7 @@ const solutions = [
         infestationimage: "./images/Cabbages thrips.jpeg",
         description: "Cabbage thrips <strong>Thrips tabaci</strong> are tiny pests that feed on cabbage and other crucifers, causing silvery streaks, leaf curling, and stunted growth. They thrive in warm, dry conditions and are managed through monitoring, crop rotation, biological controls, and insecticides.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
-        sprayingintervals: "Repeat spray after 14-21 days.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Growprid.jpg",
         availablepacksize:"25gms,50gms,1kg.",
         pricerange:"(300-350),(600-650),(8800-9000)"
