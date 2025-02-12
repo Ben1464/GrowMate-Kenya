@@ -984,7 +984,7 @@ const solutions = [
     },
     { 
         problem: "Polysil", 
-        infestationimage: "./images/polysil.png",
+        infestationimage: "./images/polysil real.jpg",
         description: "It is an <strong>organosilicon-based non-ionic</strong> wetter and spreader that is highly effective in improving spray coverage, adhesion, and penetration of insecticides, fungicides, Foliar fertilizers and herbicides.",
         solution: "Use <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Incoporate everytime you spray.",
