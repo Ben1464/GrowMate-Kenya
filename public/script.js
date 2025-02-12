@@ -361,7 +361,18 @@ const solutions = [
         description: "The diamondback moth <strong>Plutella xylostella</strong> is a major pest of cabbage and other crucifers. Its larvae feed on leaves, creating holes and reducing yield. It thrives in warm conditions and is controlled through monitoring, crop rotation, biological controls, and targeted insecticides.",
         solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/Growprid.jpg",
+        image: "./images/Emaguard.png",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Maize fall armyworm", 
+        infestationimage: "./images/Maize fall army warm.jpg",
+        description: "Maize Fall Armyworm <strong>Spodoptera frugiperda</strong> is a harmful pest that feeds on maize leaves, whorls, and ears, causing holes, ragged edges, and reduced yields. It thrives in warm, moist conditions and spreads quickly. Control methods include monitoring, crop rotation, resistant varieties, biological controls, and insecticides.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Emaguard.png",
         availablepacksize:"25gms,50gms,1kg.",
         pricerange:"(300-350),(600-650),(8800-9000)"
        
@@ -397,6 +408,28 @@ const solutions = [
         image: "./images/tomatoes early blight.jpg",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Emaguard", 
+        infestationimage: "./images/Emaguard.png",
+        description: " Contains <strong>Emamectin benzoate 57g/l</strong> Emaguard acts by stomach ingestion and contact mode of action.Target: Lepidoptera species, Mites, Leaf miner, Thrips, Caterpillars, Emerald ash borer ",
+        solution: "Use <strong>Emaguard</strong> 2.5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Maize fall army warm.jpg",
+        availablepacksize:"",
+        pricerange:""
+       
+    },
+    { 
+        problem: "Pyracopp", 
+        infestationimage: "./images/Pyracop.png",
+        description: " Contains <strong>Pyraclostrobin 10% + Copper Oxychloride 30%</strong>Pyracopp 400 SC is a fungicide formulation designed to target various fungal pathogens such as Puccinia spp./Rusts, Pyrenophora teres, and Septoria tritici, which commonly affect crops.Target: Septoria tritici, Puccinia spp./Rusts, Pyrenophora teres, Coffee Rust, Coffee Berry Diseas",
+        solution: "Use <strong>Pyracopp</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/coffee berry disease.jpg",
+        availablepacksize:"",
+        pricerange:""
        
     },
     { 
