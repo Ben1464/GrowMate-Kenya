@@ -378,6 +378,17 @@ const solutions = [
        
     },
     { 
+        problem: "Maize streak virus", 
+        infestationimage: "./images/Maize streak virus.jpeg",
+        description: "Maize Streak Virus (MSV) is a viral disease that causes yellow streaks on maize leaves, leading to stunted growth and poor yields. It is transmitted by leafhoppers and thrives in warm, dry conditions. Management includes using resistant varieties, controlling leafhoppers, crop rotation, and timely planting.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Emaguard.png",
+        availablepacksize:"",
+        pricerange:""
+       
+    },
+    { 
         problem: "FAW", 
         infestationimage: "./images/Maize fall army warm.jpg",
         description: "Maize Fall Armyworm <strong>Spodoptera frugiperda</strong> is a harmful pest that feeds on maize leaves, whorls, and ears, causing holes, ragged edges, and reduced yields. It thrives in warm, moist conditions and spreads quickly. Control methods include monitoring, crop rotation, resistant varieties, biological controls, and insecticides.",
