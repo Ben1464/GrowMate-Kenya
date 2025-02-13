@@ -421,6 +421,28 @@ const solutions = [
        
     },
     { 
+        problem: "Coffee berry borer", 
+        infestationimage: "./images/coffee bery borer.jpg",
+        description: "Coffee Berry Borer <strong>Hypothenemus hampei</strong> burrows into coffee berries, damaging beans and reducing yield. It causes premature berry drop and fungal infections. Control includes biological agents, insecticides, and proper field sanitation.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Coffee berry moth", 
+        infestationimage: "./images/coffee berry moth.jpg",
+        description: "Berry Moth <strong>Prophantis smaragdina</strong> feeds on coffee berries, causing premature drop and reduced yield. Larvae bore into berries, leading to damage and secondary infections. Control includes biological agents, insecticides, and proper field sanitation.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
         problem: "Azokon", 
         infestationimage: "./images/azokon.png",
         description: " Azokon contains <strong>Azoxystrobin 250 g/l + Difenoconazole 150 g/l</strong>,Unique combination of synergetic active ingredients that has excellent eradicate, systemic preventive and curative and translaminar properties against a wide range of fungal and bacterial infections on all crops.",
