@@ -443,6 +443,28 @@ const solutions = [
        
     },
     { 
+        problem: "Coffee scales", 
+        infestationimage: "./images/Coffee scales.jpg",
+        description: "Coffee Scales <strong>Coccus spp<strong> are sap-sucking pests that weaken coffee plants, causing leaf yellowing, defoliation, and reduced yield. They excrete honeydew, leading to sooty mold growth. Control includes biological agents, insecticides, and proper field sanitation.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Coffee antiestia bug", 
+        infestationimage: "./images/antestia bug.webp",
+        description: "Antestia Bug <strong>Antestiopsis spp.</strong> feeds on coffee cherries, causing bean defects, yield loss, and off-flavors in coffee. It also transmits fungal infections. Control includes biological agents, insecticides, and proper field sanitation.",
+        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
         problem: "Azokon", 
         infestationimage: "./images/azokon.png",
         description: " Azokon contains <strong>Azoxystrobin 250 g/l + Difenoconazole 150 g/l</strong>,Unique combination of synergetic active ingredients that has excellent eradicate, systemic preventive and curative and translaminar properties against a wide range of fungal and bacterial infections on all crops.",
