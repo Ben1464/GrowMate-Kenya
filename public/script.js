@@ -389,7 +389,17 @@ const solutions = [
         pricerange:"(1250-1300),(1900-2000),(11600-12000)"
        
     },
-    
+    { 
+        problem: "Tomatoes red spider mite", 
+        infestationimage: "./images/Tomatoes red spidermites.jpg",
+        description: "Tomato Red Mites (Tetranychus spp.) are tiny pests that suck sap from leaves, causing yellowing, curling, and defoliation. They thrive in hot, dry conditions and spread quickly. Control includes monitoring, predatory mites, neem oil, and miticides.",
+        solution: "Use <strong>Spirometer</strong> 5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Spirometer.png",
+        availablepacksize:"50mls,100mls,1ltr",
+        pricerange:"(1250-1300),(1900-2000),(11600-12000)"
+       
+    },
     { 
         problem: "Maize streak virus", 
         infestationimage: "./images/Maize streak virus.jpeg",
