@@ -352,7 +352,7 @@ const solutions = [
         solution: "Use <strong>Growprid</strong> 2.5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Emaguard.png",
-        availablepacksize:"25mls,50mls,100mls,250nls,1ltr",
+        availablepacksize:"25mls,50mls,100mls,250mls,1ltr",
         pricerange:"(200-250),(350-400),(700-750),(1250-1300),(4500-4700)"
        
     },
@@ -363,10 +363,33 @@ const solutions = [
         solution: "Use <strong>Growprid</strong> 2.5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/Emaguard.png",
-        availablepacksize:"25mls,50mls,100mls,250nls,1ltr",
+        availablepacksize:"25mls,50mls,100mls,250mls,1ltr",
         pricerange:"(200-250),(350-400),(700-750),(1250-1300),(4500-4700)"
        
     },
+    { 
+        problem: "Tomatoes tuta absoluta", 
+        infestationimage: "./images/Tomatoes Tuta Absoluta.jpg",
+        description: "Tomato Leafminer <strong>Tuta absoluta</strong> is a major tomato pest that tunnels into leaves, stems, and fruits, causing defoliation and yield loss. It thrives in warm conditions and spreads rapidly. Control includes monitoring, pheromone traps, resistant varieties, biological control, and insecticides.",
+        solution: "Use <strong>Spirometer</strong> 5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Spirometer.png",
+        availablepacksize:"50mls,100mls,1ltr",
+        pricerange:"(1250-1300),(1900-2000),(11600-12000)"
+       
+    },
+    { 
+        problem: "Tomatoes ballworm", 
+        infestationimage: "./images/ballworms.webp",
+        description: "Tomato Bollworm <strong>Helicoverpa armigera</strong> is a destructive pest that feeds on tomato fruits, causing holes and rotting. It thrives in warm conditions and spreads rapidly. Control includes monitoring, pheromone traps, biological control, and insecticides.",
+        solution: "Use <strong>Spirometer</strong> 5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
+        sprayingintervals: "Repeat spray after 7-14 days.",
+        image: "./images/Spirometer.png",
+        availablepacksize:"50mls,100mls,1ltr",
+        pricerange:"(1250-1300),(1900-2000),(11600-12000)"
+       
+    },
+    
     { 
         problem: "Maize streak virus", 
         infestationimage: "./images/Maize streak virus.jpeg",
@@ -1080,19 +1103,8 @@ const solutions = [
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
-    { 
-        problem: "Tuta absoluta", 
-        infestationimage: "./images/Tuta 2.jpg",
-        description: "Larvae of Tuta absoluta attack leaves, buds, stems, flowers, calyces, and tomato fruit. Then severely attacked tomato fruits lose their commercial value. ",
-        solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Spinotech.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
-       
-    },
-   
-    
+
+
     { 
         problem: "Spinotech", 
         infestationimage: "./images/Spinotech.jpg",
@@ -1126,17 +1138,7 @@ const solutions = [
         pricerange:"(150-180),(200-250),(400-500),(1000-1100),(2700-2800)"
        
     },
-    { 
-        problem: "Ballworm", 
-        infestationimage: "./images/ballworms.webp",
-        description: " Young bollworm caterpillars enter tomatoes and start feeding. You will see a small, darkened hole at the base of the tomato fruit near the fruit stem. If you find such a darkened hole, open the fruit to search for the bollworm. Fruits with caterpillars inside decay or ripen fast.",
-        solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil<strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after every 7-14 days.",
-        image: "./images/Spinotech.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
-       
-    },
+   
     
     
     
