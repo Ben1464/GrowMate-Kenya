@@ -23,7 +23,7 @@ h2 {
     padding: 20px;
     margin: 20px;
     min-height: calc(100vh - 150px); /* Adjusted height to fit between header and footer */
-    background-color: #f5f5f5;
+    background-color: #dcece4;
     border-radius: 18px;
     box-shadow: 0 0 10px black;
     display: flex;
