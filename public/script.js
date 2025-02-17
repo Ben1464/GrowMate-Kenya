@@ -532,6 +532,17 @@ const solutions = [
        
     },
     { 
+        problem: "Coffee leaf rust", 
+        infestationimage: "./images/C offee leaf rust.jpg",
+        description: " Coffee leaf rust <strong>Hemileia vastatrix</strong> is a fungal disease that causes yellow-orange spots on coffee leaves, leading to defoliation and reduced yields. It spreads through airborne spores in warm, humid conditions. Control includes resistant varieties, fungicides, and proper farm management.",
+        solution: "Use <strong>Pyracopp</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Pyracopp.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr",
+        pricerange:"(250-300),(450-500),(1000-1050),(3600-3800)"
+       
+    },
+    { 
         problem: "Pendistar", 
         infestationimage: "./images/Pendistar.png",
         description: " Contains <strong>Pendimethalin 450 g/l</strong> Pendistar 450 CS is a powerful selective broad-spectrum pre-emergence systemic capsule suspension herbicide for controlling various weeds, including annual and perennial grasses, broadleaf species, and woody species in maize, rice, wheat, and barley fields.",
@@ -602,7 +613,18 @@ const solutions = [
         problem: "Passion fruit alternaria disease", 
         infestationimage:"./images/Passion fruits alternaria fruits .jpg",
         description: "Alternaria disease, caused by <strong>Alternaria passiflorae,</strong> affects passion fruit leaves, stems, and fruits, causing dark lesions and fruit drop. It thrives in humid conditions and can be managed through pruning, removing infected material, and using fungicides.",
-        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/azokon.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr.",
+        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+       
+    },
+    { 
+        problem: "Passion fruit leaf spot", 
+        infestationimage:"./images/Passion leaf spot.jpg",
+        description: "Passion fruit leaf spot is a fungal disease that causes dark spots on leaves, leading to yellowing, defoliation, and reduced yields. It spreads in warm, wet conditions. Control includes fungicides, proper spacing, and removal of infected leaves.",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
@@ -613,18 +635,30 @@ const solutions = [
         problem: "Passion fruit septoria disease", 
         infestationimage:"./images/passion fruit septoria.jpeg",
         description: "Septoria disease, caused by <strong>Septoria passiflorae,</strong> affects passion fruit leaves, causing small, dark brown spots with yellow halos that can lead to defoliation. It thrives in wet, humid conditions and is managed through pruning, removing infected leaves, and applying fungicides.",
-        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        solution: "Use <strong>Azokon</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
+    
     { 
-        problem: "Passion fruit woodiness virus", 
-        infestationimage:"./images/Passion woodiness potyvirus.jpeg",
-        description: "Woodiness virus, caused by the <strong>Potyvirus</strong>, affects passion fruit, causing distorted, hardened fruits and yellowing, mottled leaves. It spreads through aphids and infected plant material. Management includes using virus-free seedlings, controlling aphids, and removing infected plants.",
-        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        problem: "Passion fruit broad mites", 
+        infestationimage:"./images/Passion fruits broad mites.jpg",
+        description: "Passion fruit broad mites <strong>Polyphagotarsonemus latus</strong> are tiny pests that damage passion fruit plants by feeding on young leaves, shoots, and fruits. They cause leaf curling, bronzing, and stunted growth. Control methods include miticides, predatory mites, and proper pruning.",
+        solution: "Use <strong>Growprid</strong> 2.5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Passion fruit thrips", 
+        infestationimage:"./images/passion fruit thrips.jpg",
+        description: "Passion fruit thrips are tiny insects that feed on leaves, flowers, and fruits, causing scarring, deformations, and yield loss. They thrive in dry conditions and spread quickly. Control includes insecticides, neem oil, and natural predators.",
+        solution: "Use <strong>Growprid</strong> 2.5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
         image: "./images/Growprid.jpg",
         availablepacksize:"25gms,50gms,1kg.",
