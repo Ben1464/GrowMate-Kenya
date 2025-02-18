@@ -666,7 +666,51 @@ const solutions = [
        
     },
     { 
-        problem: "Bean rust", 
+        problem: "Beans fly", 
+        infestationimage:"./images/beans fly.jpeg",
+        description: "Bean Fly <strong>Ophiomyia spp.</strong> is a pest that attacks bean seedlings, causing stem swelling, cracks, and wilting, leading to stunted growth or death. It thrives in hot, dry conditions. Control includes resistant varieties, early planting, field sanitation, insecticides, and neem oil",
+        solution: "Use <strong>Growprid</strong> 2.5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Beans aphids", 
+        infestationimage:"./images/Beans aphids.png",
+        description: "Bean Aphids <strong>Aphis fabae</strong> are Sap-sucking pests that cause leaf curling, yellowing, and stunted growth while spreading viruses. Thrive in warm, dry conditions. Control: resistant varieties, natural predators, neem oil, and insecticides.",
+        solution: "Use <strong>Growprid</strong> 2.5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Beans leaf miners", 
+        infestationimage:"./images/Beans leaf miners.jpg",
+        description: "Bean Leaf Miner </strong>Liriomyza spp.</strong>Larvae tunnel leaves, causing white trails, reduced photosynthesis, and weakened plants. Thrive in warm, dry conditions. Control: resistant varieties, natural predators, neem oil, and insecticides.",
+        solution: "Use <strong>Growprid</strong> 2.5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Beans leaf bettle", 
+        infestationimage:"./images/bean leaf bettle.jpeg",
+        description: "Bean Leaf Beetle </strong>Ootheca spp.</strong>Feeds on leaves, causing holes and defoliation, reducing plant vigor and yield. Thrives in warm conditions. Control: resistant varieties, crop rotation, neem oil, and insecticides.",
+        solution: "Use <strong>Growprid</strong> 2.5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Repeat spray after 14-21 days.",
+        image: "./images/Growprid.jpg",
+        availablepacksize:"25gms,50gms,1kg.",
+        pricerange:"(300-350),(600-650),(8800-9000)"
+       
+    },
+    { 
+        problem: "Beans rust", 
         infestationimage:"./images/Bean rust.jpg",
         description: "Bean Rust is a fungal disease caused by <strong>Uromyces appendiculatus.</strong> It forms rust-colored pustules on leaves, stems, and pods, reducing photosynthesis and yield. It spreads via windborne spores and thrives in warm, humid conditions. Control includes resistant varieties, crop rotation, and fungicides.",
         solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
