@@ -1519,3 +1519,24 @@ function changeLogo() {
 
 // Set interval to change the image every 3 seconds (3000 milliseconds)
 setInterval(changeLogo, 8000);
+function sendFeedback() {
+    // Get the form values
+    const name = document.getElementById('name').value;
+    const phone = document.getElementById('phone').value;
+    const message = document.getElementById('message').value;
+
+    // Format the phone number (remove any non-numeric characters)
+    const formattedPhone = phone.replace(/\D/g, '');
+
+    // Create the WhatsApp message
+    const whatsappMessage = `Name: ${name}\nPhone: ${phone}\nFeedback: ${message}`;
+
+    // Encode the message for URL
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+
+    // Create the WhatsApp URL
+    const whatsappUrl = `https://wa.me/254719151171?text=${encodedMessage}`; // Replace with your WhatsApp number
+
+    // Open the WhatsApp URL in a new tab
+    window.open(whatsappUrl, '_blank');
+}

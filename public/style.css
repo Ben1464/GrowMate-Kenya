@@ -439,3 +439,91 @@ tr:hover {
     width: 80px; /* Spinner size */
     height: 80px;
 }
+/* Feedback Form Styles */
+#feedbackForm {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 0 5px #b2df12; /* Green shadow to match the theme */
+    max-width: 350px; /* Consistent width with other elements */
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#feedbackForm h3 {
+    font-size: 24px;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#feedbackForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Dark gray text color */
+    text-align: left;
+}
+
+#feedbackForm input,
+#feedbackForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #b2df12; /* Green border */
+    border-radius: 12px; /* Rounded corners */
+    font-size: 16px;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark gray text color */
+    transition: border-color 0.3s ease-in-out;
+}
+
+#feedbackForm input:focus,
+#feedbackForm textarea:focus {
+    outline: none;
+    border-color: #3bd105; /* Darker green on focus */
+}
+
+#feedbackForm textarea {
+    resize: vertical; /* Allow vertical resizing */
+    height: 100px; /* Default height */
+}
+
+#feedbackForm button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #b2df12; /* Green background */
+    color: black; /* Black text color */
+    border-radius: 12px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#feedbackForm button:hover {
+    background-color: #3bd105; /* Darker green on hover */
+}
+
+/* Responsive Design for Feedback Form */
+@media (max-width: 768px) {
+    #feedbackForm {
+        max-width: 100%; /* Full width on smaller screens */
+        margin: 10px;
+        padding: 15px;
+    }
+
+    #feedbackForm h3 {
+        font-size: 20px;
+    }
+
+    #feedbackForm input,
+    #feedbackForm textarea {
+        font-size: 14px;
+    }
+
+    #feedbackForm button {
+        font-size: 14px;
+    }
+}
