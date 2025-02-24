@@ -1,403 +1,212 @@
+/* General Styles */
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    color: #333; /* Dark gray text color */
-    background-color:#f0f0f0; /* White background color */
+    color: #333;
+    background-color: #f0f0f0;
+    margin: 0;
     padding: 0;
-    margin: 0;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
-/* Header styles */
+
+/* Header Styles */
 header {
-    margin: 0;
-    text-align: center;
-}
-h2 {
-    font-weight: bold;
-}
-/* Main content container styles */
-.container {
     padding: 20px;
-    margin: 20px;
-    min-height: calc(100vh - 150px); /* Adjusted height to fit between header and footer */
     background-color: #dcece4;
     border-radius: 18px;
-    box-shadow: 0 0 10px black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 90%;
 }
 
-/* Main container styles */
-.main-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.main-content {
-    padding: 10px;
-    background-color: #f5f5f5;
-    border-radius: 6px;
-    box-shadow: 0 0 5px #b2df12;
-    color: #333; /* Dark gray text color */
-    max-width: 350px;
-    font-size: 20px;
-    font-family: sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.main-content p {
-    margin: 0; /* Remove default margin */
-    padding: 10px; /* Add padding */
-    text-align: center;
-}
-
-.main-content article {
-    margin: 0;
-    padding: 0;
-}
-
-/* Footer styles */
-.footer {
-    padding: 10px;
-    margin: 10px;
-    height: 150px; /* Fixed height for the footer */
-    max-width: 350px;
-    
-    /* background-color: #f5f5f5; */
-    background-image: url('./images/footer\ image.jpg');
-    background-size: cover; /* This makes the background image cover the entire element */
-    background-position: center; /* This centers the background image */
-    background-repeat: no-repeat; /* This prevents the image from repeating */
-    border-radius: 6px;
-    color: #f5f5f5; /* Dark gray text color */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 20px;
-    /* font-family: sans-serif; */
-    box-shadow: 0 0 5px black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-/* Slogan styles */
-.slogan {
-    display: inline-block; /* Helps with background clipping */
-    background: linear-gradient(to right, rgba(76, 175, 80, 0), rgba(138, 216, 114, 0.7), rgba(76, 175, 80, 0));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent; /* Makes the text transparent */
-    color: transparent; /* Added to ensure the text color itself is also transparent */
-    font-weight: bold; /* Changed to "bold" for better readability */
-    font-size: 25px; /* Changed to a simpler value for compatibility */
-    text-align: center; /* Will align the text within the container */
-    width: 100%; /* Make sure the text aligns properly within its container */
-}
-
-
-
-/* Define blinking animation */
-@keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-/* Apply animation to the blinking link */
-/* .blinking-link {
-    animation: blink 1s infinite;
-} */
-
-
-
-/* Image styles */
-img {
-    height: 240px;
-    width: 280px;
-    margin: 5px;
-    /* box-shadow: 0 0 5px #302e2e; */
+header img.logo {
+    height: auto;
+    width: 100%;
+    max-width: 300px;
     border-radius: 6px;
 }
-img.logo{
-    height: 130px;
-    width: 300px;
-   
-    
+
+/* Main Container */
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #dcece4;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
 }
-/* Word color styles */
-.word1 {
-    color: #3ad80a; /* Green color for the first word */
-    font-weight: bold;
-}
-.word2 {
-    color: rgb(231, 82, 28); /* Red color for the second word */
-    font-weight: bold;
-}
-.word3{
-    background: linear-gradient(to right, rgb(231, 82, 28), #00ff00);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: bolder; 
-}
-.word4{
-    background: linear-gradient(to right, rgb(231, 82, 28), #00ff00);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-weight: bolder; 
-}
-/* Responsive design */
-@media (min-width: 768px) {
-    .container {
-        max-width: 600px;
-    }
-}
-@media (min-width: 1024px) {
-    .container {
-        max-width: 800px;
-    }
-}
-/* Button styles */
-/* Search container styles */
+
+/* Search Container */
 .search-container {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
-/* Search input styles */
+
 #searchInput {
     padding: 10px;
-    border: 2px solid#b2df12; /* Green border */
+    border: 2px solid #b2df12;
     border-radius: 12px;
-    width: 150px;
+    width: 80%;
+    max-width: 300px;
     font-size: 16px;
     transition: border-color 0.3s ease-in-out;
 }
-#searchInput::placeholder {
-    color: #999; /* Light gray placeholder text */
+
+#searchInput:focus {
+    outline: none;
+    border-color: #3bd105;
 }
-/* Search button styles */
+
 button {
     padding: 10px 20px;
     border: none;
-    background-color: #b2df12; /* Green background */
-    color: black; /* White text color */
+    background-color: #b2df12;
+    color: black;
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
     transition: background-color 0.3s ease-in-out;
 }
+
 button:hover {
-    background-color: #3bd105; /* Darker shade of green on hover */
-}
-/* Focus styles */
-#searchInput:focus {
-    outline: none;
-    border-color: #2fa204; /* Darker shade of green on focus */
+    background-color: #3bd105;
 }
 
-/* Table styles */
+/* Results Section */
+#solutionResults {
+    margin: 20px 0;
+    text-align: left;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.solution-group {
+    margin-bottom: 20px;
+}
+
+.solution-group h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.solution-group img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+.solution-group p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Table Styles */
 table {
     width: 100%;
     margin-top: 10px;
     border-collapse: collapse;
     border-radius: 6px;
     overflow: hidden;
-    box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
+
 th, td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #333; /* Dark gray border between rows */
+    border-bottom: 1px solid #333;
 }
+
 th {
-    background-color: #4e7c28; /* Light green background for table header */
-    color: #333; /* Dark gray text color */
-    border-bottom: 1px solid #333; /* Dark gray border between header row and data rows */
-    border-right: 1px solid #333; 
+    background-color: #4e7c28;
+    color: #fff;
+    border-bottom: 1px solid #fff;
 }
+
 td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #333; /* Dark gray border between rows */
-    border-right: 1px solid #333; /* Vertical line between columns */
+    border-bottom: 1px solid #333;
 }
-/* tr:nth-child(even) {
-    background-color: #d2f8be; /* Light green background for even rows */
- */
+
 tr:hover {
-    background-color: #a7e09b; /* Lighter green background on hover */
-}
-/* 
-/* Define blinking animation for the button */
-/* @keyframes blink-button {
-    0% { background-color: rgb(113, 230, 113); } 
-    50% { background-color: greenyellow; } 
-    100% { background-color: rgb(94, 116, 94); } 
-}  */
-
-/* Apply animation to the search button */
-button.blinking-button {
-    animation: blink-button 1s infinite;
+    background-color: #f3f3f3;
 }
 
-
-/* Define blinking animation for the input border */
-/* @keyframes blink-border {
-    0% { border-color: #3ad80a; } 
-    50% { border-color: rgb(231, 82, 28); } 
-    100% { border-color: #3ad80a; } 
-} */
-/* Apply animation to the search input */
-#searchInput.blinking-border {
-    animation: blink-border 1s infinite;
-}
-.contacts {
-    padding: 10px;
-    margin: 10px;
-    /* height: 300px;  */
-    /* max-width: 200px; */
+/* Footer Styles */
+.footer {
+    padding: 20px;
+    margin: 20px auto;
     background-color: #f5f5f5;
     border-radius: 6px;
-    color: #333; 
-    display: flex;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
     text-align: center;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+}
+
+.footer .slogan {
     font-size: 20px;
-    
-    box-shadow: 0 0 5px #b2df12;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
 }
 
-
-
-
-/* Table styles */
-table {
-    
-    /* width: 50%; */
-    width: 250px;
-    margin-top: 10px;
-    border-collapse: collapse;
-    border-radius: 6px;
-    overflow: hidden;
-    box-shadow: 0 0 5px #000;
-    background-color: #fff; /* White background */
-}
-
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #333; /* Dark gray border between rows */
-}
-
-th {
-    background-color: #427932; /* Green background for table header */
-    color: #fff; /* White text color */
-    border-bottom: 1px solid #fff; /* White border between header row and data rows */
-}
-
-td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #333; /* Dark gray border between rows */
-}
-
-tr:hover {
-    background-color: #f3f3f3; /* Light gray background on hover */
-}
-
-
-/* Typewriter effect */
-@keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: black; }
-}
-
-.typewriter {
-    overflow: hidden;
-    border-right: .15em solid black;
-    white-space: nowrap;
-    margin: 0 auto;
-    letter-spacing: .15em;
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
-}
-
-.hidden {
-    display: none;
-}
-
-.contact-item ul {
+.footer .contact-item ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
-.contact-item ul li {
-    margin: 0 20px; /* Increased margin for better spacing */
+.footer .contact-item ul li a {
+    color: #b2df12;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
-.contact-item ul li a {
-    color:#b2df12;
-    font-size: 32px;
-    font-weight: bolder;
-}
-
-.contact-item ul li a:hover {
+.footer .contact-item ul li a:hover {
     color: #075f1a;
 }
 
-
-/* Upload section styles */
+/* Upload Section */
 .upload-section {
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px auto;
     background-color: #f5f5f5;
     border-radius: 6px;
-    color: #333; 
-    display: flex;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
     text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    box-shadow: 0 0 5px #b2df12;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* Upload input styles */
-#fileInput {
+.upload-section #fileInput {
     padding: 10px;
-    border: 2px solid #b2df12; /* Green border */
+    border: 2px solid #b2df12;
     border-radius: 12px;
     font-size: 16px;
-    margin: 10px 0; /* Margin for spacing */
-    width: 80%; /* Adjust width to fit design */
+    margin: 10px 0;
+    width: 80%;
+    max-width: 300px;
 }
 
-/* Upload button styles */
-.upload-button {
+.upload-section .upload-button {
     padding: 10px 20px;
     border: none;
-    background-color: #b2df12; /* Green background */
-    color: black; /* Black text color */
+    background-color: #b2df12;
+    color: black;
     border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
@@ -405,55 +214,24 @@ tr:hover {
     transition: background-color 0.3s ease-in-out;
 }
 
-.upload-button:hover {
-    background-color: #3bd105; /* Darker shade of green on hover */
+.upload-section .upload-button:hover {
+    background-color: #3bd105;
 }
 
-/* Image preview container styles */
-#imagePreview {
-    margin-top: 10px;
-    text-align: center;
-}
-
-#imagePreview img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 6px;
-}
-/* Loading spinner styles */
-#loadingSpinner {
-    position: fixed; /* Fix the spinner in the center of the screen */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9999; /* Ensure it is on top of everything */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
-    width: 100%; /* Full-width and height to cover the screen */
-    height: 100vh;
-}
-
-#loadingSpinner img {
-    width: 80px; /* Spinner size */
-    height: 80px;
-}
-/* Feedback Form Styles */
+/* Feedback Form */
 #feedbackForm {
-    margin: 20px;
     padding: 20px;
-    background-color: #f5f5f5; /* Light gray background */
-    border-radius: 12px; /* Rounded corners */
-    box-shadow: 0 0 5px #b2df12; /* Green shadow to match the theme */
-    max-width: 350px; /* Consistent width with other elements */
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #feedbackForm h3 {
     font-size: 24px;
-    color: #333; /* Dark gray text color */
+    color: #333;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -462,7 +240,7 @@ tr:hover {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #333; /* Dark gray text color */
+    color: #333;
     text-align: left;
 }
 
@@ -471,31 +249,31 @@ tr:hover {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 2px solid #b2df12; /* Green border */
-    border-radius: 12px; /* Rounded corners */
+    border: 2px solid #b2df12;
+    border-radius: 12px;
     font-size: 16px;
-    background-color: #fff; /* White background */
-    color: #333; /* Dark gray text color */
+    background-color: #fff;
+    color: #333;
     transition: border-color 0.3s ease-in-out;
 }
 
 #feedbackForm input:focus,
 #feedbackForm textarea:focus {
     outline: none;
-    border-color: #3bd105; /* Darker green on focus */
+    border-color: #3bd105;
 }
 
 #feedbackForm textarea {
-    resize: vertical; /* Allow vertical resizing */
-    height: 100px; /* Default height */
+    resize: vertical;
+    height: 100px;
 }
 
 #feedbackForm button {
     padding: 10px 20px;
     border: none;
-    background-color: #b2df12; /* Green background */
-    color: black; /* Black text color */
-    border-radius: 12px; /* Rounded corners */
+    background-color: #b2df12;
+    color: black;
+    border-radius: 12px;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
@@ -503,27 +281,31 @@ tr:hover {
 }
 
 #feedbackForm button:hover {
-    background-color: #3bd105; /* Darker green on hover */
+    background-color: #3bd105;
 }
 
-/* Responsive Design for Feedback Form */
+/* Responsive Design */
 @media (max-width: 768px) {
-    #feedbackForm {
-        max-width: 100%; /* Full width on smaller screens */
+    header img.logo {
+        max-width: 80%;
+    }
+
+    .container, .footer, .upload-section, #feedbackForm {
+        max-width: 100%;
         margin: 10px;
         padding: 15px;
     }
 
-    #feedbackForm h3 {
+    #searchInput, .upload-section #fileInput {
+        width: 90%;
+    }
+
+    .footer .contact-item ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer .contact-item ul li a {
         font-size: 20px;
-    }
-
-    #feedbackForm input,
-    #feedbackForm textarea {
-        font-size: 14px;
-    }
-
-    #feedbackForm button {
-        font-size: 14px;
     }
 }
