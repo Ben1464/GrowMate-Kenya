@@ -718,7 +718,7 @@ const solutions = [
         image: "./images/azokon.png",
         availablepacksize:"50mls,100mls,250mls,1ltr.",
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
-       
+        
     },
     { 
         problem: "Miraa blight", 
@@ -1192,7 +1192,7 @@ const solutions = [
        
     },
     { 
-        problem: "Broadgurd", 
+        problem: "Broadguard", 
         infestationimage: "./images/Broadguard.jpeg",
         description: " Broadguard <strong> Quizalofop-ethyl 200g/l</strong> is a selective post emergence herbicide primarily used for controlling annual and perennial weeds in crops like potatoes, french beans , and normal beans.",
         solution: "Use <strong>Broadguard</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
