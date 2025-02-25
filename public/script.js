@@ -522,7 +522,7 @@ const solutions = [
     },
     { 
         problem: "Pyracopp", 
-        infestationimage: "./images/Pyracop.png",
+        infestationimage: "./images/pyracopp.jpeg",
         description: " Contains <strong>Pyraclostrobin 10% + Copper Oxychloride 30%</strong>Pyracopp 400 SC is a fungicide formulation designed to target various fungal pathogens such as Puccinia spp./Rusts, Pyrenophora teres, and Septoria tritici, which commonly affect crops.Target: Septoria tritici, Puccinia spp./Rusts, Pyrenophora teres, Coffee Rust, Coffee Berry Diseas",
         solution: "Use <strong>Pyracopp</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
@@ -544,7 +544,7 @@ const solutions = [
     },
     { 
         problem: "Pendistar", 
-        infestationimage: "./images/Pendistar.png",
+        infestationimage: "./images/pendistar.jpeg",
         description: " Contains <strong>Pendimethalin 450 g/l</strong> Pendistar 450 CS is a powerful selective broad-spectrum pre-emergence systemic capsule suspension herbicide for controlling various weeds, including annual and perennial grasses, broadleaf species, and woody species in maize, rice, wheat, and barley fields.",
         solution: "Use <strong>Pendistar</strong> 250mls/20ltrs",
         sprayingintervals: "Do a one off spray 3-4 days after transplanting",
@@ -649,7 +649,7 @@ const solutions = [
         description: "Passion fruit broad mites <strong>Polyphagotarsonemus latus</strong> are tiny pests that damage passion fruit plants by feeding on young leaves, shoots, and fruits. They cause leaf curling, bronzing, and stunted growth. Control methods include miticides, predatory mites, and proper pruning.",
         solution: "Use <strong>Growprid</strong> 2.5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/Growprid.jpg",
+        image: "./images/Growprid.jpeg",
         availablepacksize:"25gms,50gms,1kg.",
         pricerange:"(300-350),(600-650),(8800-9000)"
        
@@ -660,7 +660,7 @@ const solutions = [
         description: "Passion fruit thrips are tiny insects that feed on leaves, flowers, and fruits, causing scarring, deformations, and yield loss. They thrive in dry conditions and spread quickly. Control includes insecticides, neem oil, and natural predators.",
         solution: "Use <strong>Growprid</strong> 2.5gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/Growprid.jpg",
+        image: "./images/Growprid.jpeg",
         availablepacksize:"25gms,50gms,1kg.",
         pricerange:"(300-350),(600-650),(8800-9000)"
        
@@ -1191,17 +1191,28 @@ const solutions = [
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
-
-
     { 
-        problem: "Spinotech", 
-        infestationimage: "./images/Spinotech.jpg",
-        description: "SPINOTECH 480 SC Contains <strong>Spinosad 480 g/l</strong>, Spinosad is a naturally occurring substance found in Spinotech 480 SC that specifically affects GABA-gated ion channels and neuroreceptors in the nervous system of insects.Target: Thrips, Gypsy moth, Leaf beetles, Tent caterpillars, Colorado potato beetle, Leaf miner",
-        solution: "Use <strong>Spinotech</strong> 3-4mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        problem: "Broadgurd", 
+        infestationimage: "./images/Broadguard.jpeg",
+        description: " Broadguard <strong> Quizalofop-ethyl 200g/l</strong> is a selective post emergence herbicide primarily used for controlling annual and perennial weeds in crops like potatoes, french beans , and normal beans.",
+        solution: "Use <strong>Broadguard</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        sprayingintervals: "Do a one off spray 2-3 weeks after germination.",
+        image: "./images/weeds_control_in_beans.jpg",
+        availablepacksize:"100mls,500mls,1ltr.",
+        pricerange:"(1450-1500),(6800-7000),(11800-12200)"
+       
+    },
+
+    
+    { 
+        problem: "Spirometer", 
+        infestationimage: "./images/Spirometer.png",
+        description: " Spirometer ontains<strong>Spirotetramat 500 g/l</strong>Spirometer 500 SC is a potent insecticide containing Spirotetramat, which disrupts feeding and growth in sucking pests like aphids, whiteflies, and mites. It prioritises crop safety, environmental sustainability, and integrated pest management.",
+        solution: "Use <strong>Spinotech</strong> 5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Capsicum thrips.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
+        image: "./images/spidermites spiro.jpg",
+        availablepacksize:"50mls,100mls,1ltr.",
+        pricerange:"(1250-1300),(1900-2000),(12500-13000)"
        
     },
     { 
