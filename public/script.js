@@ -566,16 +566,17 @@ const solutions = [
     },
 
     { 
-        problem: "Muguka blight", 
-        infestationimage:"./images/Muguka picture.jpg",
-        description: "Blight affects Muguka by causing dark spots on leaves and stems, leading to yellowing, curling, and defoliation. Severe infections cause stem dieback, reducing yield and quality. It spreads quickly in warm, humid conditions, requiring timely removal of infected parts and fungicide application for control.",
-        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/azokon.png",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
+        problem: "Banana sigatoka disease", 
+        infestationimage:"./images/Banana sigatoka disease.webp",
+        description: "Banana Sigatoka is a fungal disease caused by <strong>Mycosphaerella fijiensis</strong>, affecting banana leaves. It causes yellowing, necrosis, and premature leaf death, reducing plant growth and yield. The disease spreads through spores and is managed with fungicides or resistant varieties.",
+        solution: "Soil drench with Pyracopp 20mls/20ltrs of water 40ltrs per stem",
+        sprayingintervals: "Repeat spray after 21 days.",
+        image: "./images/Pyracop.png",
+        availablepacksize:"50mls,100mls,250mls,1ltr",
+        pricerange:"(250-300),(450-500),(1000-1050),(3600-3800)"
        
     },
+    
     { 
         problem: "Legumes bacterial blight", 
         infestationimage:"./images/Beans bacterial blight.jpg",
