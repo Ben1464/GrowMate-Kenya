@@ -1209,7 +1209,7 @@ const solutions = [
         problem: "Spirometer", 
         infestationimage: "./images/Spirometer.png",
         description: " Spirometer ontains<strong>Spirotetramat 500 g/l</strong>Spirometer 500 SC is a potent insecticide containing Spirotetramat, which disrupts feeding and growth in sucking pests like aphids, whiteflies, and mites. It prioritises crop safety, environmental sustainability, and integrated pest management.",
-        solution: "Use <strong>Spinotech</strong> 5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
+        solution: "Use <strong>Spirometer</strong> 5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
         sprayingintervals: "Repeat spray after 7-14 days.",
         image: "./images/spidermites spiro.jpg",
         availablepacksize:"50mls,100mls,1ltr.",
