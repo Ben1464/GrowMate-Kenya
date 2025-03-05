@@ -110,17 +110,7 @@ const solutions = [
         pricerange:"(300-350),(600-650),(8800-9000)"
        
     },
-    { 
-        problem: "Growprid ", 
-        infestationimage: "./images/Growprid.jpg",
-        description: "Contains <strong>Acetamiprid 700 g/kg</strong>,Growprid is a systemic insecticide with translaminar activity and with both contact and stomach action.Target: Aphids, Thrips, Spider mite, Whiteflies, Sawflies, Leaf miner, Leaf hoppers, Mirids",
-        solution: "Use <strong>Growprid</strong> 2.5 gms/20ltrs + <strong>Polysil</strong> 2mls/20ltrs.",
-        sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/coffee thrips.jpg",
-        availablepacksize:"25gms,50gms,1kg.",
-        pricerange:"(300-350),(600-650),(8800-9000)"
-       
-    },
+    
     { 
         problem: "Black aphids", 
         infestationimage: "./images/Black aphids.jpeg",
@@ -520,17 +510,7 @@ const solutions = [
         pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
        
     },
-    { 
-        problem: "Azokon ", 
-        infestationimage: "./images/azokon.png",
-        description: " Azokon contains <strong>Azoxystrobin 250 g/l + Difenoconazole 150 g/l</strong>,Unique combination of synergetic active ingredients that has excellent eradicate, systemic preventive and curative and translaminar properties against a wide range of fungal and bacterial infections on all crops.",
-        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/tomatoes early blight.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(400-450),(800-850),(1900-2000),(7500-7800)"
-       
-    },
+   
     { 
         problem: "Emaguard", 
         infestationimage: "./images/Emaguard.png",
@@ -542,17 +522,7 @@ const solutions = [
         pricerange:"(200-250),(350-400),(700-750),(1250-1300),(4500-4700)"
        
     },
-    { 
-        problem: "Emaguard ", 
-        infestationimage: "./images/Emaguard.png",
-        description: " Contains <strong>Emamectin benzoate 57g/l</strong> Emaguard acts by stomach ingestion and contact mode of action.Target: Lepidoptera species, Mites, Leaf miner, Thrips, Caterpillars, Emerald ash borer ",
-        solution: "Use <strong>Emaguard</strong> 2.5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Maize fall army warm.jpg",
-        availablepacksize:"25mls,50mls,100mls,250nls,1ltr",
-        pricerange:"(200-250),(350-400),(700-750),(1250-1300),(4500-4700)"
-       
-    },
+    
     { 
         problem: "Pyracopp", 
         infestationimage: "./images/pyracopp.jpeg",
@@ -564,17 +534,7 @@ const solutions = [
         pricerange:"(250-300),(450-500),(1000-1050),(3600-3800)"
        
     },
-    { 
-        problem: "Pyracopp ", 
-        infestationimage: "./images/pyracopp.jpeg",
-        description: " Contains <strong>Pyraclostrobin 10% + Copper Oxychloride 30%</strong>Pyracopp 400 SC is a fungicide formulation designed to target various fungal pathogens such as Puccinia spp./Rusts, Pyrenophora teres, and Septoria tritici, which commonly affect crops.Target: Septoria tritici, Puccinia spp./Rusts, Pyrenophora teres, Coffee Rust, Coffee Berry Diseas",
-        solution: "Use <strong>Pyracopp</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/coffee berry disease.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr",
-        pricerange:"(250-300),(450-500),(1000-1050),(3600-3800)"
-       
-    },
+    
     { 
         problem: "Coffee leaf rust", 
         infestationimage: "./images/C offee leaf rust.jpg",
@@ -597,17 +557,7 @@ const solutions = [
         pricerange:"1600-1700"
        
     },
-    { 
-        problem: "Pendistar ", 
-        infestationimage: "./images/pendistar.jpeg",
-        description: " Contains <strong>Pendimethalin 450 g/l</strong> Pendistar 450 CS is a powerful selective broad-spectrum pre-emergence systemic capsule suspension herbicide for controlling various weeds, including annual and perennial grasses, broadleaf species, and woody species in maize, rice, wheat, and barley fields.",
-        solution: "Use <strong>Pendistar</strong> 250mls/20ltrs",
-        sprayingintervals: "Do a one off spray 3-4 days after transplanting",
-        image: "./images/Rice field.jpg",
-        availablepacksize:"1ltr",
-        pricerange:"1600-1700"
-       
-    },
+    
     { 
         problem: "Rice weeds", 
         infestationimage:"./images/Rice field.jpg",
@@ -1140,17 +1090,7 @@ const solutions = [
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
-    { 
-        problem: "Potphite ", 
-        infestationimage: "./images/Potphite.jpeg",
-        description: "POTPHITE® Contains <strong>Phosphorus (P205): 525 g/l , Potassium (K20): 275 g/l)</strong> is a highly efficient and effective liquid potassium phosphate fertilizer, providing plants with the necessary nutrition to thrive in any crop condition.It promotes good fruit set, reduces fruit drop, increases sugar levels, improves texture and shelf life, and enhances the colour of cut flowers. It ensures rapid rooting of all crops while guaranteeing balanced plant growth.",
-        solution: "Use <strong>Potphite</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/potphite avacado.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
-       
-    },
+   
     { 
         problem: "Zincbomate", 
         infestationimage: "./images/Zincbomate.jpeg",
@@ -1162,17 +1102,7 @@ const solutions = [
         pricerange:"(1500-1600)"
        
     },
-    { 
-        problem: "Zincbomate ", 
-        infestationimage: "./images/Zincbomate.jpeg",
-        description: "ZINCBOMATE® Contains <strong>Water soluble Zinc (Zn) 16% , Boron (B) 2%, Seaweed extract 5% </strong> is a revolutionary foliar fertilizer, enriched with seaweed extract, designed to enhance plant growth and development by rapidly providing essential <strong>Boron</strong> and <strong>Zinc</strong> nutrients.Rapid supplementation of ZINCBOMATE® improves pollen production, enhances flower and leaf vigor, promotes fruit development, and aids bud differentiation in all agricultural crops and ornamentals.",
-        solution: "Use <strong>Zincbomate</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/Flowering coffee Zincbomate.jpg",
-        availablepacksize:"1ltr.",
-        pricerange:"(1500-1600)"
-       
-    },
+    
     {
         problem: "Coffee pruning",
         infestationimage: "./images/coffee prunning.jpg",
@@ -1215,17 +1145,7 @@ const solutions = [
         pricerange:"(500-550),(900-1000),(1800-1900)"
        
     },
-    { 
-        problem: "Calcibora ", 
-        infestationimage: "./images/Calcibora.jpeg",
-        description: "CALCIBORA® Contains <strong>Sea weed extract 30%, Organic matter 2%, Calcium Oxide (CaO) 20%, Boron Trioxide (B2O3) 1%, Potassium (K₂O) 8% </strong> is a highly soluble liquid foliar fertilizer formulation with high <strong>Calcium, Potassium, Organic matter, Seaweed extract, and Boron content</strong>.It is used for crop-specific foliar nutrition to prevent and eliminate general calcium, potassium, and boron deficiencies as well as maintain quality by eradicating biotic and abiotic stress on ornamentals, fruit, legumes, and vegetables.",
-        solution: "Use <strong>Calcibora</strong> 20mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/Water melon calcibora.webp",
-        availablepacksize:"250mls,500mks,1ltr.",
-        pricerange:"(500-550),(900-1000),(1800-1900)"
-       
-    },
+   
     { 
         problem: "Boroking", 
         infestationimage: "./images/Boroking.jpeg",
@@ -1236,16 +1156,7 @@ const solutions = [
         availablepacksize:"250mls,500mls,1ltr.",
         pricerange:"(350-400),(550-650),(1100-1200)"
     },
-    { 
-        problem: "Boroking ", 
-        infestationimage: "./images/Boroking.jpeg",
-        description: "BOROKING® <strong>Contains Boron (BO3) 20% Organic matter 20%, Seaweed extract 20% Nitrogen (N) 4% </strong> is a versatile foliar fertilizer, crucial for enhancing plant growth and development across various stages, from flowering to fruit set. Its comprehensive formulation ensures optimal nutrient uptake and utilization, promoting essential functions such as cell division, membrane integrity, and hormone movement.Its formulation includes necessary additives for perfect adherence to the leaves of crops. It can be sprayed at all stages of plant growth, particularly at flower bud formation for ornamentals, flowering, and fruit set for crops such as coffee, flowers, mangoes, and other fruits and flowers.",
-        solution: "Use <strong>Boroking</strong> 20mls/20ltrs + <strong>Polysil<strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/coffee flowering.jpg",
-        availablepacksize:"250mls,500mls,1ltr.",
-        pricerange:"(350-400),(550-650),(1100-1200)"
-    },
+    
     { 
         problem: "Azolaxyl", 
         infestationimage: "./images/Azolaxyl.jpg",
@@ -1257,17 +1168,7 @@ const solutions = [
         pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
        
     },
-    { 
-        problem: "Azolaxyl ", 
-        infestationimage: "./images/Azolaxyl.jpg",
-        description: "Contains <strong>Azoxystrobin 282 g/l + Metalaxyl-M 108 g/l </strong>An excellent broad-spectrum systemic fungicide with translaminar, curative, and protectant action against a wide range of diseases for use on a wide range of plants. It combines two highly effective molecules synergistically for enhanced crop protection.Target: Puccinia spp./Rusts, Powdery mildew, Black rot, Scab, Blight, Anthracnose, Leaf spot, Downy mildew, Botrytis",
-        solution: "Use <strong>Azolaxyl</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/Tomatoes AZolax.jpg",
-        availablepacksize:"50mls,100mls,250mls,1ltr.",
-        pricerange:"(200-250),(300-350),(650-750),(2900-3000)"
-       
-    },
+    
     { 
         problem: "Anthracnose", 
         infestationimage: "./images/avocado anthraconos.jpg",
@@ -1312,17 +1213,7 @@ const solutions = [
         pricerange:"(1450-1500),(6800-7000),(11800-12200)"
        
     },
-    { 
-        problem: "Broadguard ", 
-        infestationimage: "./images/Broadguard.jpeg",
-        description: " Broadguard <strong> Quizalofop-ethyl 200g/l</strong> is a selective post emergence herbicide primarily used for controlling annual and perennial weeds in crops like potatoes, french beans , and normal beans.",
-        solution: "Use <strong>Broadguard</strong> 10mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Do a one off spray 2-3 weeks after germination.",
-        image: "./images/weeds_control_in_beans.jpg",
-        availablepacksize:"100mls,500mls,1ltr.",
-        pricerange:"(1450-1500),(6800-7000),(11800-12200)"
-       
-    },
+    
     
     { 
         problem: "Spirometer", 
@@ -1335,17 +1226,7 @@ const solutions = [
         pricerange:"(1250-1300),(1900-2000),(12500-13000)"
        
     },
-    { 
-        problem: "Spirometer ", 
-        infestationimage: "./images/Spirometer.png",
-        description: " Spirometer ontains<strong>Spirotetramat 500 g/l</strong>Spirometer 500 SC is a potent insecticide containing Spirotetramat, which disrupts feeding and growth in sucking pests like aphids, whiteflies, and mites. It prioritises crop safety, environmental sustainability, and integrated pest management.",
-        solution: "Use <strong>Spirometer</strong> 5mls/20ltrs + <strong>Polysil</strong> 2mls/20ltrs",
-        sprayingintervals: "Repeat spray after 7-14 days.",
-        image: "./images/spidermites spiro.jpg",
-        availablepacksize:"50mls,100mls,1ltr.",
-        pricerange:"(1250-1300),(1900-2000),(12500-13000)"
-       
-    },
+   
     { 
         problem: "Polysil", 
         infestationimage: "./images/polysil real.jpg",
@@ -1357,17 +1238,7 @@ const solutions = [
         pricerange:"(150-180),(200-250),(400-500),(1000-1100),(2700-2800)"
        
     },
-    { 
-        problem: "Polysil ", 
-        infestationimage: "./images/polysil real.jpg",
-        description: "It is an <strong>organosilicon-based non-ionic</strong> wetter and spreader that is highly effective in improving spray coverage, adhesion, and penetration of insecticides, fungicides, Foliar fertilizers and herbicides.",
-        solution: "Use <strong>Polysil</strong> 2mls/20ltrs.",
-        sprayingintervals: "Incoporate everytime you spray.",
-        image: "./images/sticker spraying.jpg",
-        availablepacksize:"25mls,50mls,100mls,250mls,1ltr.",
-        pricerange:"(150-180),(200-250),(400-500),(1000-1100),(2700-2800)"
-       
-    },
+   
     { 
         problem: "Manlaxyl", 
         infestationimage: "./images/manlaxyl.png",
@@ -1379,17 +1250,7 @@ const solutions = [
         pricerange:"(150-180),(200-250),(400-500),(1000-1100),(2700-2800)"
        
     },
-    { 
-        problem: "Manlaxyl ", 
-        infestationimage: "./images/manlaxyl.png",
-        description: "MANLAXYL 68 WG Contains <strong>Mancozeb 640 g/kg + Metalaxyl-M 40 g/kg </strong>offers a unique combination of synergetic active ingredients for foliar spray and soil application against a wide range of bacterial and fungal infections in agricultural crop diseases.",
-        solution: "Use <strong>Manlaxyl</strong> 50gms/20ltrs.",
-        sprayingintervals: "Repeat spray after 14-21 days",
-        image: "./images/early-blight-potatoes.jpg",
-        availablepacksize:"25mls,50mls,100mls,250mls,1ltr.",
-        pricerange:"(150-180),(200-250),(400-500),(1000-1100),(2700-2800)"
-       
-    },
+   
    
     
     
@@ -1416,17 +1277,7 @@ const solutions = [
         pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
        
     },
-    { 
-        problem: "Okinawo ", 
-        infestationimage: "./images/Okinawo.jpg",
-        description: "OKINAWO® NPK GOLD Contains <strong>Nitrogen 15%，Phosphorus (P2O5) 5%，Potassium (K2O) 40% </strong> is a fully water-soluble NPK fertilizer suitable for the entire vegetative and fruiting stages of agricultural crops.It’s ideal for periods when plants need elevated levels of Nitrogen and Potassium.",
-        solution: "With its high Potassium content, it promotes enhanced seed and fruit formation, leading to higher yields. For optimal results, apply high-potassium fertilizers just before fruit formation. Spray 20mls/20ltrs.",
-        sprayingintervals: "Repeat spray after 14-21 days.",
-        image: "./images/ripeberries.jpg",
-        availablepacksize:"100mls,250mls,500mls,1ltr.",
-        pricerange:"(200-250),(400-450),(800-850),(1550-1650)"
-       
-    },
+    
     
     { 
         problem: "Potassium", 
