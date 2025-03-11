@@ -1544,7 +1544,7 @@ function showContactList() {
         <tr>
             <td>Kiambu</td>
             <td>Gitahi Samuel</td>
-            <td><a href="tel:+254795125886"><i class="fas fa-phone"></i> +254795125886</a></td>
+            <td><a href="tel:+254700904513"><i class="fas fa-phone"></i> +254700904513</a></td>
         </tr>
 
        `;
